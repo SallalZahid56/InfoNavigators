@@ -1,0 +1,12 @@
+# robots.txt for InfoNavigators
+# Allow all search engines to crawl and index the site
+
+User-agent: *
+Allow: /
+
+# Block unnecessary files/folders
+Disallow: /assets/
+Disallow: /vite.svg
+
+# Sitemap location
+Sitemap: https://infonavigators.com/sitemap.xml
