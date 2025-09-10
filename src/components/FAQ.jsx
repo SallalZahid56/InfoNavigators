@@ -5,14 +5,14 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 
 // Service keywords mapped to their links
 const serviceLinks = {
-  "Lead Generation": "/lead-generation",
-  "Internet Research": "/internet-research",
-  "Influencer Research": "/influencer-research",
-  "Data Entry": "/data-entry",
-  "Data Extraction": "/data-extraction",
-  "Python Scraping": "/python-scraping",
-  "SEO": "/seo",
-  "Web Development": "/web-development",
+  "Lead Generation": "/services-page/lead-generation",
+  "Internet Research": "/services-page/internet-research",
+  "Influencer Research": "/services-page/influencer-research",
+  "Data Entry": "/services-page/data-entry",
+  "Data Extraction": "/services-page/data-extraction",
+  "Python Scraping": "/services-page/python-scraping",
+  "SEO": "/services-page/seo-page",
+  "Web Development": "/services-page/web-development",
 };
 
 // Function to replace keywords with links

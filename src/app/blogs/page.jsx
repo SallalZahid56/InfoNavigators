@@ -4,7 +4,7 @@ import { blogs } from "../../data/blogs";
 
 export default function BlogsPage() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-12">
+    <section className="max-w-6xl mx-auto px-6 py-18 mt-32 mb-10">
       <h1 className="text-4xl font-bold mb-8">Our Blogs</h1>
       <div className="grid md:grid-cols-2 gap-8">
         {blogs.map((blog) => (

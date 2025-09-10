@@ -71,16 +71,16 @@ const Footer = () => {
                 <Link href="/" className="hover:text-white">
                   Home
                 </Link>
-                <Link href="/ServicesPage" className="hover:text-white">
+                <Link href="/services-page/" className="hover:text-white">
                   Services
                 </Link>
-                <Link href="/about-us" className="hover:text-white">
+                <Link href="/about-us/" className="hover:text-white">
                   About Us
                 </Link>
-                <Link href="/portfolio" className="hover:text-white">
+                <Link href="/portfolio/" className="hover:text-white">
                   Portfolio
                 </Link>
-                <Link href="/contact-us" className="hover:text-white">
+                <Link href="/contact-us/" className="hover:text-white">
                   Contact Us
                 </Link>
               </div>
@@ -93,7 +93,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com/infonavigators/">
                   <FaInstagram />
                 </a>
-                <a href="mailto:contact@infonavigators.com">
+                <a href="mailto:contact@infonavigators.com/">
                   <FaEnvelope />
                 </a>
                 <a href="https://www.facebook.com/infonavigators">

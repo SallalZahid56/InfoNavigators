@@ -145,7 +145,7 @@ export default function DataCleaningExportPage() {
               Book a Free Call
             </Link>
             <Link
-              href="/services-page/data-entry"
+              href="/services-page/data-entry/"
               className="px-6 py-3 rounded-xl border border-gray-300 hover:border-black hover:text-black transition font-heading"
             >
               Related: Data Entry Services
@@ -194,7 +194,7 @@ export default function DataCleaningExportPage() {
           <div className="text-center mt-8">
             <span className="text-gray-800 font-semibold">Related: </span>
             <Link
-              href="/services-page/web-scraping"
+              href="/services-page/web-scraping/"
               className="text-blue-600 font-semibold hover:underline"
             >
               Web Scraping with Python Libraries →

@@ -93,7 +93,7 @@ export default function YouTubeInfluencerResearch() {
             <span className="block text-black font-semibold text-center">
               👉 Related service:{" "}
               <a
-                href="/services-page/youtube-influencer-research"
+                href="/services-page/youtube-influencer-research/"
                 className="text-blue-600 font-semibold hover:underline"
               >
                 Influencer Research Services
@@ -128,7 +128,7 @@ export default function YouTubeInfluencerResearch() {
               <span className="block text-black font-semibold text-center">
                 👉 Related service:{" "}
                 <a
-                  href="/services-page/market-research"
+                  href="/services-page/market-research/"
                   className="text-blue-600 font-semibold hover:underline"
                 >
                   Market Research & Competitor Analysis
@@ -189,7 +189,7 @@ export default function YouTubeInfluencerResearch() {
             <span className="block text-black font-semibold text-center">
               👉 Related service:{" "}
               <a
-                href="/services-page/data-cleaning-extraction"
+                href="/services-page/data-cleaning-extraction/"
                 className="text-blue-600 font-semibold hover:underline"
               >
                 Data Cleaning & Formatting Services
@@ -233,7 +233,7 @@ export default function YouTubeInfluencerResearch() {
             <span className="block text-black font-semibold text-center">
               👉 Related service:{" "}
               <a
-                href="/services-page/data-verification"
+                href="/services-page/data-verification/"
                 className="text-blue-600 font-semibold hover:underline"
               >
                 Data Verification & Fact-Checking
@@ -283,7 +283,7 @@ export default function YouTubeInfluencerResearch() {
             <span className="block text-black font-semibold text-center">
               👉 Related service:{" "}
               <a
-                href="/services-page/b2b-lead-generation"
+                href="/services-page/b2b-lead-generation/"
                 className="text-blue-600 font-semibold hover:underline"
               >
               B2B Lead Generation Services

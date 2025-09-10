@@ -94,7 +94,7 @@ export default function DataCleaningPage() {
                     <span className="text-black font-semibold text-center">
                         👉 Related service:{" "}
                         <a
-                            href="/services-page/crm-data-entry"
+                            href="/services-page/crm-data-entry/"
                             className="text-blue-600 font-semibold hover:underline"
                         >
                             CRM Data Entry
@@ -119,7 +119,7 @@ export default function DataCleaningPage() {
                     <span className="block text-black font-semibold text-center">
                         👉 Related service:{" "}
                         <a
-                            href="/services-page/data-verification"
+                            href="/services-page/data-verification/"
                             className="text-blue-600 font-semibold hover:underline"
                         >
                             Data Verification & Fact-Checking
@@ -151,7 +151,7 @@ export default function DataCleaningPage() {
                     <span className="block text-black font-semibold text-center">
                         👉 Related service:{" "}
                         <a
-                            href="/services-page/b2b-lead-generation"
+                            href="/services-page/b2b-lead-generation/"
                             className="text-blue-600 font-semibold hover:underline"
                         >
                             B2B Lead Generation Services
@@ -185,7 +185,7 @@ export default function DataCleaningPage() {
                     <span className="block text-black font-semibold text-center">
                         👉 Related service:{" "}
                         <a
-                            href="/services-page/email-marketing"
+                            href="/services-page/email-marketing/"
                             className="text-blue-600 font-semibold hover:underline"
                         >
                             Email Marketing Services
@@ -226,7 +226,7 @@ export default function DataCleaningPage() {
                     <span className="block text-black font-semibold text-center">
                         👉 Related service:{" "}
                         <a
-                            href="/services-page/data-extraction"
+                            href="/services-page/data-extraction/"
                             className="text-blue-600 font-semibold hover:underline"
                         >
                             Data Extraction Services

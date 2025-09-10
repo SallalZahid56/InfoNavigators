@@ -40,10 +40,12 @@ const Navbar = () => {
             onMouseEnter={() => setDropdownOpen(true)}
             onMouseLeave={() => setDropdownOpen(false)}
           >
-            <span className="text-black hover:text-brandOrange transition cursor-pointer">
+            <Link
+              href="/services-page/"
+              className="text-black hover:text-brandOrange transition cursor-pointer"
+            >
               Services
-            </span>
-
+            </Link>
             {dropdownOpen && (
               <div className="absolute top-full left-[-200px] bg-[#282727] shadow-lg rounded-lg w-[900px] py-6 px-8 z-50">
                 <h4 className="text-white font-bold mb-4 text-lg">
@@ -55,109 +57,109 @@ const Navbar = () => {
                   {/* Category 1 */}
                   <div>
                     <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/lead-generation" className="text-brandOrange hover:text-brandOrange transition">
+                      <Link href="/services-page/lead-generation/" className="text-brandOrange hover:text-brandOrange transition">
                         Lead Generation
                       </Link>
                     </h5>
                     <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/b2b-lead-generation" className="text-white hover:text-brandOrange transition">B2B Leads</Link></li>
-                      <li><Link href="/services-page/email-list-building" className="text-white hover:text-brandOrange transition">Contact Email List Building</Link></li>
-                      <li><Link href="/services-page/linkedin-list" className="text-white hover:text-brandOrange transition">LinkedIn List Building</Link></li>
-                      <li><Link href="/services-page/email-marketing" className="text-white hover:text-brandOrange transition">Email Marketing</Link></li>
+                      <li><Link href="/services-page/b2b-lead-generation/" className="text-white hover:text-brandOrange transition">B2B Leads</Link></li>
+                      <li><Link href="/services-page/email-list-building/" className="text-white hover:text-brandOrange transition">Contact Email List Building</Link></li>
+                      <li><Link href="/services-page/linkedin-list/" className="text-white hover:text-brandOrange transition">LinkedIn List Building</Link></li>
+                      <li><Link href="/services-page/email-marketing/" className="text-white hover:text-brandOrange transition">Email Marketing</Link></li>
                     </ul>
                   </div>
 
                   {/* Category 2 */}
                   <div>
                     <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/internet-research" className="text-brandOrange hover:text-brandOrange transition">
+                      <Link href="/services-page/internet-research/" className="text-brandOrange hover:text-brandOrange transition">
                         Internet Research
                       </Link>
                     </h5>
                     <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/market-research" className="text-white hover:text-brandOrange transition">Market Research</Link></li>
-                      <li><Link href="/services-page/data-verification" className="text-white hover:text-brandOrange transition">Data Verification</Link></li>
+                      <li><Link href="/services-page/market-research/" className="text-white hover:text-brandOrange transition">Market Research</Link></li>
+                      <li><Link href="/services-page/data-verification/" className="text-white hover:text-brandOrange transition">Data Verification</Link></li>
                     </ul>
                   </div>
 
                   {/* Category 3 */}
                   <div>
                     <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/influencer-research" className="text-brandOrange hover:text-brandOrange transition">
+                      <Link href="/services-page/influencer-research/" className="text-brandOrange hover:text-brandOrange transition">
                         Influencer Research
                       </Link>
                     </h5>
                     <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/youtube-influencer-research" className="text-white hover:text-brandOrange transition">YouTube Influencers</Link></li>
-                      <li><Link href="/services-page/instagram-influencer-research" className="text-white hover:text-brandOrange transition">Instagram Influencers</Link></li>
-                      <li><Link href="/services-page/tiktok-influencer-research" className="text-white hover:text-brandOrange transition">TikTok Influencers</Link></li>
+                      <li><Link href="/services-page/youtube-influencer-research/" className="text-white hover:text-brandOrange transition">YouTube Influencers</Link></li>
+                      <li><Link href="/services-page/instagram-influencer-research/" className="text-white hover:text-brandOrange transition">Instagram Influencers</Link></li>
+                      <li><Link href="/services-page/tiktok-influencer-research/" className="text-white hover:text-brandOrange transition">TikTok Influencers</Link></li>
                     </ul>
                   </div>
 
                   {/* Category 4 */}
                   <div>
                     <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/data-entry" className="text-brandOrange hover:text-brandOrange transition">
+                      <Link href="/services-page/data-entry/" className="text-brandOrange hover:text-brandOrange transition">
                         Data Entry
                       </Link>
                     </h5>
                     <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/crm-data-entry" className="text-white hover:text-brandOrange transition">CRM Data Entry</Link></li>
-                      <li><Link href="/services-page/data-cleaning" className="text-white hover:text-brandOrange transition">Data Cleaning</Link></li>
+                      <li><Link href="/services-page/crm-data-entry/" className="text-white hover:text-brandOrange transition">CRM Data Entry</Link></li>
+                      <li><Link href="/services-page/data-cleaning/" className="text-white hover:text-brandOrange transition">Data Cleaning</Link></li>
                     </ul>
                   </div>
 
                   {/* Category 5 */}
                   <div>
                     <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/data-extraction" className="text-brandOrange hover:text-brandOrange transition">
+                      <Link href="/services-page/data-extraction/" className="text-brandOrange hover:text-brandOrange transition">
                         Data Extraction
                       </Link>
                     </h5>
                     <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/web-scraping" className="text-white hover:text-brandOrange transition">Web Scraping</Link></li>
-                      <li><Link href="/services-page/data-cleaning-extraction" className="text-white hover:text-brandOrange transition">Data Cleaning and Extraction</Link></li>
+                      <li><Link href="/services-page/web-scraping/" className="text-white hover:text-brandOrange transition">Web Scraping</Link></li>
+                      <li><Link href="/services-page/data-cleaning-extraction/" className="text-white hover:text-brandOrange transition">Data Cleaning and Extraction</Link></li>
                     </ul>
                   </div>
 
                   {/* Category 6 */}
                   <div>
                     <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/python-scraping" className="text-brandOrange hover:text-brandOrange transition">
+                      <Link href="/services-page/python-scraping/" className="text-brandOrange hover:text-brandOrange transition">
                         Python Scraping
                       </Link>
                     </h5>
                     <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/python-web-scraping" className="text-white hover:text-brandOrange transition">Python Web Scraping</Link></li>
-                      <li><Link href="/services-page/data-cleaning-export" className="text-white hover:text-brandOrange transition">Data Cleaning</Link></li>
+                      <li><Link href="/services-page/python-web-scraping/" className="text-white hover:text-brandOrange transition">Python Web Scraping</Link></li>
+                      <li><Link href="/services-page/data-cleaning-export/" className="text-white hover:text-brandOrange transition">Data Cleaning</Link></li>
                     </ul>
                   </div>
 
                   {/* Category 7 */}
                   <div>
                     <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/seo-page" className="text-brandOrange hover:text-brandOrange transition">
+                      <Link href="/services-page/seo-page/" className="text-brandOrange hover:text-brandOrange transition">
                         SEO
                       </Link>
                     </h5>
                     <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/on-page-seo" className="text-white hover:text-brandOrange transition">On-Page SEO</Link></li>
-                      <li><Link href="/services-page/off-page-seo" className="text-white hover:text-brandOrange transition">Off-Page SEO</Link></li>
-                      <li><Link href="/services-page/technical-seo" className="text-white hover:text-brandOrange transition">Technical SEO</Link></li>
-                      <li><Link href="/services-page/local-seo" className="text-white hover:text-brandOrange transition">Local SEO</Link></li>
+                      <li><Link href="/services-page/on-page-seo/" className="text-white hover:text-brandOrange transition">On-Page SEO</Link></li>
+                      <li><Link href="/services-page/off-page-seo/" className="text-white hover:text-brandOrange transition">Off-Page SEO</Link></li>
+                      <li><Link href="/services-page/technical-seo/" className="text-white hover:text-brandOrange transition">Technical SEO</Link></li>
+                      <li><Link href="/services-page/local-seo/" className="text-white hover:text-brandOrange transition">Local SEO</Link></li>
                     </ul>
                   </div>
 
                   {/* Category 8 */}
                   <div>
                     <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/web-development" className="text-brandOrange hover:text-brandOrange transition">
+                      <Link href="/services-page/web-development/" className="text-brandOrange hover:text-brandOrange transition">
                         Web Development
                       </Link>
                     </h5>
                     <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/front-end-development" className="text-white hover:text-brandOrange transition">Frontend Development</Link></li>
-                      <li><Link href="/services-page/back-end-development" className="text-white hover:text-brandOrange transition">Backend Development</Link></li>
+                      <li><Link href="/services-page/front-end-development/" className="text-white hover:text-brandOrange transition">Frontend Development</Link></li>
+                      <li><Link href="/services-page/back-end-development/" className="text-white hover:text-brandOrange transition">Backend Development</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -165,10 +167,10 @@ const Navbar = () => {
             )}
           </li>
 
-          <li><Link href="/about-us" className="text-black hover:text-brandOrange transition">About Us</Link></li>
-          <li><Link href="/portfolio" className="text-black hover:text-brandOrange transition">Portfolio</Link></li>
-          <li><Link href="/contact-us" className="text-black hover:text-brandOrange transition">Contact Us</Link></li>
-          <li><Link href="/blogs" className="text-black hover:text-brandOrange transition">Blogs</Link></li>
+          <li><Link href="/about-us/" className="text-black hover:text-brandOrange transition">About Us</Link></li>
+          <li><Link href="/portfolio/" className="text-black hover:text-brandOrange transition">Portfolio</Link></li>
+          <li><Link href="/contact-us/" className="text-black hover:text-brandOrange transition">Contact Us</Link></li>
+          <li><Link href="/blogs/" className="text-black hover:text-brandOrange transition">Blogs</Link></li>
         </ul>
 
         {/* Book a Call */}

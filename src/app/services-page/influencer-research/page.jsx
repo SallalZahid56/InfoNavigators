@@ -24,25 +24,25 @@ export default function InfluencerResearchPage() {
       name: "Instagram",
       description:
         "Discover Instagram influencers with strong engagement and authentic reach. Perfect for lifestyle, fashion, food, and e-commerce brands.",
-      link: "/services-page/instagram-influencer-research",
+      link: "/services-page/instagram-influencer-research/",
     },
     {
       name: "Facebook",
       description:
         "We identify Facebook page admins, group leaders, and content creators who influence community-driven audiences.",
-      link: "/services-page/instagram-influence-research",
+      link: "/services-page/instagram-influence-research/",
     },
     {
       name: "YouTube",
       description:
         "Get connected with YouTube creators who build trust through tutorials, product reviews, and industry authority content.",
-      link: "/services-page/youTube-influencer-research",
+      link: "/services-page/youTube-influencer-research/",
     },
     {
       name: "TikTok",
       description:
         "Find TikTok creators that create viral campaigns for Gen Z and millennials, perfect for quick brand exposure.",
-      link: "/services-page/tiktok-influencer-research",
+      link: "/services-page/tiktok-influencer-research/",
     },
   ];
 
@@ -127,7 +127,7 @@ export default function InfluencerResearchPage() {
           <span className="block text-black font-semibold text-center">
             👉 See how research fuels growth:{" "}
             <a
-              href="/services-page/market-research"
+              href="/services-page/market-research/"
               className="text-blue-600 font-semibold hover:underline"
             >
               Market Research & Competitor Analysis
@@ -212,7 +212,7 @@ export default function InfluencerResearchPage() {
                 <span className="block text-black font-semibold text-center">
                   👉 Learn more:{" "}
                   <a
-                    href="/services-page/data-verification"
+                    href="/services-page/data-verification/"
                     className="text-blue-600 font-semibold hover:underline"
                   >
                     {p.name} Influencer Research
@@ -264,7 +264,7 @@ export default function InfluencerResearchPage() {
           <span className="block text-black font-semibold text-center">
             👉 Related service:{" "}
             <a
-              href="/services-page/data-verification"
+              href="/services-page/data-verification/"
               className="text-blue-600 font-semibold hover:underline"
             >
               Data Verification & Fact-Checking
@@ -299,7 +299,7 @@ export default function InfluencerResearchPage() {
           <span className="block text-black font-semibold text-center">
             👉 Related service:{" "}
             <a
-              href="/services-page/b2b-lead-generation"
+              href="/services-page/b2b-lead-generation/"
               className="text-blue-600 font-semibold hover:underline"
             >
               B2B Lead Generation Services

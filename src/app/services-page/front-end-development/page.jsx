@@ -79,12 +79,12 @@ export default function FrontEndDevelopment() {
             <a href="https://api.whatsapp.com/send?phone=923090266690&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website." className="inline-block bg-brandOrange text-white px-6 py-3 rounded-xl shadow hover:bg-black transition font-heading">
               Book a Free Consultation
             </a>
-            <Link href="/services-page" className="inline-block px-6 py-3 rounded-xl border border-gray-300 hover:border-black hover:text-black transition font-heading bg-white/10">
+            <Link href="/services-page/" className="inline-block px-6 py-3 rounded-xl border border-gray-300 hover:border-black hover:text-black transition font-heading bg-white/10">
               Explore Services
             </Link>
           </div>
           <p className="mt-6 text-sm text-gray-300">
-            👉 Related: <Link href="/services-page/web-development" className="text-white underline">Web Development Services</Link>
+            👉 Related: <Link href="/services-page/web-development/" className="text-white underline">Web Development Services</Link>
           </p>
         </div>
       </section>

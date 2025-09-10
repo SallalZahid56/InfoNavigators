@@ -125,7 +125,7 @@ export default function SEOPage() {
               Book a Free Consultation
             </a>
             <Link
-              href="/services-page"
+              href="/services-page/"
               className="inline-block px-6 py-3 rounded-xl border border-gray-300 hover:border-black hover:text-black transition font-heading bg-white/10"
             >
               Explore Services
@@ -134,7 +134,7 @@ export default function SEOPage() {
 
           <p className="mt-6 text-sm text-gray-300">
             👉 Related service:{" "}
-            <Link href="/services-page/lead-generation" className="text-white underline">
+            <Link href="/services-page/lead-generation/" className="text-white underline">
               Lead Generation Services
             </Link>
           </p>
@@ -180,7 +180,7 @@ export default function SEOPage() {
               <li className="flex items-start gap-3"><CheckCircle className="w-5 h-5 text-brandOrange mt-1" />Affordable SEO agency with global reach</li>
             </ul>
             <p className="mt-6 text-sm text-gray-600">We’re more than an SEO company — we’re your long-term growth partner.</p>
-            <p className="mt-3 text-sm text-gray-500">👉 Related service: <Link href="/services-page/data-entry" className="text-blue-600 underline">Data Entry Services</Link></p>
+            <p className="mt-3 text-sm text-gray-500">👉 Related service: <Link href="/services-page/data-entry/" className="text-blue-600 underline">Data Entry Services</Link></p>
           </div>
 
           <div className="md:w-1/2">
@@ -199,7 +199,7 @@ export default function SEOPage() {
               <span key={i} className="bg-white px-4 py-2 rounded-full shadow text-sm font-semibold text-gray-700 border">{t}</span>
             ))}
           </div>
-          <p className="mt-6 text-sm text-gray-500">👉 Related service: <Link href="/services-page/data-extraction" className="text-blue-600 underline">Data Extraction Services</Link></p>
+          <p className="mt-6 text-sm text-gray-500">👉 Related service: <Link href="/services-page/data-extraction/" className="text-blue-600 underline">Data Extraction Services</Link></p>
         </div>
       </section>
 

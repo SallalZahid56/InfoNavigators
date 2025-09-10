@@ -154,7 +154,7 @@ const WebsiteDevelopmentPage = () => {
               Book a Free Consultation
             </a>
             <Link
-              href="/services-page"
+              href="/services-page/"
               className="inline-block px-6 py-3 rounded-xl border border-gray-300 hover:border-black hover:text-black transition font-heading bg-white/10"
             >
               Explore Services

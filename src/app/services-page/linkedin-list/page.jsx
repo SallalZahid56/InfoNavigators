@@ -133,7 +133,7 @@ export default function LinkedInListBuilding() {
               Book a Free Consultation
             </a>
             <Link
-              href="/services-page"
+              href="/services-page/"
               className="px-6 py-3 rounded-xl border border-gray-300 hover:border-black hover:text-black transition"
             >
               Explore Services

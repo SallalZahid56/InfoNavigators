@@ -148,7 +148,7 @@ export default function PythonWebScrapingPage() {
                     Get Started
                   </a>
                   <Link
-                    href="/services-page/python-web-scraping"
+                    href="/services-page/python-web-scraping/"
                     className="px-6 py-3 rounded-xl border border-gray-300 hover:border-black hover:text-black transition font-heading"
                   >
                     Explore More

@@ -86,7 +86,7 @@ export default function TikTokInfluencerResearch() {
           <p className="text-blue-600 font-semibold text-center">
             👉{" "}
             <a
-              href="/services-page/influencer-research"
+              href="/services-page/influencer-research/"
               className="underline hover:text-black"
             >
               Influencer Research Services
@@ -137,7 +137,7 @@ export default function TikTokInfluencerResearch() {
               <span className="block text-black font-semibold text-center">
                 👉 Related service:{" "}
                 <a
-                  href="/services-page/market-research"
+                  href="/services-page/market-research/"
                   className="text-blue-600 font-semibold hover:underline"
                 >
                   Market Research & Competitor Analysis
@@ -181,7 +181,7 @@ export default function TikTokInfluencerResearch() {
           <span className="block text-black font-semibold text-center">
             👉 Related service:{" "}
             <a
-              href="/services-page/data-cleaning"
+              href="/services-page/data-cleaning/"
               className="text-blue-600 font-semibold hover:underline"
             >
               Data Cleaning & Formatting
@@ -216,7 +216,7 @@ export default function TikTokInfluencerResearch() {
           <span className="block text-black font-semibold text-center">
             👉 Related service:{" "}
             <a
-              href="/services-page/data-verification"
+              href="/services-page/data-verification/"
               className="text-blue-600 font-semibold hover:underline"
             >
               Data Verification & Fact-Checking
@@ -251,7 +251,7 @@ export default function TikTokInfluencerResearch() {
           <span className="block text-black font-semibold text-center">
             👉 Related service:{" "}
             <a
-              href="/services-page/b2b-lead-generation"
+              href="/services-page/b2b-lead-generation/"
               className="text-blue-600 font-semibold hover:underline"
             >
               Visit: B2B Lead Generation Services

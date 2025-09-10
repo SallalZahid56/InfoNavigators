@@ -92,7 +92,7 @@ export default function InstagramInfluencerResearch() {
           That’s why our Instagram Influencer Research Services are designed to help businesses find authentic, verified Instagram influencers who actually influence buying decisions.
         </p>
 
-        <Link href="/services-page" className="inline-block mt-6 bg-brandOrange text-white px-6 py-3 rounded-lg font-heading font-semibold hover:bg-black transition">
+        <Link href="/services-page/" className="inline-block mt-6 bg-brandOrange text-white px-6 py-3 rounded-lg font-heading font-semibold hover:bg-black transition">
           See our full service
         </Link>
       </section>
@@ -120,7 +120,7 @@ export default function InstagramInfluencerResearch() {
               <span className="block text-black font-semibold text-center">
                 👉 Complementary Service:{" "}
                 <a
-                  href="/services-page/lead-generation"
+                  href="/services-page/lead-generation/"
                   className="text-blue-600 font-semibold hover:underline"
                 >
                   Lead Generation Services
@@ -156,7 +156,7 @@ export default function InstagramInfluencerResearch() {
               <span className="block text-black font-semibold text-center">
                 👉 Related service:{" "}
                 <a
-                  href="/services-page/data-verification"
+                  href="/services-page/data-verification/"
                   className="text-blue-600 font-semibold hover:underline"
                 >
                   Data Verification & Fact-Checking
@@ -189,7 +189,7 @@ export default function InstagramInfluencerResearch() {
               <span className="block text-black font-semibold text-center">
                 👉 Related service:{" "}
                 <a
-                  href="/services-page/data-verification"
+                  href="/services-page/data-verification/"
                   className="text-blue-600 font-semibold hover:underline"
                 >
                   Data Verification & Fact-Checking
@@ -224,7 +224,7 @@ export default function InstagramInfluencerResearch() {
           <span className="block text-black font-semibold text-center">
             👉 Related service:{" "}
             <a
-              href="/services-page/b2b-lean-generaton"
+              href="/services-page/b2b-lead-generation/"
               className="text-blue-600 font-semibold hover:underline"
             >
               B2B Lead Generation Services

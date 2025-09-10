@@ -115,7 +115,7 @@ export default function DataEntryPage() {
                 <a href="https://api.whatsapp.com/send?phone=923090266690&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website." className="bg-brandOrange text-white px-6 py-3 rounded-xl shadow hover:bg-black transition">
                   Book a Free Consultation
                 </a>
-                <Link href="/services-page" className="px-6 py-3 rounded-xl border border-gray-300 hover:border-black hover:text-black transition">
+                <Link href="/services-page/" className="px-6 py-3 rounded-xl border border-gray-300 hover:border-black hover:text-black transition">
                   Explore Services
                 </Link>
               </div>
@@ -127,8 +127,8 @@ export default function DataEntryPage() {
               </div>
 
               <div className="mt-6 text-sm">
-                <Link href="/services/CRMDataEntry" className="text-brandOrange font-semibold inline-block mr-4">👉 Related: CRM Data Entry</Link>
-                <Link href="/services/DataCleaning" className="text-brandOrange font-semibold inline-block">| Data Cleaning & Formatting</Link>
+                <Link href="/services-page/crm-data-entry/" className="text-brandOrange font-semibold inline-block mr-4">👉 Related: CRM Data Entry</Link>
+                <Link href="/services-page/data-cleaning/" className="text-brandOrange font-semibold inline-block">| Data Cleaning & Formatting</Link>
               </div>
             </div>
 
@@ -176,7 +176,7 @@ export default function DataEntryPage() {
             <p className="text-gray-700 mb-4">
               From remote data entry jobs to database entry services, our team handles every detail, allowing businesses to focus on growth.
             </p>
-            <Link href="/services/lead-generation" className="text-brandOrange font-semibold">
+            <Link href="/services-page/lead-generation/" className="text-brandOrange font-semibold">
               👉 Related: Lead Generation Services
             </Link>
           </div>
@@ -204,7 +204,7 @@ export default function DataEntryPage() {
             <FeatureCard icon={<FiUsers />} title="CRM Data Entry">
               Accurate CRM Data Entry helps businesses build stronger relationships with clients — importing Excel/CSV into Salesforce, HubSpot, Zoho and managing history.
               <div className="mt-3">
-                <Link href="/services/CRMDataEntry" className="text-brandOrange font-semibold">
+                <Link href="/services-page/crm-data-entry/" className="text-brandOrange font-semibold">
                   👉 Learn more: CRM Data Entry
                 </Link>
               </div>
@@ -213,7 +213,7 @@ export default function DataEntryPage() {
             <FeatureCard icon={<FiSettings />} title="Data Cleaning & Formatting">
               Remove duplicates, fix inconsistencies, and format data for analytics or outreach.
               <div className="mt-3">
-                <Link href="/services/DataCleaning" className="text-brandOrange font-semibold">
+                <Link href="/services-page/data-cleaning/" className="text-brandOrange font-semibold">
                   👉 Learn more: Data Cleaning &amp; Formatting
                 </Link>
               </div>
@@ -296,7 +296,7 @@ export default function DataEntryPage() {
           </div>
 
           <div className="mt-6">
-            <Link href="/services/SEOPage" className="text-brandOrange font-semibold">
+            <Link href="/services-page/seo-page/" className="text-brandOrange font-semibold">
               👉 Related: E-commerce SEO | Web Development Services
             </Link>
           </div>

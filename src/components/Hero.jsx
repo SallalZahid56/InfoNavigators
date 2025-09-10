@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-white pt-20 md:pt-22 lg:pt-10"> 
+    <section className="w-full bg-white pt-20 md:pt-22 lg:pt-14"> 
       {/* ↑ increased top padding for tablets so text doesn’t touch navbar */}
       
       <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 lg:px-20 flex flex-col md:flex-row items-center gap-12">
