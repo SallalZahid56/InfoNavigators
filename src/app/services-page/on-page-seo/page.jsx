@@ -1,6 +1,6 @@
 import Head from "next/head";
 import FinalCTA from "../../../components/FinalCTA";
-import OnPageSeo from "../../../components/OnPageSeo ";
+import OnPageSeo from "../../../components/OnPageSeo";
 
 export const metadata = {
   title: "On Page SEO Services | Info Navigators",
