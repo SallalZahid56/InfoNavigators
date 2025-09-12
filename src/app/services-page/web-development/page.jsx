@@ -3,11 +3,11 @@ import FinalCTA from "../../../components/FinalCTA";
 import WebDevelopment from "../../../components/WebDevelopment";
 
 export const metadata = {
-  title: "Back-End Development Services | Info Navigators",
+  title: "Web Development Services | Info Navigators",
   description:
-    "Professional back-end development services with PHP, Node.js, and Laravel. Info Navigators builds secure, scalable, and high-performance web applications.",
+    "Professional Web development services with HTML, CSS, JavaScript, ReactJS and NextJs. Info Navigators builds secure, scalable, and high-performance web applications.",
   keywords:
-    "back-end development services, backend developer services, node js backend development, laravel backend development, backend coding services, backend web development company, scalable backend solutions, backend API development",
+    "Web development services, backend developer services, node js backend development, React Development, NextJS Developer, backend web development company, scalable backend solutions, backend API development",
 };
 
 const WebsiteDevelopmentPage = () => {

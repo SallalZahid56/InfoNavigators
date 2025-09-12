@@ -190,6 +190,9 @@ const Navbar = () => {
             className="text-black text-2xl focus:outline-none"
           >
             {isOpen ? <FaTimes /> : <FaBars />}
+            <span className="sr-only">
+              {isOpen ? "Close menu" : "Open menu"}
+            </span>
           </button>
         </div>
       </div>

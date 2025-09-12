@@ -87,20 +87,52 @@ const Footer = () => {
 
               {/* Social Icons */}
               <div className="flex gap-4 text-white text-lg">
-                <a href="https://api.whatsapp.com/send?phone=923090266690&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website.">
+                <a
+                  href="https://api.whatsapp.com/send?phone=923090266690&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Chat with us on WhatsApp"
+                >
                   <FaWhatsapp />
+                  <span className="sr-only">WhatsApp</span>
                 </a>
-                <a href="https://www.instagram.com/infonavigators/">
+
+                <a
+                  href="https://www.instagram.com/infonavigators/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our Instagram"
+                >
                   <FaInstagram />
+                  <span className="sr-only">Instagram</span>
                 </a>
-                <a href="mailto:contact@infonavigators.com/">
+
+                <a
+                  href="mailto:contact@infonavigators.com"
+                  aria-label="Send us an email"
+                >
                   <FaEnvelope />
+                  <span className="sr-only">Email</span>
                 </a>
-                <a href="https://www.facebook.com/infonavigators">
+
+                <a
+                  href="https://www.facebook.com/infonavigators"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our Facebook page"
+                >
                   <FaFacebook />
+                  <span className="sr-only">Facebook</span>
                 </a>
-                <a href="https://www.linkedin.com/company/infonavigatorss/">
+
+                <a
+                  href="https://www.linkedin.com/company/infonavigatorss/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our LinkedIn"
+                >
                   <FaLinkedin />
+                  <span className="sr-only">LinkedIn</span>
                 </a>
               </div>
             </div>

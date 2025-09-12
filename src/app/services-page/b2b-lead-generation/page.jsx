@@ -4,7 +4,7 @@ import FinalCTA from "../../../components/FinalCTA";
 
 
 export const metadata = {
-  title: "About InfoNav - Leading Digital Marketing, Lead Generation & Data Solutions",
+  title: "B2B Lead Generation Services",
   description:
     "Expert B2B lead generation services with 15+ years' experience. From B2B marketing to SaaS SEO, we deliver targeted B2B leads that drive growth.",
   keywords:

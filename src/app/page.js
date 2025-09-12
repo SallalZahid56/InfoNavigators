@@ -7,18 +7,34 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
 import FinalCTA from "../components/FinalCTA";
+import Head from "next/head";
+
+export const metadata = {
+  title: "InfoNavigators – Smart Digital Solutions for Your Business",
+  description:
+    "Discover InfoNavigators – offering smart digital marketing, SEO, and web solutions to grow your online presence",
+  keywords:
+    "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
+};
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
-      <Hero />
-      <Strategy />
-      <Services />
-      <Tools />
-      <WhyChooseUs />
-      <Testimonials />
-      <FAQ />
-      <FinalCTA />
-    </main>
+    <>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+      </Head>
+      <main className="flex flex-col">
+        <Hero />
+        <Strategy />
+        <Services />
+        <Tools />
+        <WhyChooseUs />
+        <Testimonials />
+        <FAQ />
+        <FinalCTA />
+      </main>
+    </>
   );
 }
