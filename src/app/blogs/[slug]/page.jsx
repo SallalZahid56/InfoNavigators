@@ -1,39 +1,62 @@
-import { blogs } from "../../../data/blogs";
-import Head from "next/head";
+import SeoTipsPage from "@/components/SeoTipsPage";
+import SeoBoostTipsPage from "@/components/SeoBoostTipsPage";
+import WebScrapingGuidePage from "@/components/WebScrapingGuidePage";
+import { blogs } from "../../../data/blogs"; // adjust path if different
 
-export const metadata = {
-  title: "InfoNavigators Blog",
-  description:
-    "Explore expert tips, case studies, and guides on SEO, digital marketing, and technology trends at InfoNavigators Blog.",
-  keywords:
-    "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
-};
-
+// ✅ Generate static paths
 export async function generateStaticParams() {
-  return blogs.map((blog) => ({ slug: blog.slug }));
+  return blogs.map((blog) => ({
+    slug: blog.slug,
+  }));
 }
 
-export default function BlogDetail({ params }) {
-  const blog = blogs.find((b) => b.slug === params.slug);
+// ✅ Dynamic metadata for each blog
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const blog = blogs.find((b) => b.slug === slug);
+
+  if (!blog) {
+    return {
+      title: "Blog Not Found | InfoNavigators",
+      description: "Sorry, this blog post could not be found.",
+    };
+  }
+
+  return {
+    title: blog.metaTitle || blog.title,
+    description: blog.metaDescription || blog.excerpt || "Read this blog post on InfoNavigators.",
+    keywords: blog.keywords || "SEO, digital marketing, web scraping, business growth",
+  };
+}
+
+export default async function BlogDetail({ params }) {
+  const { slug } = await params;
+  const blog = blogs.find((b) => b.slug === slug);
 
   if (!blog) return <p>Blog not found</p>;
 
-  return (
-    <>
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-      </Head>
+  // ✅ Special component pages
+  if (slug === "seo-tips") {
+    return <SeoTipsPage blog={blog} />;
+  }
 
-      <article className="max-w-3xl mx-auto px-6 py-12">
-        <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
-        <p className="text-gray-500 mb-6">{blog.date}</p>
-        <div
-          className="prose prose-lg"
-          dangerouslySetInnerHTML={{ __html: blog.content }}
-        />
-      </article>
-    </>
+  if (slug === "seo-boost-tips") {
+    return <SeoBoostTipsPage blog={blog} />;
+  }
+
+  if (slug === "beginners-guide-web-scraping-python") {
+    return <WebScrapingGuidePage blog={blog} />;
+  }
+
+  // ✅ Default layout
+  return (
+    <article className="max-w-4xl mx-auto px-6 py-12 mt-14">
+      <h1 className="text-4xl font-bold text-center mb-4">{blog.title}</h1>
+      <p className="text-gray-500 text-center mb-6">{blog.date}</p>
+      <div
+        className="prose prose-lg"
+        dangerouslySetInnerHTML={{ __html: blog.content }}
+      />
+    </article>
   );
 }

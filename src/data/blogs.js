@@ -1,32 +1,45 @@
 export const blogs = [
   {
     slug: "seo-tips",
-    title: "10 SEO Tips to Boost Your Rankings",
-    description: "Learn the best SEO practices for 2025 to improve your website visibility.",
+    title: "The Complete Guide to SEO in 2025",
+    description:
+      "A professional, modern SEO guide for 2025 covering strategies, ranking factors, and best practices.",
     date: "2025-09-01",
-    image: "/images/seo-tips.jpg",
-    content: `
-      <p>SEO is the backbone of digital marketing. Here’s how to get started:</p>
-      <h2>1. Optimize your meta tags</h2>
-      <p>Meta tags help search engines understand your page.</p>
-      <h2>2. Build quality backlinks</h2>
-      <p>Backlinks improve domain authority...</p>
-    `,
-    keywords: "SEO, digital marketing, SEO tips, backlinks, ranking"
+    image: "/blogs-img.jpg",
+    metaTitle: "The Complete Guide to SEO in 2025 | Strategies to Rank Higher",
+    metaDescription: "Discover the ultimate SEO guide for 2025. Learn the latest Google ranking factors, on-page SEO, technical tips, content strategies, and link building techniques to grow your organic traffic.",
+    keywords: "SEO guide 2025, complete SEO strategies, Google ranking factors, SEO checklist 2025, technical SEO tips, SEO content strategy, mobile-first SEO, schema markup SEO, SEO tools 2025, increase organic traffic",
+    category: "SEO"
   },
+
+
+
+
+
   {
-    slug: "web-scraping-guide",
-    title: "Beginner's Guide to Web Scraping with Python",
-    description: "Step-by-step guide to web scraping using BeautifulSoup and Python.",
+    slug: "seo-boost-tips",
+    title: "10 SEO Tips to Boost Your Rankings in 2025 | Proven Strategies",
+    description:
+      "Discover 10 powerful SEO tips to boost your rankings in 2025. Learn how to optimize content, improve site speed, build authority, and follow Google’s latest updates for long-term SEO success.",
+    date: "2025-09-18",
+    image: "/blogs-img.jpg",
+    metaTitle: "10 SEO Tips to Boost Your Rankings in 2025 | Proven Strategies",
+    metaDescription: "Discover 10 powerful SEO tips to boost your rankings in 2025. Learn how to optimize content, improve site speed, build authority, and follow Google’s latest updates for long-term SEO success.",
+    keywords: "SEO tips 2025, boost search rankings, SEO best practices, Google updates 2025, on-page SEO, technical SEO, content optimization, link building, organic traffic growth, mobile SEO",
+    category: "SEO"
+  },
+
+
+
+  {
+    slug: "beginners-guide-web-scraping-python",
+    title: "Beginner’s Guide to Web Scraping with Python | Step-by-Step Tutorial",
+    description: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
     date: "2025-08-20",
-    image: "/images/web-scraping.jpg",
-    content: `
-      <p>Web scraping helps collect useful data for research and business.</p>
-      <h2>1. Install Python libraries</h2>
-      <p>Use requests and BeautifulSoup.</p>
-      <h2>2. Handle pagination</h2>
-      <p>Always respect website robots.txt.</p>
-    `,
-    keywords: "web scraping, Python, data extraction, BeautifulSoup"
+    image: "/python-blog.jpg",
+    metaTitle: "beginners-guide-web-scraping-python",
+    metaDescription: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
+    keywords: "web scraping python, python scraping tutorial, beginners guide scraping, BeautifulSoup tutorial, Selenium Python scraping, data extraction python, web automation python, python requests scraping, learn web scraping, python scraping examples",
+    category: "Python"
   }
 ];
