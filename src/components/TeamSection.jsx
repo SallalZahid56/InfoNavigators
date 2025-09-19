@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const teamMembers = [
   { img: "/B-re.png", name: "Bilal Haider", role: "Founder" },
-  { img: "/A-re.png", name: "Ahmad Attique", role: "CEO" },
+  { img: "/A-re.png", name: "Ahmad Attique", role: "CEO & Co-Founder" },
   { img: "/N-re.png", name: "Muhammad Naeem", role: "Web & SEO Expert" },
   { img: "/J-re.png", name: "Junaid Iqbal", role: "Data Extraction Expert" },
   { img: "/Aw-re.png", name: "Awais Ali", role: "Lead Generation Expert" },

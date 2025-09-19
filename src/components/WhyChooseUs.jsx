@@ -62,7 +62,7 @@ const WhyChooseUs = () => {
             <FaChartLine size={40} className="sm:w-[50px] sm:h-[50px]" />
           </div>
           <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-            Proven Experience with 200+ Projects
+            Proven Experience with 2000+ Projects
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed">
             Successfully delivered Digital Marketing, SEO, Lead Generation, 
