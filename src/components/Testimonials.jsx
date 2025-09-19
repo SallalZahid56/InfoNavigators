@@ -23,6 +23,24 @@ const testimonials = [
     name: "Michael Lee",
     position: "Operations Manager, DataFlow Inc.",
   },
+  {
+    feedback:
+      "InfoNav redesigned our website with a modern look and optimized performance. Our customers love the new experience, and conversions increased significantly!",
+    name: "Sophia Martinez",
+    position: "Marketing Director, BrightVision Media",
+  },
+  {
+    feedback:
+      "Their digital marketing campaigns are data-driven and effective. We saw a 200% growth in engagement within just a few months. Truly impressive!",
+    name: "David Chen",
+    position: "Co-Founder, GreenLeaf Organics",
+  },
+  {
+    feedback:
+      "The automation solutions from InfoNav streamlined our workflows and reduced manual tasks. Their team goes above and beyond to deliver value.",
+    name: "Olivia Brown",
+    position: "Product Manager, NextGen Apps",
+  },
 ];
 
 const Testimonials = () => {
