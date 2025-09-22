@@ -17,6 +17,7 @@ export default function TikTokInfluencerResearch() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
+        <link rel="canonical" href="https://www.infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <TiktokInfluencers />

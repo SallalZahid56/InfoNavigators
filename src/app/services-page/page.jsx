@@ -24,6 +24,7 @@ export default function ServicesPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
+        <link rel="canonical" href="https://www.infonavigators.com/" />
       </Head>
 
       {/* Main Services Intro Section */}

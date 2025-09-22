@@ -24,6 +24,8 @@ export default function Home() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
+        <meta name="google-site-verification" content="6Gu3f2j64ZidAs9HWXpsqaJy4cF-fk-10LLD8uyStxg" />
+        <link rel="canonical" href="https://www.infonavigators.com/" />
       </Head>
       <main className="flex flex-col">
         <Hero />
