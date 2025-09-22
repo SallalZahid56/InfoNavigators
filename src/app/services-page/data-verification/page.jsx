@@ -8,6 +8,9 @@ export const metadata = {
     "Ensure your business decisions are based on accurate information with our professional data verification & fact-checking services. Reliable, precise, and trusted worldwide.",
   keywords:
     "data verification services, fact-checking services, validation services, verify data accuracy, data quality check, online research fact-checking, data verification for business",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function DataVerificationPage() {
@@ -20,7 +23,7 @@ export default function DataVerificationPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <DataVerificationSection />

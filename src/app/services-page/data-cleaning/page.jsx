@@ -8,6 +8,9 @@ export const metadata = {
     "Professional data cleaning services to ensure accurate, standardized, and reliable information for better business decisions and marketing automation.",
   keywords:
     "data cleaning services, data formatting, crm data cleaning, spreadsheet cleaning, duplicate removal, business data management",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function DataCleaningPage() {
@@ -17,7 +20,7 @@ export default function DataCleaningPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <DataCleaningSections />

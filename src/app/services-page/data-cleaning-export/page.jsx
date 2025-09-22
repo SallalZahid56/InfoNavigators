@@ -8,6 +8,9 @@ export const metadata = {
     "Professional data cleaning & export services for businesses in USA, Europe & worldwide. Ensure accurate, clean datasets with seamless export in Excel, CSV, or CRM formats.",
   keywords:
     "data cleaning services, data cleaning, data cleansing, clean data, data cleanup, data cleaning process, database cleaning, data cleaning tools, data cleaning services company, data export services, clean dataset",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function DataCleaningExportPage() {
@@ -18,7 +21,7 @@ export default function DataCleaningExportPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <DataCleaningExportSections />

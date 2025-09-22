@@ -8,6 +8,9 @@ export const metadata = {
     "Drive more local customers with our Local SEO services. From Google Business Profile optimization to local citations, Info Navigators helps your business rank in maps and local search.",
   keywords:
     "local SEO services, local SEO, local SEO optimization, Google My Business optimization, Google Maps SEO, local citations, local SEO company, local SEO for small businesses, local SEO agency",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 const LocalSEOPage = () => {
@@ -19,7 +22,7 @@ const LocalSEOPage = () => {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <LocalSEO />

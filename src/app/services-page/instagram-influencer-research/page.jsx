@@ -8,6 +8,9 @@ export const metadata = {
     "Expert Instagram Influencer Research to find authentic, verified creators that grow your brand. Data-driven influencer discovery for B2B & B2C campaigns.",
   keywords:
     "Instagram influencer research, Instagram influencer discovery, Instagram influencer marketing research, Instagram influencer lists, influencer research services, influencer research company",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function InstagramInfluencerResearch() {
@@ -18,7 +21,7 @@ export default function InstagramInfluencerResearch() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <InstagramInfluencer />

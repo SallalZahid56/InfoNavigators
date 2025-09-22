@@ -9,6 +9,9 @@ export const metadata = {
     "Expert B2B lead generation services with 15+ years' experience. From B2B marketing to SaaS SEO, we deliver targeted B2B leads that drive growth.",
   keywords:
     "b2b lead generation services, email marketing b2b, saas seo, targeted b2b leads, Info Navigators",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function LeadGenerationPage() {
@@ -18,7 +21,7 @@ export default function LeadGenerationPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <LeadGenerationSections />

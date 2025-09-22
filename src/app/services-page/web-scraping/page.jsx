@@ -8,6 +8,9 @@ export const metadata = {
     "Professional web scraping services for businesses in USA, Europe & worldwide. Extract product data, pricing, leads, and insights with our reliable web data extraction solutions.",
   keywords:
     "web scraping services, web data extraction services, website data scraping services, outsource web scraping, data extraction solutions, data extraction company",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 const WebScrapingPage = () => {
@@ -17,7 +20,7 @@ const WebScrapingPage = () => {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <WebScraping />

@@ -8,6 +8,9 @@ export const metadata = {
     "Expert YouTube influencer research to discover verified creators, analyze engagement, and deliver data-driven influencer lists for impactful campaigns.",
   keywords:
     "YouTube influencer research, YouTube influencer discovery, YouTube influencer marketing research, YouTube influencer lists, influencer research services, influencer research company",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function YouTubeInfluencerResearch() {
@@ -18,7 +21,7 @@ export default function YouTubeInfluencerResearch() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <YoutubeInfluencers />

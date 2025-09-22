@@ -9,17 +9,20 @@ export const metadata = {
     "Browse our creative portfolio featuring websites, campaigns, and digital solutions delivered for diverse clients.",
   keywords:
     "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 const PortfolioShowcase = () => {
   return (
     <>
 
-      <Head>
+     <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       {/* Call to Action */}
       <PortfolioSection />

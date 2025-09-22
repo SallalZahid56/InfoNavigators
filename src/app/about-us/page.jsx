@@ -13,6 +13,9 @@ export const metadata = {
     "At InfoNav, we specialize in innovative digital marketing solutions including lead generation, internet research, Python scraping, and influencer research. Our mission is to drive business success with customized strategies that empower long-term growth and sustainability.",
   keywords:
     "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function AboutUsPage() {
@@ -22,7 +25,7 @@ export default function AboutUsPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
 
       {/* About Section */}

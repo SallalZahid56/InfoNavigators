@@ -8,6 +8,9 @@ export const metadata = {
     "Build high-quality, verified email lists with Info Navigators. From B2B email marketing lists to targeted consumer databases, we create contact lists that drive sales and engagement.",
   keywords:
     "contact email list building, buy targeted email lists, b2b email marketing lists, email list building services, b2c email list building, email marketing database, lead generation email list, verified email database, targeted contact lists",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function EmailListPage() {
@@ -18,7 +21,7 @@ export default function EmailListPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <EmailListBuilding />

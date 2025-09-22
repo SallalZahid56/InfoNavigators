@@ -8,6 +8,9 @@ export const metadata = {
     "Improve site performance, speed, and crawlability with our expert Technical SEO services. Info Navigators ensures your website is optimized for search engines and users.",
   keywords:
     "technical SEO, technical SEO services, technical SEO optimization, website speed optimization, SEO site audit, crawlability optimization, structured data SEO, schema markup SEO, mobile SEO optimization, SEO technical audit, technical SEO company",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 
@@ -19,7 +22,7 @@ const TechnicalSEOPage = () => {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <TechnicalSeo />

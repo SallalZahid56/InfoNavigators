@@ -8,6 +8,9 @@ export const metadata = {
     "Professional Web development services with HTML, CSS, JavaScript, ReactJS and NextJs. Info Navigators builds secure, scalable, and high-performance web applications.",
   keywords:
     "Web development services, backend developer services, node js backend development, React Development, NextJS Developer, backend web development company, scalable backend solutions, backend API development",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 const WebsiteDevelopmentPage = () => {
@@ -18,7 +21,7 @@ const WebsiteDevelopmentPage = () => {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <WebDevelopment />

@@ -8,6 +8,9 @@ export const metadata = {
     "Expert Influencer Research Services to find authentic Instagram, Facebook, YouTube, and TikTok influencers. Verified, data-driven influencer research for business growth.",
   keywords:
     "influencer research services, Instagram influencer research, Facebook influencer research, YouTube influencer research, TikTok influencer research, influencer discovery, influencer research company, influencer marketing research",
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function InfluencerResearchPage() {
@@ -17,7 +20,7 @@ export default function InfluencerResearchPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <Influencer />

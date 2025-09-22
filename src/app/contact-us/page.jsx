@@ -8,6 +8,10 @@ export const metadata = {
     "Contact InfoNavigators for expert digital solutions, custom websites, and marketing strategies tailored to your business.",
   keywords:
     "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
+
+  alternates: {
+    canonical: "https://infonavigators.com/", // ✅ canonical here
+  },
 };
 
 export default function ContactPage() {
@@ -19,7 +23,7 @@ export default function ContactPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://www.infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
 
       <ContactUs />
