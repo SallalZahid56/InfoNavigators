@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "data verification services, fact-checking services, validation services, verify data accuracy, data quality check, online research fact-checking, data verification for business",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/data-verification", // ✅ canonical here
   },
 };
 

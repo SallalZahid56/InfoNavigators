@@ -1,6 +1,7 @@
 import SeoTipsPage from "@/components/SeoTipsPage";
 import SeoBoostTipsPage from "@/components/SeoBoostTipsPage";
 import WebScrapingGuidePage from "@/components/WebScrapingGuidePage";
+import AiToolsPakistanPage from "@/components/AiToolsPakistanPage";
 import { blogs } from "../../../data/blogs"; // adjust path if different
 
 // ✅ Generate static paths
@@ -45,6 +46,10 @@ export default async function BlogDetail({ params }) {
   }
 
   if (slug === "beginners-guide-web-scraping-python") {
+    return <WebScrapingGuidePage blog={blog} />;
+  }
+
+  if (slug === "ai-tools-freelancers-pakistan-2025") {
     return <WebScrapingGuidePage blog={blog} />;
   }
 

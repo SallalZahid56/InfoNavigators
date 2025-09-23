@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "Web development services, backend developer services, node js backend development, React Development, NextJS Developer, backend web development company, scalable backend solutions, backend API development",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/web-development", // ✅ canonical here
   },
 };
 

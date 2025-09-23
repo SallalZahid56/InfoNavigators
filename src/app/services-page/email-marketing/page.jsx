@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "email marketing services, b2b email marketing, email marketing company, email marketing agency, b2c email marketing, cold email campaigns, email automation, email drip campaigns, newsletter marketing, targeted email marketing, Info Navigators",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/email-marketing", // ✅ canonical here
   },
 };
 

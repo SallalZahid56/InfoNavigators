@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "b2b lead generation services, email marketing b2b, saas seo, targeted b2b leads, Info Navigators",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/b2b-lead-generation", // ✅ canonical here
   },
 };
 

@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "contact email list building, buy targeted email lists, b2b email marketing lists, email list building services, b2c email list building, email marketing database, lead generation email list, verified email database, targeted contact lists",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/email-list-building", // ✅ canonical here
   },
 };
 

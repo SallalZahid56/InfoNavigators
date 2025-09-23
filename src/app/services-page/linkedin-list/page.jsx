@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "LinkedIn list building, LinkedIn leads, b2b linkedin lead generation, LinkedIn prospecting services, LinkedIn sales navigator lists, LinkedIn contact list building, targeted LinkedIn leads, LinkedIn outreach lists, Info Navigators",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/linkedin-list", // ✅ canonical here
   },
 };
 

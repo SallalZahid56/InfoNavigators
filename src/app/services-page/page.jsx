@@ -16,7 +16,7 @@ export const metadata = {
   keywords:
     "digital marketing services, lead generation, Python scraping, SEO strategies, influencer research, internet research, data extraction, web development, data entry services, online marketing, B2B lead generation, business growth solutions",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/", // ✅ canonical here
   },
 };
 

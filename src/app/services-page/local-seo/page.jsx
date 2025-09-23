@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "local SEO services, local SEO, local SEO optimization, Google My Business optimization, Google Maps SEO, local citations, local SEO company, local SEO for small businesses, local SEO agency",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/local-seo", // ✅ canonical here
   },
 };
 

@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "off-page SEO, off-page SEO services, link building services, backlinks SEO, digital PR services, SEO authority building, content outreach, off-page optimization, guest posting, white hat link buildings",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/off-page-seo", // ✅ canonical here
   },
 };
 

@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "market research, market research services, market research tools, market research companies, market research analyst, marketing research, online market research, market research firms, market research surveys, business market research, market research reports, competitor analysis, qualitative market research, market research definition, AI market research, B2B market research",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/market-research", // ✅ canonical here
   },
 };
 

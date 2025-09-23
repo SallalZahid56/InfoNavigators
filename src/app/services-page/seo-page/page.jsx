@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "SEO services, professional SEO services, SEO company, SEO agency, technical SEO, on-page SEO, off-page SEO, local SEO, international SEO, e-commerce SEO services, SEO for businesses, affordable SEO agency, best SEO company",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/seo-page", // ✅ canonical here
   },
 };
 

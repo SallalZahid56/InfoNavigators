@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "web scraping services, web data extraction services, website data scraping services, outsource web scraping, data extraction solutions, data extraction company",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/web-scraping", // ✅ canonical here
   },
 };
 

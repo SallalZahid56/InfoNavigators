@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "TikTok influencer research, TikTok influencer discovery, TikTok influencer marketing research, TikTok influencer lists, influencer research services, influencer research company",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/tiktok-influencer-research", // ✅ canonical here
   },
 };
 

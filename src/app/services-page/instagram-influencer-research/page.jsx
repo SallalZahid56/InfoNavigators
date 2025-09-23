@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "Instagram influencer research, Instagram influencer discovery, Instagram influencer marketing research, Instagram influencer lists, influencer research services, influencer research company",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/instagram-influencer-research", // ✅ canonical here
   },
 };
 

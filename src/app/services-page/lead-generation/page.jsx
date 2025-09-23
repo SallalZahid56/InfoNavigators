@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "b2b lead generation services,b2b email marketing lists, buy b2b email lists, b2b saas lead generation, email marketing b2b lead generation,apollo b2b leads,b2b business marketing,targeted b2b lead generation,lead generation for b2b business,b2b marketing,Info nav",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/lead-generation", // ✅ canonical here
   },
 };
 

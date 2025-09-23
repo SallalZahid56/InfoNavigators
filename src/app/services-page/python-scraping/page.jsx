@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "Python scraping services, web scraping for leads, custom data extraction, email lead generation, sales-ready leads, InfoNavigators",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/python-scraping", // ✅ canonical here
   },
 };
 

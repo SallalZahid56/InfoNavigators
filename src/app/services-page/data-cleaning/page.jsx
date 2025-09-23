@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "data cleaning services, data formatting, crm data cleaning, spreadsheet cleaning, duplicate removal, business data management",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/data-cleaning", // ✅ canonical here
   },
 };
 

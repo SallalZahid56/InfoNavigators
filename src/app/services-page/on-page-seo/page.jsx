@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "on-page SEO, on-page SEO services, on-page SEO optimization, website SEO services, content optimization, SEO keywords, metadata optimization, internal linking SEO",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/on-page-seo", // ✅ canonical here
   },
 };
 

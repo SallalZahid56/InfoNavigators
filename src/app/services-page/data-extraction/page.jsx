@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "data extraction services, data extraction service, web data extraction services, most reliable data extraction service, data extraction services company, outsource data extraction services, data extraction services India, LinkedIn data extraction services, website data scraping services, data extraction company, data extraction solutions",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/data-extraction", // ✅ canonical here
   },
 };
 

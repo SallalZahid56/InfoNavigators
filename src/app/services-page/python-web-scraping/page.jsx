@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "python web scraping, web scraping with python, python web scraping libraries, python web scraping services, beautifulsoup scraping, scrapy web scraping, selenium web scraping, pandas data cleaning, python data extraction services",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/python-web-scraping", // ✅ canonical here
   },
 };
 

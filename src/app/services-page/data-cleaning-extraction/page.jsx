@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "data cleaning services, data cleansing, clean data, data cleanup, data cleaning methods, data cleansing process, data cleaning tools, data cleaning best practices, database cleaning, dataset cleaning, data scrubbing techniques",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/data-cleaning-extraction", // ✅ canonical here
   },
 };
 

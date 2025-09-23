@@ -10,7 +10,7 @@ export const metadata = {
     "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
 
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/contact-us", // ✅ canonical here
   },
 };
 

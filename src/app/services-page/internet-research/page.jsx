@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "online internet research, internet research for business, web research data, social media research, internet researcher, business research, market research, competitive analysis, lead research, research internet",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/internet-research", // ✅ canonical here
   },
 };
 

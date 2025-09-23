@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "technical SEO, technical SEO services, technical SEO optimization, website speed optimization, SEO site audit, crawlability optimization, structured data SEO, schema markup SEO, mobile SEO optimization, SEO technical audit, technical SEO company",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/technical-seo", // ✅ canonical here
   },
 };
 

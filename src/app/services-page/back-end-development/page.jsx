@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "back-end development services, backend developer services, node js backend development, laravel backend development, backend coding services, backend web development company, scalable backend solutions, backend API development",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/back-end-development", // ✅ canonical here
   },
 };
 

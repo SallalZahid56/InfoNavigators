@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "Professional front-end development services with React, Vue, and modern frameworks. Info Navigators builds responsive, SEO-optimized websites that drive results.",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/front-end-development", // ✅ canonical here
   },
 };
 

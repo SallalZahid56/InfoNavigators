@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "data entry services, CRM data entry, data cleaning & formatting, database entry, remote data entry, freelance data entry, e-commerce data entry, healthcare data entry, virtual data entry, part-time data entry jobs",
   alternates: {
-    canonical: "https://infonavigators.com/", // ✅ canonical here
+    canonical: "https://infonavigators.com/services-page/data-entry", // ✅ canonical here
   },
 };
 
