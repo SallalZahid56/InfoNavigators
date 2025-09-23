@@ -50,7 +50,7 @@ export default async function BlogDetail({ params }) {
   }
 
   if (slug === "ai-tools-freelancers-pakistan-2025") {
-    return <WebScrapingGuidePage blog={blog} />;
+    return <AiToolsPakistanPage blog={blog} />;
   }
 
   // ✅ Default layout
