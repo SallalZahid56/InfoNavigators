@@ -3,7 +3,7 @@ import FinalCTA from "../../../components/FinalCTA";
 import InternetResearch from "../../../components/InternetResearch";
 
 export const metadata = {
-  title: "Online Internet Research Services for Businesses | Info Navigators",
+  title: "Online Research Services for Businesses | Infonav",
   description:
     "Get reliable online internet research services with Info Navigators. We provide accurate data for market research, lead research, and competitor analysis to support smarter business decisions. Start today!",
   keywords:

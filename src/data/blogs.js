@@ -37,7 +37,7 @@ export const blogs = [
     description: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
     date: "2025-08-20",
     image: "/python-blog.jpg",
-    metaTitle: "beginners-guide-web-scraping-python",
+    metaTitle: "Beginner’s Guide to Web Scraping with Python | Infonav",
     metaDescription: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
     keywords: "web scraping python, python scraping tutorial, beginners guide scraping, BeautifulSoup tutorial, Selenium Python scraping, data extraction python, web automation python, python requests scraping, learn web scraping, python scraping examples",
     category: "Python"
@@ -49,7 +49,7 @@ export const blogs = [
     description: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
     date: "2025-08-20",
     image: "/images.jpg",
-    metaTitle: "beginners-guide-web-scraping-python",
+    metaTitle: "What is the easiest AI tool for beginners | Infonav",
     metaDescription: "Discover the best AI tools for freelancers in Pakistan (2025). Compare pricing, Urdu/English support, local availability, and alternatives. Boost your freelancing career with AI-powered productivity apps.",
     keywords: "AI tools for freelancers in Pakistan 2025, Best AI tools in Pakistan Urdu English, Freelancing with AI tools Pakistan, Latest AI apps for freelancers 2025, AI productivity tools Pakistan, AI tools pricing in Pakistan, Artificial intelligence freelancing tools, AI tools for students and freelancers",
     category: "General"

@@ -8,7 +8,7 @@ import Head from "next/head";
 export default function BlogsPage() {
   // SEO meta values
   const meta = {
-    title: "InfoNavigators Blog",
+    title: "blogs | infonav",
     description:
       "Explore expert tips, case studies, and guides on SEO, digital marketing, and technology trends at InfoNavigators Blog.",
     keywords:

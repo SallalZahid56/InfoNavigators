@@ -10,7 +10,7 @@ import FinalCTA from "../../components/FinalCTA";
 import Head from "next/head";
 
 export const metadata = {
-  title: "Digital Marketing Services - Lead Generation, SEO, Web Scraping & More | InfoNav",
+  title: "Digital Marketing Services: SEO, Lead Gen & Web Scraping",
   description:
     "At InfoNav, we offer a wide range of digital marketing services, including lead generation, SEO, Python scraping, influencer research, and web development. Our client-focused approach ensures measurable results and sustainable business growth.",
   keywords:

@@ -3,7 +3,7 @@ import FinalCTA from "../../../components/FinalCTA";
 import FrontEnd from "../../../components/FrontEndDevelopment";
 
 export const metadata = {
-  title: "Front-End Development Services | Responsive & SEO-Friendly Websites",
+  title: "Front-End Development Services | Responsive & SEO Websites",
   description:
     "Professional front-end development services with React, Vue, and modern frameworks. Info Navigators builds responsive, SEO-optimized websites that drive results.",
   keywords:

@@ -3,7 +3,7 @@ import FinalCTA from "../../../components/FinalCTA";
 import Influencer from "../../../components/InfluencerResearch";
 
 export const metadata = {
-  title: "Influencer Research Services | Instagram, Facebook, YouTube & TikTok Experts",
+  title: "Influencer Research Services | Instagram, TikTok & YouTube Experts",
   description:
     "Expert Influencer Research Services to find authentic Instagram, Facebook, YouTube, and TikTok influencers. Verified, data-driven influencer research for business growth.",
   keywords:

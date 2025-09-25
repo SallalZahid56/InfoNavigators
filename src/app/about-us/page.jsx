@@ -8,7 +8,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 export const metadata = {
-  title: "About InfoNav - Leading Digital Marketing, Lead Generation & Data Solutions",
+  title: "About InfoNav: Digital Marketing, Lead Gen & Data Solutions",
   description:
     "At InfoNav, we specialize in innovative digital marketing solutions including lead generation, internet research, Python scraping, and influencer research. Our mission is to drive business success with customized strategies that empower long-term growth and sustainability.",
   keywords:

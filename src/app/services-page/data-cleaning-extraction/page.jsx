@@ -3,7 +3,7 @@ import FinalCTA from "../../../components/FinalCTA";
 import DataCleaningExtractionSections from "../../../components/DataCleaningExtractionSection";
 
 export const metadata = {
-  title: "Data Cleaning & Export Services | Accurate Business Data Solutions",
+  title: "Data Cleaning & Export Services | Accurate Data Solutions",
   description:
     "Professional data cleaning & formatting services to ensure accuracy, consistency, and usability. From database cleanup to multi-source data integration, we turn messy data into actionable insights.",
   keywords:

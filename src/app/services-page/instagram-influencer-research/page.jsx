@@ -3,7 +3,7 @@ import FinalCTA from "../../../components/FinalCTA";
 import InstagramInfluencer from "../../../components/InstagramInfluencerResearch";
 
 export const metadata = {
-  title: "Instagram Influencer Research Services | Verified Influencer Discovery",
+  title: "Instagram Influencer Research Services | Verified Discovery",
   description:
     "Expert Instagram Influencer Research to find authentic, verified creators that grow your brand. Data-driven influencer discovery for B2B & B2C campaigns.",
   keywords:

@@ -3,7 +3,7 @@ import FinalCTA from "../../../components/FinalCTA";
 import PythonWebScrapingSection from "../../../components/PythonWebScraping";
 
 export const metadata = {
-  title: "Python Web Scraping Services with Libraries | Data Extraction Experts",
+  title: "Python Web Scraping Services | Data Extraction Experts",
   description:
     "Professional Python web scraping services using BeautifulSoup, Scrapy, Selenium & Pandas. Extract, clean, and export accurate web data for business growth.",
   keywords:
