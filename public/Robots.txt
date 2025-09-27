@@ -4,9 +4,5 @@
 User-agent: *
 Allow: /
 
-# Block unnecessary files/folders
-Disallow: /assets/
-Disallow: /vite.svg
-
 # Sitemap location
 Sitemap: https://infonavigators.com/sitemap.xml
