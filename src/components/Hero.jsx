@@ -35,7 +35,7 @@ const Hero = () => {
               Get Free Sample ⮕
             </a>
             <a
-              href="/portfolio"
+              href="/portfolio/"
               className="bg-brandOrange text-white font-heading px-6 sm:px-7 py-2.5 sm:py-3 rounded-full shadow hover:bg-black transition flex items-center justify-center text-sm sm:text-base md:text-lg"
             >
               Our Portfolio ⮕
