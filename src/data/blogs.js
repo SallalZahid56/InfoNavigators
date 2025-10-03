@@ -18,7 +18,7 @@ export const blogs = [
 
   {
     slug: "seo-boost-tips",
-    title: "10 SEO Tips to Boost Your Rankings in 2025 | Proven Strategies",
+    title: "10 SEO Tips to Boost Your Rankings in 2025",
     description:
       "Discover 10 powerful SEO tips to boost your rankings in 2025. Learn how to optimize content, improve site speed, build authority, and follow Google’s latest updates for long-term SEO success.",
     date: "2025-09-18",
@@ -33,7 +33,7 @@ export const blogs = [
 
   {
     slug: "beginners-guide-web-scraping-python",
-    title: "Beginner’s Guide to Web Scraping with Python | Infonav",
+    title: "Beginner’s Guide to Web Scraping with Python",
     description: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
     date: "2025-08-20",
     image: "/python-blog.jpg",
@@ -45,7 +45,7 @@ export const blogs = [
 
   {
     slug: "ai-tools-freelancers-pakistan-2025",
-    title: "What is the easiest AI tool for beginners | Infonav",
+    title: "What is the easiest AI tool for beginners",
     description: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
     date: "2025-08-20",
     image: "/images.jpg",
