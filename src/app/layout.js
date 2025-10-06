@@ -24,7 +24,7 @@ export const metadata = {
   // ✅ Add favicon here
   icons: {
     icon: "/favicon.png",        // default favicon
-    shortcut: "/favicon.ico",    // browser shortcut icon
+    shortcut: "/favicon.png",    // browser shortcut icon
     apple: "/favicon.png",       // for iOS devices
   },
 };

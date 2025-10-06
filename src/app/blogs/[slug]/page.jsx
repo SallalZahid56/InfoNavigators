@@ -3,6 +3,8 @@ import SeoBoostTipsPage from "@/components/SeoBoostTipsPage";
 import WebScrapingGuidePage from "@/components/WebScrapingGuidePage";
 import AiToolsPakistanPage from "@/components/AiToolsPakistanPage";
 import { blogs } from "../../../data/blogs"; // adjust path if different
+import InternetResearchPage from "@/components/InternetResearchBlog";
+
 
 // ✅ Generate static paths
 export async function generateStaticParams() {
@@ -52,6 +54,11 @@ export default async function BlogDetail({ params }) {
   if (slug === "ai-tools-freelancers-pakistan-2025") {
     return <AiToolsPakistanPage blog={blog} />;
   }
+
+  if (slug === "internet-research-services") {
+    return <InternetResearchPage blog={blog} />;
+  }
+
 
   // ✅ Default layout
   return (
