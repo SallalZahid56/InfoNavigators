@@ -54,21 +54,54 @@ export const blogs = [
     keywords: "AI tools for freelancers in Pakistan 2025, Best AI tools in Pakistan Urdu English, Freelancing with AI tools Pakistan, Latest AI apps for freelancers 2025, AI productivity tools Pakistan, AI tools pricing in Pakistan, Artificial intelligence freelancing tools, AI tools for students and freelancers",
     category: "General"
   },
-  
+
   {
-  slug: "internet-research-services",
-  title: "Professional Internet Research Services for Accurate Data",
-  description:
-    "Unlock precise business insights with our expert Internet Research Services. From market trends to competitor analysis, we deliver verified data that drives smarter business decisions.",
-  date: "2025-10-04",
-  image: "/internet-blog.jpg",
-  metaTitle:
-    "Top Internet Research Services for Accurate Data",
-  metaDescription:
-    "Boost decisions with expert Internet Research Services. Get accurate data, deep insights, and tailored solutions for your business growth.",
-  keywords:
-    "internet research services, data research, market analysis, competitor research, verified business data, online data collection, professional research outsourcing, data accuracy, business insights, research company",
-  category: "Data Research"
-}
+    slug: "internet-research-services",
+    title: "Professional Internet Research Services for Accurate Data",
+    description:
+      "Unlock precise business insights with our expert Internet Research Services. From market trends to competitor analysis, we deliver verified data that drives smarter business decisions.",
+    date: "2025-10-04",
+    image: "/internet-blog.jpg",
+    metaTitle:
+      "Top Internet Research Services for Accurate Data",
+    metaDescription:
+      "Boost decisions with expert Internet Research Services. Get accurate data, deep insights, and tailored solutions for your business growth.",
+    keywords:
+      "internet research services, data research, market analysis, competitor research, verified business data, online data collection, professional research outsourcing, data accuracy, business insights, research company",
+    category: "Data Research"
+  },
+
+
+  {
+    slug: "digital-marketing-agency",
+    title: "Why Digital Marketing Agencies Matter",
+    description:
+      "Learn why hiring a digital marketing agency like InfoNav helps businesses grow online through expert, data-driven strategies.",
+    date: "2025-10-04",
+    image: "/digital-marketing-agency.jpeg",
+    metaTitle: "Why Digital Marketing Agencies Matter",
+    metaDescription:
+      "Discover why hiring a digital marketing agency like InfoNav helps businesses grow online. Learn how expert strategies turn traffic into real results.",
+    keywords:
+      "digital marketing agency, online marketing services, SEO strategy, lead generation, business growth, InfoNav, data-driven marketing, digital strategy",
+    category: "Digital Marketing"
+  },
+
+  {
+    slug: "core-web-vitals-2025",
+    title: "Core Web Vitals in 2025: The SEO Game Changer",
+    description: "Understand Google’s latest Core Web Vitals metrics in 2025 and how they impact your SEO and user experience.",
+    date: "2025-10-05",
+    image: "/core-web-vitals.jpg",
+    metaTitle: "Core Web Vitals in 2025 | Improve SEO & UX with InfoNav",
+    metaDescription: "Master Core Web Vitals in 2025. Learn how LCP, INP, and CLS affect your rankings and site experience.",
+    keywords: "Core Web Vitals 2025, SEO metrics, website speed, INP, LCP, CLS, performance optimization, InfoNav",
+    category: "SEO",
+    canonical: "https://infonav.co/blogs/core-web-vitals-2025"
+  },
+
+
+
+
 
 ];

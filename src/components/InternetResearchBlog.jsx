@@ -72,6 +72,8 @@ export default function InternetResearchPage({ blog }) {
                         <p className="text-gray-700">
                             Our approach focuses on speed, precision, and data quality. By combining structured
                             research methods with advanced tools, we uncover valuable insights you can rely on.
+
+                            From competitor strategies to market trends, every piece of data we deliver is clean, organized, and ready to support smarter decisions.
                         </p>
                     </div>
 
@@ -91,11 +93,16 @@ export default function InternetResearchPage({ blog }) {
                         💡 Why Internet Research Matters for Businesses
                     </h3>
                     <p className="text-gray-700 max-w-4xl mx-auto">
-                        The challenge isn’t finding data—it’s finding reliable, relevant, and up-to-date
+
+                        As a business grows, the volume of data it needs grows too. Market research, customer behavior, emerging trends, competitor analysis—there’s a goldmine of information on the internet.
+
+                        The challenge isn’t finding data it’s finding reliable, relevant, and up-to-date
                         insights that align with your business goals. That’s where Internet Research Services
                         come in. Instead of drowning in unstructured information, we deliver verified, organized
                         research that supports confident decision-making.
                     </p>
+
+                    <p className="text-gray-700 max-w-4xl mx-auto">Many organizations underestimate how much their strategy depends on research quality. Data-driven insights help spot growth opportunities, reduce risks, and sharpen operations. For example, a startup might use Lead Generation Services to build targeted outreach campaigns, while marketing agencies rely on market trend reports to craft stronger strategies. Every data point is collected carefully, verified manually, and presented clearly.</p>
                 </section>
 
                 {/* PROCESS SECTION */}
@@ -107,19 +114,19 @@ export default function InternetResearchPage({ blog }) {
                         {[
                             {
                                 title: "1️⃣ Goal Discovery",
-                                desc: "We identify your objectives, audience, and research requirements.",
+                                desc: "We understand your business objectives, audience, and research needs—whether it’s competitor analysis, product research, or outreach.",
                             },
                             {
                                 title: "2️⃣ Strategic Planning",
-                                desc: "We design a targeted framework using trusted sources and keywords.",
+                                desc: " We build a customized research framework using targeted keywords, trusted web sources, and advanced search techniques.",
                             },
                             {
                                 title: "3️⃣ Data Verification",
-                                desc: "We cross-check each data point to maintain accuracy and relevance.",
+                                desc: "Using both manual and automated methods, we gather and cross-check data to ensure accuracy.",
                             },
                             {
                                 title: "4️⃣ Organized Delivery",
-                                desc: "We present clean, actionable reports tailored to your goals.",
+                                desc: "We structure everything into clear, actionable reports that align with marketing and SEO strategies.",
                             },
                         ].map((step, i) => (
                             <div
@@ -223,7 +230,7 @@ export default function InternetResearchPage({ blog }) {
                         time, improves accuracy, and drives measurable growth.
                     </p>
                     <a
-                        href="/contact"
+                        href="https://api.whatsapp.com/send?phone=923090266690&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
                         className="inline-block bg-orange-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-orange-700 transition-all"
                     >
                         Contact Us Today

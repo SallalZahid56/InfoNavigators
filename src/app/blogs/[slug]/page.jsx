@@ -4,6 +4,8 @@ import WebScrapingGuidePage from "@/components/WebScrapingGuidePage";
 import AiToolsPakistanPage from "@/components/AiToolsPakistanPage";
 import { blogs } from "../../../data/blogs"; // adjust path if different
 import InternetResearchPage from "@/components/InternetResearchBlog";
+import DigitalMarketingBlog from "@/components/DigitalMarketingBlog";
+import CoreWebVitals2025Page from "@/components/CoreWebVitals2025Page";
 
 
 // ✅ Generate static paths
@@ -57,6 +59,14 @@ export default async function BlogDetail({ params }) {
 
   if (slug === "internet-research-services") {
     return <InternetResearchPage blog={blog} />;
+  }
+
+  if (slug === "digital-marketing-agency") {
+    return <DigitalMarketingBlog blog={blog} />;
+  }
+
+  if (slug === "core-web-vitals-2025") {
+    return <CoreWebVitals2025Page blog={blog} />;
   }
 
 

@@ -41,11 +41,10 @@ export default function BlogsPage() {
         <div className="flex flex-wrap gap-3 mb-10">
           <button
             onClick={() => setSelectedCategory("All")}
-            className={`px-4 py-2 rounded-lg border ${
-              selectedCategory === "All"
+            className={`px-4 py-2 rounded-lg border ${selectedCategory === "All"
                 ? "bg-brandOrange text-white"
                 : "bg-white text-gray-700"
-            }`}
+              }`}
           >
             All
           </button>
@@ -53,11 +52,10 @@ export default function BlogsPage() {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-4 py-2 rounded-lg border ${
-                selectedCategory === cat
+              className={`px-4 py-2 rounded-lg border ${selectedCategory === cat
                   ? "bg-brandOrange text-white"
                   : "bg-white text-gray-700"
-              }`}
+                }`}
             >
               {cat}
             </button>
@@ -67,24 +65,29 @@ export default function BlogsPage() {
         {/* Blogs Grid */}
         <div className="grid md:grid-cols-2 gap-8">
           {filteredBlogs.map((blog) => (
-            <div key={blog.slug} className="bg-white rounded-xl shadow p-6">
-              <Image
-                src={blog.image}
-                alt={blog.title}
-                width={600}
-                height={400}
-                className="rounded-lg mb-4"
-              />
-              <h3 className="text-2xl font-semibold">{blog.title}</h3>
-              <p className="text-gray-600 mt-2">{blog.description}</p>
+            <Link
+              href={`/blogs/${blog.slug}`}
+              key={blog.slug}
+              className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all block group"
+            >
+              <div className="overflow-hidden rounded-lg mb-4">
+                <Image
+                  src={blog.image}
+                  alt={blog.title}
+                  width={600}
+                  height={400}
+                  className="rounded-lg group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <h3 className="text-2xl font-semibold group-hover:text-brandOrange transition-colors">
+                {blog.title}
+              </h3>
+              <p className="text-gray-600 mt-2 line-clamp-2">{blog.description}</p>
               <p className="text-sm text-gray-500 mt-1">{blog.date}</p>
-              <Link
-                href={`/blogs/${blog.slug}`}
-                className="text-blue-600 font-semibold mt-4 block hover:underline"
-              >
+              <span className="text-blue-600 font-semibold mt-4 inline-block group-hover:underline">
                 Read More →
-              </Link>
-            </div>
+              </span>
+            </Link>
           ))}
         </div>
       </section>
