@@ -1,96 +1,23 @@
-"use client";
-import { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { blogs } from "../../data/blogs";
-import Head from "next/head";
+import BlogsList from "@/components/BlogsList"; // client component
+import { blogs } from "@/data/blogs";
 
-// SEO meta values
-const meta = {
+export const metadata = {
   title: "InfoNav Blog | Expert insights on digital marketing",
   description:
     "Explore expert tips, case studies, and guides on SEO, digital marketing, and technology trends at InfoNavigators Blog.",
   keywords:
     "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
+  alternates: {
+    canonical: "https://infonavigators.com/blogs",
+  },
 };
 
 export default function BlogsPage() {
-
-  // Unique categories list
-  const categories = [...new Set(blogs.map((b) => b.category))];
-  const [selectedCategory, setSelectedCategory] = useState("All");
-
-  // Filter blogs based on category
-  const filteredBlogs =
-    selectedCategory === "All"
-      ? blogs
-      : blogs.filter((b) => b.category === selectedCategory);
-
   return (
-    <>
-      <Head>
-        <title>{meta.title}</title>
-        <meta name="description" content={meta.description} />
-        <meta name="keywords" content={meta.keywords} />
-      </Head>
-
-      <section className="max-w-6xl mx-auto px-6 py-18 mt-32 mb-10">
-        <h1 className="text-4xl font-bold mb-8">Our Blogs</h1>
-
-        {/* Category Filter */}
-        <div className="flex flex-wrap gap-3 mb-10">
-          <button
-            onClick={() => setSelectedCategory("All")}
-            className={`px-4 py-2 rounded-lg border ${selectedCategory === "All"
-                ? "bg-brandOrange text-white"
-                : "bg-white text-gray-700"
-              }`}
-          >
-            All
-          </button>
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setSelectedCategory(cat)}
-              className={`px-4 py-2 rounded-lg border ${selectedCategory === cat
-                  ? "bg-brandOrange text-white"
-                  : "bg-white text-gray-700"
-                }`}
-            >
-              {cat}
-            </button>
-          ))}
-        </div>
-
-        {/* Blogs Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
-          {filteredBlogs.map((blog) => (
-            <Link
-              href={`/blogs/${blog.slug}`}
-              key={blog.slug}
-              className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all block group"
-            >
-              <div className="overflow-hidden rounded-lg mb-4">
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  width={600}
-                  height={400}
-                  className="rounded-lg group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <h3 className="text-2xl font-semibold group-hover:text-brandOrange transition-colors">
-                {blog.title}
-              </h3>
-              <p className="text-gray-600 mt-2 line-clamp-2">{blog.description}</p>
-              <p className="text-sm text-gray-500 mt-1">{blog.date}</p>
-              <span className="text-blue-600 font-semibold mt-4 inline-block group-hover:underline">
-                Read More →
-              </span>
-            </Link>
-          ))}
-        </div>
-      </section>
-    </>
+    <section className="max-w-6xl mx-auto px-6 py-18 mt-32 mb-10">
+      <h1 className="text-4xl font-bold mb-8">Our Blogs</h1>
+      {/* This part is rendered client-side for interactivity */}
+      <BlogsList blogs={blogs} />
+    </section>
   );
 }

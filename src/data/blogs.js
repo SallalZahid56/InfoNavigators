@@ -9,6 +9,7 @@ export const blogs = [
     metaTitle: "The Complete Guide to SEO in 2025 | Strategies to Rank Higher",
     metaDescription: "Discover the ultimate SEO guide for 2025. Learn the latest Google ranking factors, on-page SEO, technical tips, content strategies, and link building techniques to grow your organic traffic.",
     keywords: "SEO guide 2025, complete SEO strategies, Google ranking factors, SEO checklist 2025, technical SEO tips, SEO content strategy, mobile-first SEO, schema markup SEO, SEO tools 2025, increase organic traffic",
+    canonical: "https://infonav.co/blogs/seo-tips",
     category: "SEO"
   },
 
@@ -26,6 +27,7 @@ export const blogs = [
     metaTitle: "10 SEO Tips to Boost Your Rankings in 2025 | Proven Strategies",
     metaDescription: "Discover 10 powerful SEO tips to boost your rankings in 2025. Learn how to optimize content, improve site speed, build authority, and follow Google’s latest updates for long-term SEO success.",
     keywords: "SEO tips 2025, boost search rankings, SEO best practices, Google updates 2025, on-page SEO, technical SEO, content optimization, link building, organic traffic growth, mobile SEO",
+    canonical: "https://infonav.co/blogs/seo-boost-tips",
     category: "SEO"
   },
 
@@ -40,6 +42,7 @@ export const blogs = [
     metaTitle: "Beginner’s Guide to Web Scraping with Python | Infonav,",
     metaDescription: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
     keywords: "web scraping python, python scraping tutorial, beginners guide scraping, BeautifulSoup tutorial, Selenium Python scraping, data extraction python, web automation python, python requests scraping, learn web scraping, python scraping examples",
+    canonical: "https://infonav.co/blogs/beginners-guide-web-scraping-python",
     category: "Python"
   },
 
@@ -52,6 +55,7 @@ export const blogs = [
     metaTitle: "What is the easiest AI tool for beginners | Infonav",
     metaDescription: "Discover the best AI tools for freelancers in Pakistan (2025). Compare pricing, Urdu/English support, local availability, and alternatives. Boost your freelancing career with AI-powered productivity apps.",
     keywords: "AI tools for freelancers in Pakistan 2025, Best AI tools in Pakistan Urdu English, Freelancing with AI tools Pakistan, Latest AI apps for freelancers 2025, AI productivity tools Pakistan, AI tools pricing in Pakistan, Artificial intelligence freelancing tools, AI tools for students and freelancers",
+    canonical: "https://infonav.co/blogs/ai-tools-freelancers-pakistan-2025",
     category: "General"
   },
 
@@ -68,6 +72,7 @@ export const blogs = [
       "Boost decisions with expert Internet Research Services. Get accurate data, deep insights, and tailored solutions for your business growth.",
     keywords:
       "internet research services, data research, market analysis, competitor research, verified business data, online data collection, professional research outsourcing, data accuracy, business insights, research company",
+    canonical: "https://infonav.co/blogs/internet-research-services",
     category: "Data Research"
   },
 
@@ -84,6 +89,7 @@ export const blogs = [
       "Discover why hiring a digital marketing agency like InfoNav helps businesses grow online. Learn how expert strategies turn traffic into real results.",
     keywords:
       "digital marketing agency, online marketing services, SEO strategy, lead generation, business growth, InfoNav, data-driven marketing, digital strategy",
+    canonical: "https://infonav.co/blogs/digital-marketing-agency",
     category: "Digital Marketing"
   },
 
@@ -99,6 +105,37 @@ export const blogs = [
     category: "SEO",
     canonical: "https://infonav.co/blogs/core-web-vitals-2025"
   },
+
+
+  {
+    slug: "b2b-lead-generation-2025",
+    title: "B2B Lead Generation Strategies for 2025",
+    description: "Discover actionable B2B lead generation strategies for 2025 — from LinkedIn list building to email marketing tools like Apollo, Snov.io, and Seamless.ai. Learn how InfoNav helps you grow.",
+    date: "2025-10-10",
+    image: "/core-web-vitals.jpg",
+    metaTitle: "Proven B2B Lead Generation Strategies for 2025",
+    metaDescription: "Discover actionable B2B lead generation strategies for 2025 — from LinkedIn list building to email marketing tools like Apollo, Snov.io, and Seamless.ai. Learn how InfoNav helps you grow.",
+    keywords: "B2B Lead Generation, Lead Generation 2025, LinkedIn List Building, Contact Email List Building, Email Marketing Tools, Apollo.io, Snov.io, Seamless.ai",
+    category: "Lead Generation",
+    canonical: "https://infonav.co/blogs/b2b-lead-generation-2025"
+  },
+
+
+  {
+  slug: "changing-nature-of-search-ai-2025",
+  title: "Changing Nature of Search and Discovery | AI and Internet Research 2025",
+  description:
+    "Discover how AI is transforming search and discovery for virtual assistants and businesses. Learn how InfoNavigators uses Internet Research, Market Research, and Data Verification to drive smarter lead generation.",
+  keywords:
+    "AI search 2025, internet research VA, contact list building, lead generation USA, data verification, market research services, InfoNavigators",
+  category: "Lead Generation",
+  date: "2025-10-12",
+  image: "/changing-nature.jpg",
+  metaTitle: "Changing Nature of Search and Discovery | AI and Internet Research 2025",
+  metaDescription:
+    "Discover how AI is transforming search and discovery for virtual assistants and businesses. Learn how InfoNavigators uses Internet Research, Market Research, and Data Verification to drive smarter lead generation.",
+  canonical: "https://infonav.co/blogs/changing-nature-of-search-ai-2025",
+}
 
 
 

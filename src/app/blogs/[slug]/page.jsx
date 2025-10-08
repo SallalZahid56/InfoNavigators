@@ -6,6 +6,8 @@ import { blogs } from "../../../data/blogs"; // adjust path if different
 import InternetResearchPage from "@/components/InternetResearchBlog";
 import DigitalMarketingBlog from "@/components/DigitalMarketingBlog";
 import CoreWebVitals2025Page from "@/components/CoreWebVitals2025Page";
+import B2BLeadGeneration2025 from "@/components/B2BLeadGeneration2025";
+import ChangingNatureOfSearchPage from "@/components/ChangingNatureOfSearchPage";
 
 
 // ✅ Generate static paths
@@ -29,10 +31,19 @@ export async function generateMetadata({ params }) {
 
   return {
     title: blog.metaTitle || blog.title,
-    description: blog.metaDescription || blog.excerpt || "Read this blog post on InfoNavigators.",
-    keywords: blog.keywords || "SEO, digital marketing, web scraping, business growth",
+    description:
+      blog.metaDescription ||
+      blog.excerpt ||
+      "Read this blog post on InfoNavigators.",
+    keywords:
+      blog.keywords ||
+      "SEO, digital marketing, web scraping, business growth",
+    alternates: {
+      canonical: blog.canonical || `https://infonav.co/blogs/${slug}`,
+    },
   };
 }
+
 
 export default async function BlogDetail({ params }) {
   const { slug } = await params;
@@ -67,6 +78,14 @@ export default async function BlogDetail({ params }) {
 
   if (slug === "core-web-vitals-2025") {
     return <CoreWebVitals2025Page blog={blog} />;
+  }
+
+  if (slug === "b2b-lead-generation-2025") {
+    return <B2BLeadGeneration2025 blog={blog} />;
+  }
+
+  if (slug === "changing-nature-of-search-ai-2025") {
+    return <ChangingNatureOfSearchPage blog={blog} />;
   }
 
 
