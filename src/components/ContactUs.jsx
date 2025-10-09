@@ -11,7 +11,7 @@ export default function ContactPage() {
         {/* Intro Section */}
         <section className="max-w-4xl mx-auto mt-20 px-6 py-12 text-center rounded-xl shadow-lg">
           <h1 className="text-4xl font-bold text-brandOrange mb-4">
-            Get in Touch with InfoNavigators
+            Get in Touch with Us
           </h1>
           <p className="text-lg text-black mb-6">
             Looking for expert help with lead generation, web scraping, SEO, or

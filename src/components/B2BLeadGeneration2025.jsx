@@ -159,7 +159,7 @@ export default function B2BLeadGeneration2025() {
 
       {/* HERO */}
       <section
-        className="relative h-[72vh] flex items-center justify-center text-center text-white"
+        className="relative h-[100vh] flex items-center justify-center text-center text-white"
         aria-label="Hero - Proven B2B Lead Generation Strategies"
       >
         <div
@@ -198,7 +198,7 @@ export default function B2BLeadGeneration2025() {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1606788075761-4f22fdfd1e4f?auto=format&fit=crop&w=1000&q=80"
+              src="/b2b-leads.png"
               alt="What is B2B Lead Generation"
               width={900}
               height={600}

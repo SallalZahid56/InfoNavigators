@@ -7,29 +7,23 @@ export default function ChangingNatureOfSearchPage() {
   return (
     <article className="bg-white text-gray-800 leading-relaxed">
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center text-center bg-black/60 text-white mt-16">
-        <Image
-          src="/changing-nature.jpg"
-          alt="AI Search and Discovery"
-          fill
-          className="object-cover -z-10"
-          priority
+      <section className="relative h-[90vh] flex items-center justify-center text-center text-white mt-16 overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/changing-nature.jpg')" }}
         />
-        <div className="max-w-4xl px-6">
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-4xl md:text-5xl font-bold mb-4"
-          >
+        <div className="absolute inset-0 bg-black/60" />
+
+        <div className="max-w-4xl px-6 z-10 relative">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Changing Nature of Search and Discovery:
             <span className="text-brandOrange block">
               How AI Is Transforming Internet Research and Lead Generation
             </span>
-          </motion.h1>
+          </h1>
           <p className="text-lg text-gray-200">
-            Discover how AI reshapes search, data verification, and market
-            research — and how InfoNavigators leads this transformation.
+            Discover how AI reshapes search, data verification, and market research —
+            and how InfoNavigators leads this transformation.
           </p>
         </div>
       </section>
