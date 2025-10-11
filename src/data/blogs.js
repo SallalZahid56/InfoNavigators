@@ -135,9 +135,26 @@ export const blogs = [
   metaDescription:
     "Discover how AI is transforming search and discovery for virtual assistants and businesses. Learn how InfoNavigators uses Internet Research, Market Research, and Data Verification to drive smarter lead generation.",
   canonical: "https://infonavigators.com/blogs/changing-nature-of-search-ai-2025",
-}
+},
 
 
+{
+  slug: "google-helpful-content-update-eeat",
+  title: "How Google’s Helpful Content Update & E-E-A-T Affect Small Websites in 2025",
+  description:
+    "Discover how Google’s Helpful Content Update and E-E-A-T impact small websites in 2025. Learn how to build trust, recover rankings, and improve SEO performance with InfoNav’s expert strategies.",
+  date: "2025-10-14",
+  image: "/11th-blog.jpg",
+  metaTitle:
+    "How Google’s Helpful Content Update & E-E-A-T Affect Small Websites in 2025",
+  metaDescription:
+    "Discover how Google’s Helpful Content Update and E-E-A-T impact small websites in 2025. Learn how to build trust, recover rankings, and improve SEO performance with InfoNav’s expert strategies.",
+  keywords:
+    "Google Helpful Content Update 2025, E-E-A-T SEO, Small Business SEO, Content Quality Update, SEO Recovery, Website Authority, Experience Expertise Authority Trust, InfoNav",
+  canonical:
+    "https://infonavigators.com/blog/google-helpful-content-update-eeat/",
+  category: "SEO"
+},
 
 
 

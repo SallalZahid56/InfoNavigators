@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
+import Link from "next/link";
 
 export default function ChangingNatureOfSearchPage() {
   return (
@@ -149,6 +150,19 @@ export default function ChangingNatureOfSearchPage() {
               <li>• TikTok & Instagram: Ideal for trend discovery.</li>
               <li>• YouTube: A hub for tutorials and market analysis.</li>
             </ul>
+            import Link from "next/link";
+
+            <p className="mb-4">
+              InfoNavigators’{" "}
+              <Link
+                href="/services-page/market-research"
+                className="text-blue-600 hover:underline font-semibold"
+              >
+                Market Research Services
+              </Link>{" "}
+              help clients identify and analyze their target audience’s digital footprint —
+              across both traditional and emerging search platforms.
+            </p>
           </div>
         </div>
       </section>
@@ -180,16 +194,20 @@ export default function ChangingNatureOfSearchPage() {
           </h2>
           <ol className="list-decimal list-inside space-y-3">
             <li>
-              <strong>Accuracy and Verification:</strong> AI tools can produce
-              outdated or false data. Always validate results.
+              <strong>Accuracy and Verification:</strong> AI tools sometimes produce “hallucinated” or outdated results. Relying solely on them without human verification can risk reputation and revenue.
+              Solution: Cross-check data using verified sources — a core part of our <Link
+                href="/services-page/market-research"
+                className="text-blue-600 hover:underline font-semibold"
+              >
+              Data Verification
+              </Link>{" "} workflow.
             </li>
             <li>
-              <strong>Privacy and Compliance:</strong> Stay compliant with GDPR
-              and CCPA when gathering public data.
+              <strong>Privacy and Compliance:</strong> As AI tools scrape vast online data, privacy laws like GDPR and CCPA require strict compliance. Responsible research firms must ensure that data collection respects user rights.
+
             </li>
             <li>
-              <strong>Decline in Website Traffic:</strong> Focus on brand trust
-              and authority to offset reduced click-throughs.
+              <strong>Decline in Website Traffic:</strong> With AI summarizing information directly on search pages, fewer users click through to websites. Businesses must focus on building brand authority and trust to remain discoverable.
             </li>
           </ol>
         </div>
@@ -218,11 +236,26 @@ export default function ChangingNatureOfSearchPage() {
           </h3>
           <p>
             Explore our expert services in{" "}
-            <strong>Internet Research, Market Research,</strong> and{" "}
-            <strong>Data Verification</strong>.
+            <strong><Link
+                href="/services-page/internet-research"
+                className="text-blue-600 hover:underline font-semibold"
+              >
+              Internet Research
+              </Link>{" "} <Link
+                href="/services-page/market-research"
+                className="text-blue-600 hover:underline font-semibold"
+              >
+                Market Research
+              </Link>{" "}</strong> and{" "}
+            <Link
+                href="/services-page/data-verification"
+                className="text-blue-600 hover:underline font-semibold"
+              >
+              Data Verification
+              </Link>{" "}
           </p>
           <a
-            href="/services"
+            href="/services-page"
             className="inline-block mt-4 bg-brandOrange text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition"
           >
             Explore Services →
