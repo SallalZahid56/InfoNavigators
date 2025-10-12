@@ -156,6 +156,24 @@ export const blogs = [
   category: "SEO"
 },
 
+{
+  slug: "email-vs-linkedin-lead-generation-2025",
+  title: "How Google’s Helpful Content Update & E-E-A-T Affect Small Websites in 2025",
+  description:
+    "Discover how Google’s Helpful Content Update and E-E-A-T impact small websites in 2025. Learn how to build trust, recover rankings, and improve SEO performance with InfoNav’s expert strategies.",
+  date: "2025-10-14",
+  image: "/email-vs-linkedinn.png",
+  metaTitle:
+    "Email vs LinkedIn Lead Generation in 2025: Which Converts Better?",
+  metaDescription:
+    "Discover which converts better in 2025 — Email or LinkedIn Lead Generation. Learn about B2B email list building, LinkedIn lead generation cost, and white-label lead solutions with InfoNavigators.",
+  keywords:
+    "done for you linkedin lead generation, linkedin lead generation companies, linkedin lead generation cost, white label linkedin lead generation, b2b email list building, email list building pop-up, how to build a b2b email list, how to build a pre-launch email list, how to build an email list for wellness business, amy porterfield email list building, benefits of building an email list, best email list builder, best email list building course, best free email list builder, best way to build an email list, best way to build email list",
+  canonical:
+    "https://infonavigators.com/blog/email-vs-linkedin-lead-generation-2025/",
+  category: "Lead Generation"
+},
+
 
 
 ];
