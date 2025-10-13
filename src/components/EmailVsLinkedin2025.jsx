@@ -69,7 +69,7 @@ export default function EmailVsLinkedin2025() {
                         href="/services-page/email-list-building"
                         className="text-blue-600 hover:underline font-semibold"
                     >
-                        B2BEmailListBuilding
+                        B2B EmailList Building
                     </Link>
                     , while others lean toward done-for-you LinkedIn lead generation solutions that deliver hyper-targeted results.
                 </p>
@@ -107,7 +107,7 @@ export default function EmailVsLinkedin2025() {
                                 href="/services-page/email-list-building"
                                 className="text-blue-600 hover:underline font-semibold"
                             >
-                                B2BEmailListBuilding
+                                B2B EmailList Building
                             </Link> and <Link
                                 href="/services-page/data-verification"
                                 className="text-blue-600 hover:underline font-semibold"

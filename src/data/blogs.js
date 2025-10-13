@@ -158,9 +158,9 @@ export const blogs = [
 
 {
   slug: "email-vs-linkedin-lead-generation-2025",
-  title: "How Google’s Helpful Content Update & E-E-A-T Affect Small Websites in 2025",
+  title: "Email vs LinkedIn Lead Generation: Which Converts Better in 2025?",
   description:
-    "Discover how Google’s Helpful Content Update and E-E-A-T impact small websites in 2025. Learn how to build trust, recover rankings, and improve SEO performance with InfoNav’s expert strategies.",
+    "DIn today’s fast-evolving digital world, every business is searching for smarter ways to reach qualified prospects. Among all available methods, two continue to dominate the B2B landscape — Email and LinkedIn Lead Generation.",
   date: "2025-10-14",
   image: "/email-vs-linkedinn.png",
   metaTitle:
