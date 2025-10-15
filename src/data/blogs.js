@@ -174,6 +174,40 @@ export const blogs = [
   category: "Lead Generation"
 },
 
+{
+    slug: "top-internet-research-tasks",
+    title: "Top Internet Research Tasks You Should Outsource in 2025",
+    description:
+      "In the fast-moving digital era of 2025, information drives every business decision. Whether it’s understanding market trends, identifying potential clients, or analyzing competitors — accurate online data is what keeps companies ahead of the curve.",
+    date: "2025-10-15",
+    image: "/outsourcing.jpg",
+    metaTitle:
+      "Top Internet Research Tasks You Should Outsource in 2025",
+    metaDescription:
+      "Discover the top internet research tasks to outsource in 2025. Learn how hiring expert virtual assistants for research can save time, reduce costs, and improve data accuracy with InfoNavigators.",
+    keywords:
+      "internet research tasks to outsource, outsource internet research, virtual assistant internet research, online research services, data verification outsourcing, market research outsourcing, competitor analysis VA, InfoNavigators",
+    canonical: "https://infonavigators.com/blogs/top-internet-research-tasks",
+    category: "Data Research"
+  },
+
+
+  {
+  slug: "automation-tools-lead-generation-2025",
+  title: "Best Automation Tools for Lead Generation and Data Management in 2025",
+  description:
+    "Discover the best automation tools for lead generation and data management in 2025. Learn how marketers and agencies use automation to boost traffic, leads, and ROI.",
+  date: "2025-10-18",
+  image: "/automation-tools.jpg",
+  metaTitle:
+    "Best Automation Tools for Lead Generation and Data Management in 2025",
+  metaDescription:
+    "Discover the best automation tools for lead generation and data management in 2025. Learn how marketers and agencies use automation to boost traffic, leads, and ROI.",
+  keywords:
+    "automation tools for lead generation, lead generation automation software, B2B lead automation, data management tools 2025, AI tools for lead generation, marketing automation platforms, InfoNavigators",
+  canonical: "https://infonavigators.com/blogs/automation-tools-lead-generation-2025",
+  category: "Lead Generation"
+},
 
 
 ];

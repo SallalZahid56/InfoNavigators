@@ -8,8 +8,11 @@ import DigitalMarketingBlog from "@/components/DigitalMarketingBlog";
 import CoreWebVitals2025Page from "@/components/CoreWebVitals2025Page";
 import B2BLeadGeneration2025 from "@/components/B2BLeadGeneration2025";
 import ChangingNatureOfSearchPage from "@/components/ChangingNatureOfSearchPage";
-import HelpfulContentEEAT2025 from "@/components/HelpfulContentEEAT2025"; 
+import HelpfulContentEEAT2025 from "@/components/HelpfulContentEEAT2025";
 import EmailVsLinkedin2025 from "@/components/EmailVsLinkedin2025";
+import InternetResearchTask from "@/components/InternetResearchTask";
+import AutomationToolsLeadGen2025 from "@/components/BestAutomationtools";
+
 
 // ✅ Generate static paths
 export async function generateStaticParams() {
@@ -90,11 +93,21 @@ export default async function BlogDetail({ params }) {
   }
 
   if (slug === "google-helpful-content-update-eeat")
-  return <HelpfulContentEEAT2025 blog={blog} />;
+    return <HelpfulContentEEAT2025 blog={blog} />;
 
-  if ("email-vs-linkedin-lead-generation-2025")  {
-      return <EmailVsLinkedin2025 blog={blog} />;
+  if (slug === "email-vs-linkedin-lead-generation-2025") {
+    return <EmailVsLinkedin2025 blog={blog} />;
   }
+
+  if (slug === "top-internet-research-tasks") {
+    return <InternetResearchTask blog={blog} />;
+  }
+
+
+  if (slug === "automation-tools-lead-generation-2025") {
+    return <AutomationToolsLeadGen2025 blog={blog} />;
+  }
+
 
 
   // ✅ Default layout
