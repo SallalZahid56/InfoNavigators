@@ -227,8 +227,8 @@ export default function EmailVsLinkedin2025() {
                     professional network to find and engage with qualified prospects. In
                     2025,{" "}
                     <Link
-                        href="/services/linkedin-lead-generation"
-                        className="text-brandOrange hover:underline font-medium"
+                        href="/services-page/lead-generation"
+                        className="text-blue-600 hover:underline font-medium"
                     >
                         done-for-you LinkedIn lead generation services
                     </Link>{" "}

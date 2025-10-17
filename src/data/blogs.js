@@ -103,7 +103,7 @@ export const blogs = [
     metaDescription: "Master Core Web Vitals in 2025. Learn how LCP, INP, and CLS affect your rankings and site experience.",
     keywords: "Core Web Vitals 2025, SEO metrics, website speed, INP, LCP, CLS, performance optimization, InfoNav",
     category: "SEO",
-    canonical: "https://infonavigators.com.co/blogs/core-web-vitals-2025"
+    canonical: "https://infonavigators.com/blogs/core-web-vitals-2025"
   },
 
 
@@ -152,7 +152,7 @@ export const blogs = [
   keywords:
     "Google Helpful Content Update 2025, E-E-A-T SEO, Small Business SEO, Content Quality Update, SEO Recovery, Website Authority, Experience Expertise Authority Trust, InfoNav",
   canonical:
-    "https://infonavigators.com/blog/google-helpful-content-update-eeat/",
+    "https://infonavigators.com/blogs/google-helpful-content-update-eeat/",
   category: "SEO"
 },
 
@@ -170,7 +170,7 @@ export const blogs = [
   keywords:
     "done for you linkedin lead generation, linkedin lead generation companies, linkedin lead generation cost, white label linkedin lead generation, b2b email list building, email list building pop-up, how to build a b2b email list, how to build a pre-launch email list, how to build an email list for wellness business, amy porterfield email list building, benefits of building an email list, best email list builder, best email list building course, best free email list builder, best way to build an email list, best way to build email list",
   canonical:
-    "https://infonavigators.com/blog/email-vs-linkedin-lead-generation-2025/",
+    "https://infonavigators.com/blogs/email-vs-linkedin-lead-generation-2025/",
   category: "Lead Generation"
 },
 
@@ -182,7 +182,7 @@ export const blogs = [
     date: "2025-10-15",
     image: "/outsourcing.jpg",
     metaTitle:
-      "Top Internet Research Tasks You Should Outsource in 2025",
+      "Top Internet Research Tasks You Should Outsource",
     metaDescription:
       "Discover the top internet research tasks to outsource in 2025. Learn how hiring expert virtual assistants for research can save time, reduce costs, and improve data accuracy with InfoNavigators.",
     keywords:
@@ -200,7 +200,7 @@ export const blogs = [
   date: "2025-10-18",
   image: "/automation-tools.jpg",
   metaTitle:
-    "Best Automation Tools for Lead Generation and Data Management in 2025",
+    "Best Automation Tools for Lead Generation and Data Management in 2025 |InfoNav",
   metaDescription:
     "Discover the best automation tools for lead generation and data management in 2025. Learn how marketers and agencies use automation to boost traffic, leads, and ROI.",
   keywords:
