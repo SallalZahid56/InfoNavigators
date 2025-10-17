@@ -388,26 +388,6 @@ export default function CoreWebVitals2025() {
                         ))}
                     </div>
                 </motion.div>
-
-                {/* 🚀 CTA Section */}
-                <motion.div
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    viewport={{ once: true }}
-                    className="text-center py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-3xl shadow-xl"
-                >
-                    <h3 className="text-4xl font-bold mb-6">
-                        Ready to Supercharge Your Core Web Vitals?
-                    </h3>
-                    <p className="text-lg text-blue-100 mb-10 max-w-2xl mx-auto">
-                        Partner with <span className="font-semibold text-white">InfoNav</span> to
-                        boost rankings, engagement, and site performance.
-                    </p>
-                    <button className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-2xl hover:bg-blue-50 transition shadow-lg">
-                        ⚡ Contact InfoNav Now
-                    </button>
-                </motion.div>
             </section>
         </div>
     );

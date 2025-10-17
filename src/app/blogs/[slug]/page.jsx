@@ -12,6 +12,7 @@ import HelpfulContentEEAT2025 from "@/components/HelpfulContentEEAT2025";
 import EmailVsLinkedin2025 from "@/components/EmailVsLinkedin2025";
 import InternetResearchTask from "@/components/InternetResearchTask";
 import AutomationToolsLeadGen2025 from "@/components/BestAutomationtools";
+import VirtualAssistantServicesPage from "@/components/VirtualAssistantServicesPage";
 
 
 // ✅ Generate static paths
@@ -108,6 +109,10 @@ export default async function BlogDetail({ params }) {
     return <AutomationToolsLeadGen2025 blog={blog} />;
   }
 
+
+  if (slug === "virtual-assistent-services") {
+    return <VirtualAssistantServicesPage blog={blog} />;
+  }
 
 
   // ✅ Default layout
