@@ -45,13 +45,13 @@ const portfolioItems = [
     title: "SEO",
     image: "/Onpage.png",
     desc: "We help businesses boost their brand visibility through a comprehensive SEO approach. From on-page and off-page optimization to technical SEO, our strategies are designed to improve search rankings and drive qualified traffic. With data-driven methods, we enhance your online presence and deliver measurable growth.",
-    link: "https://coding.infonavigators.com/",
+    link: "https://draft9-web.netlify.app/",
   },
   {
     title: "Web Development",
     image: "/web2.png",
     desc: "We design and develop scalable, modern, and fully responsive websites that align with your business goals. Each site is tailored to your brand identity, user experience, and conversion objectives. By blending clean design with robust functionality, we help you stand out online and drive measurable results.",
-    link: "https://taskubar.netlify.app/",
+    link: "https://taskuber.netlify.app/",
   },
 ];
 

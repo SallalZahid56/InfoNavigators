@@ -229,4 +229,39 @@ export const blogs = [
 },
 
 
+{
+  slug: "digital-marketing-services",
+  title: "The Future of Digital Marketing Services in 2025",
+  description:
+    "The digital marketing landscape in 2025 is evolving faster than ever. Traditional marketing agencies that once relied on manual strategies, static campaigns, and human-only execution are now being transformed by AI-powered marketing services, automation, and data-driven personalization.",
+  date: "2025-10-22",
+  image: "/cover-img.jpg",
+  metaTitle:
+    "Digital Marketing Services Trends 2025 | AI-Powered Agency Models in Pakistan & South Asia",
+  metaDescription:
+    "Discover the top digital marketing services trends in 2025 — from AI-powered marketing to value-based pricing and freelance + AI agency models in Pakistan and South Asia.",
+  keywords:
+    "digital marketing services trends, AI in digital marketing agency, marketing services business model change, agency service business Pakistan, AI-powered marketing services, personalized marketing campaigns at scale, marketing technology investment, new agency model freelance + AI, how agencies adapt to AI, restructure cost structure digital marketing services, value-based pricing digital marketing, impact of AI on digital marketing services in Pakistan, what digital marketing agencies need to do in 2025, how freelance + AI model disrupts traditional agencies, InfoNavigators digital marketing services",
+  canonical: "https://infonavigators.com/blogs/digital-marketing-services",
+  category: "Digital Marketing"
+},
+
+
+{
+  slug: "web-development-trends",
+  title: "The Future of Digital Marketing Services in 2025",
+  description:
+    "The digital marketing landscape in 2025 is evolving faster than ever. Traditional marketing agencies that once relied on manual strategies, static campaigns, and human-only execution are now being transformed by AI-powered marketing services, automation, and data-driven personalization.",
+  date: "2025-10-22",
+  image: "/blog-cover.jpg",
+  metaTitle:
+    "Web Development Trends 2025: AI, Low-Code & Future Insights",
+  metaDescription:
+    "Stay ahead with 2025 web development trends. Explore AI-powered tools, low-code platforms, PWAs, and tech innovations driving business growth.",
+  keywords:
+    "web development trends 2025, AI-powered web development, low-code platforms, PWAs, headless CMS, serverless architecture, voice search optimization, web performance 2025, web design trends 2025, outsourcing web development, business web strategy 2025",
+  canonical: "https://infonavigators.com/blogs/web-development-trends",
+  category: "Web Development"
+},
+
 ];

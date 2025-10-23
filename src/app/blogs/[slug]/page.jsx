@@ -13,6 +13,8 @@ import EmailVsLinkedin2025 from "@/components/EmailVsLinkedin2025";
 import InternetResearchTask from "@/components/InternetResearchTask";
 import AutomationToolsLeadGen2025 from "@/components/BestAutomationtools";
 import VirtualAssistantServicesPage from "@/components/VirtualAssistantServicesPage";
+import DigitalMarketingServices2025Page from "@/components/DigitalMarketingServices2025Page";
+import WebDevelopmentTrends2025 from "@/components/WebDevelopmentTrends2025";
 
 
 // ✅ Generate static paths
@@ -114,6 +116,13 @@ export default async function BlogDetail({ params }) {
     return <VirtualAssistantServicesPage blog={blog} />;
   }
 
+  if (slug === "digital-marketing-services") {
+    return <DigitalMarketingServices2025Page blog={blog} />;
+  }
+
+  if (slug === "web-development-trends") {
+    return <WebDevelopmentTrends2025 blog={blog} />;
+  }
 
   // ✅ Default layout
   return (
