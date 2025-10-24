@@ -249,7 +249,7 @@ export const blogs = [
 
 {
   slug: "web-development-trends",
-  title: "The Future of Digital Marketing Services in 2025",
+  title: "Web Development Trends in 2025: What Businesses Need to Know",
   description:
     "The digital marketing landscape in 2025 is evolving faster than ever. Traditional marketing agencies that once relied on manual strategies, static campaigns, and human-only execution are now being transformed by AI-powered marketing services, automation, and data-driven personalization.",
   date: "2025-10-22",

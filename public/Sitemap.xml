@@ -1,72 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--  Main Pages  -->
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://infonavigators.com/</loc>
-<priority>1.0</priority>
-<changefreq>daily</changefreq>
+  <loc>https://infonavigators.com/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://infonavigators.com/services-page/</loc>
-<priority>1.0</priority>
-<changefreq>daily</changefreq>
+  <loc>https://infonavigators.com/services-page/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://infonavigators.com/about-us/</loc>
-<priority>1.0</priority>
-<changefreq>daily</changefreq>
+  <loc>https://infonavigators.com/about-us/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://infonavigators.com/portfolio/</loc>
-<priority>1.0</priority>
-<changefreq>daily</changefreq>
+  <loc>https://infonavigators.com/portfolio/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://infonavigators.com/contact-us/</loc>
-<priority>1.0</priority>
-<changefreq>daily</changefreq>
+  <loc>https://infonavigators.com/contact-us/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/lead-generation/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/b2b-lead-generation/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/email-list-building/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/linkedin-list/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/email-marketing/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/internet-research/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/market-research/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/data-verification/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/influencer-research/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/youtube-influencer-research/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/instagram-influencer-research/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/tiktok-influencer-research/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/data-entry/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/crm-data-entry/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/data-cleaning/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/data-extraction/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/web-scraping/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/data-cleaning-extraction/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/python-scraping/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/python-web-scraping/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/data-cleaning-export/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/seo-page/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/on-page-seo/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/off-page-seo/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/technical-seo/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/local-seo/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/web-development/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/front-end-development/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/services-page/back-end-development/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/seo-tips/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/seo-boost-tips/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/beginners-guide-web-scraping-python/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/ai-tools-freelancers-pakistan-2025/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/internet-research-services/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/digital-marketing-agency/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/core-web-vitals-2025/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/b2b-lead-generation-2025/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/changing-nature-of-search-ai-2025/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/google-helpful-content-update-eeat/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/email-vs-linkedin-lead-generation-2025/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/top-internet-research-tasks/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/automation-tools-lead-generation-2025/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/virtual-assistent-services/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/digital-marketing-services/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://infonavigators.com/blogs/web-development-trends/</loc>
+  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
-<!--  Services  -->
-<url><loc>https://infonavigators.com/services-page/lead-generation/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/b2b-lead-generation/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/email-list-building/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/linkedin-list/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/email-marketing/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/internet-research/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/market-research/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/data-verification/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/influencer-research/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/youtube-influencer-research/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/instagram-influencer-research/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/tiktok-influencer-research/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/data-entry/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/crm-data-entry/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/data-cleaning/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/data-extraction/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/web-scraping/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/data-cleaning-extraction/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/python-scraping/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/python-web-scraping/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/data-cleaning-export/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/seo-page/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/on-page-seo/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/off-page-seo/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/technical-seo/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/local-seo/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/web-development/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/front-end-development/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/services-page/back-end-development/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
 
-<!--  Blogs  -->
-<url><loc>https://infonavigators.com/blogs/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/blogs/seo-tips/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/blogs/seo-boost-tips/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/blogs/beginners-guide-web-scraping-python/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/blogs/ai-tools-freelancers-pakistan-2025/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/blogs/internet-research-services/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/blogs/digital-marketing-agency/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/blogs/core-web-vitals-2025/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/blogs/b2b-lead-generation-2025/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
-<url><loc>https://infonavigators.com/blogs/changing-nature-of-search-ai-2025/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
 </urlset>
