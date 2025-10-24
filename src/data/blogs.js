@@ -264,4 +264,25 @@ export const blogs = [
   category: "Web Development"
 },
 
+
+{
+  slug: "website-speed-optimization",
+  title: "How to Boost Website Speed and Improve User Experience in 2025",
+  description:
+    "In 2025, website speed isn’t just a technical metric — it’s a key ranking factor and user trust indicator. Google’s algorithms now prioritize Core Web Vitals, which directly measure how fast your site loads and how enjoyable it is to use.",
+  date: "2025-10-22",
+  image: "/blog-cover-image.jpg",
+  metaTitle:
+    "Boost Website Speed & Improve User Experience | 2025 SEO Guide",
+  metaDescription:
+    "Learn how to boost website speed and improve user experience in 2025 with proven SEO strategies, optimization tools, and expert tips from InfoNavigators.",
+  keywords:
+    "website speed optimization, improve website speed, user experience optimization, Core Web Vitals 2025, website loading speed, UX optimization, boost site performance, website optimization tools, site speed SEO, user-friendly website",
+  canonical: "https://infonavigators.com/blogs/website-speed-optimization",
+  category: "SEO"
+},
+
+
+
+
 ];

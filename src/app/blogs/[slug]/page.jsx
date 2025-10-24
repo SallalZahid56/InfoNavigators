@@ -15,6 +15,7 @@ import AutomationToolsLeadGen2025 from "@/components/BestAutomationtools";
 import VirtualAssistantServicesPage from "@/components/VirtualAssistantServicesPage";
 import DigitalMarketingServices2025Page from "@/components/DigitalMarketingServices2025Page";
 import WebDevelopmentTrends2025 from "@/components/WebDevelopmentTrends2025";
+import WebsiteSpeedOptimization2025 from "@/components/WebsiteSpeedOptimization2025";
 
 
 // ✅ Generate static paths
@@ -122,6 +123,10 @@ export default async function BlogDetail({ params }) {
 
   if (slug === "web-development-trends") {
     return <WebDevelopmentTrends2025 blog={blog} />;
+  }
+
+  if (slug === "website-speed-optimization") {
+    return <WebsiteSpeedOptimization2025 blog={blog} />;
   }
 
   // ✅ Default layout
