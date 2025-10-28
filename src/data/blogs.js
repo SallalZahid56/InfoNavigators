@@ -283,6 +283,41 @@ export const blogs = [
 },
 
 
+{
+  slug: "technical-seo-issues",
+  title: "Top Technical SEO Issues That Hurt Rankings",
+  description:
+    "Even the best content can’t rank if your website’s technical foundation is broken.",
+  date: "2025-10-27",
+  image: "/intro-blog.jpg",
+  metaTitle:
+    "Top Technical SEO Issues That Hurt Rankings And How to Fix Them",
+  metaDescription:
+    "Learn the top technical SEO issues that hurt website rankings and how to fix them. Improve crawlability, Core Web Vitals, and indexing with InfoNavigators’ expert guide.",
+  keywords:
+    "technical SEO issues, SEO technical problems, fix website SEO issues, SEO ranking issues, site speed optimization, Core Web Vitals, crawl errors, indexing issues, duplicate content, structured data SEO",
+  canonical: "https://infonavigators.com/blogs/technical-seo-issues",
+  category: "SEO"
+},
+
+
+{
+  slug: "next-vs-react",
+  title: "Next.js or React.js comparison",
+  description:
+    "Why we choose the Next.js over React in 2025",
+  date: "2025-10-28",
+  image: "/react-vs-next.jpg",
+  metaTitle:
+    "Next.js vs React.js: What to choose in 2025?",
+  metaDescription:
+    "Discover the difference between Next.js and React.js explore features, pros, cons, SEO benefits, and real-world use cases for modern web apps.",
+  keywords:
+    "next.js, react.js, next.js vs react.js, next.js features, react.js features, react vs next, next js pros and cons, react js pros and cons, react js framework, next js for seo, next js vs react performance, best javascript framework 2025",
+  canonical: "https://infonavigators.com/blogs/next-vs-react",
+  category: "Web Development"
+},
+
 
 
 ];

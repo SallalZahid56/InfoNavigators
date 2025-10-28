@@ -16,7 +16,8 @@ import VirtualAssistantServicesPage from "@/components/VirtualAssistantServicesP
 import DigitalMarketingServices2025Page from "@/components/DigitalMarketingServices2025Page";
 import WebDevelopmentTrends2025 from "@/components/WebDevelopmentTrends2025";
 import WebsiteSpeedOptimization2025 from "@/components/WebsiteSpeedOptimization2025";
-
+import TechnicalSeoIssues from "@/components/TechnicalSeoIssues";
+import NextVsReactPage from "@/components/NextVsReactPage";
 
 // ✅ Generate static paths
 export async function generateStaticParams() {
@@ -128,6 +129,15 @@ export default async function BlogDetail({ params }) {
   if (slug === "website-speed-optimization") {
     return <WebsiteSpeedOptimization2025 blog={blog} />;
   }
+
+  if (slug === "technical-seo-issues") {
+    return <TechnicalSeoIssues blog={blog} />;
+  }
+
+  if (slug === "next-vs-react") {
+    return <NextVsReactPage blog={blog} />;
+  }
+
 
   // ✅ Default layout
   return (
