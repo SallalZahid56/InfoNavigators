@@ -303,7 +303,7 @@ export const blogs = [
 
 {
   slug: "next-vs-react",
-  title: "Next.js or React.js comparison",
+  title: "Next.js vs React.js comparison",
   description:
     "Why we choose the Next.js over React in 2025",
   date: "2025-10-28",

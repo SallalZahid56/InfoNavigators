@@ -5,25 +5,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Plus, Minus } from "lucide-react";
 
-/**
- * Modern, elegant "What's in Next.js?" page component
- * - White background with dark text
- * - Preserves the content exactly as provided (line breaks & separators)
- * - Responsive layout, subtle animations, FAQ accordion
- *
- * Usage:
- * - Place file in `src/app/whats-nextjs/page.jsx` (App Router) or `src/pages/whats-nextjs.jsx`
- * - Ensure TailwindCSS is configured
- * - Install: npm i framer-motion lucide-react
- */
-
 const SectionCard = ({ heading, children, imageSrc, reverse = false }) => {
   return (
     <section className="max-w-6xl mx-auto px-6 py-10">
       <div
-        className={`grid gap-8 items-center md:grid-cols-2 ${
-          reverse ? "md:grid-flow-col-dense" : ""
-        }`}
+        className={`grid gap-8 items-center md:grid-cols-2 ${reverse ? "md:grid-flow-col-dense" : ""
+          }`}
       >
         <motion.div
           initial={{ opacity: 0, y: 12 }}
@@ -151,41 +138,62 @@ Key Features of Next.js`}
       </section>
 
       {/* Key Features */}
-        <section className="bg-gray-50 p-8 rounded-2xl shadow-md border border-gray-100">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Key Features of Next.js</h2>
-          <div className="space-y-4 text-gray-700 leading-relaxed whitespace-pre-line">
-            1. Routing{"\n"}
-            Next.js comes with a file-based routing system. Every file you create inside the pages
-            folder automatically becomes a route, making navigation effortless without needing
-            additional routing libraries.{"\n\n"}
-            2. Rendering{"\n"}
-            You can choose between:
-            {"\n"}• Static Site Generation (SSG)
-            {"\n"}• Server-Side Rendering (SSR)
-            {"\n"}• Incremental Static Regeneration (ISR)
-            {"\n"}These options give developers flexibility to render pages when and how they want.
-            {"\n\n"}
-            3. Data Fetching{"\n"}
-            Next.js includes easy data-fetching methods like:
-            {"\n"}• getStaticProps
-            {"\n"}• getServerSideProps
-            {"\n"}• getStaticPaths
-            {"\n"}This makes it simple to fetch data for static or dynamic content, improving both
-            performance and SEO.
-            {"\n\n"}
-            4. Styling{"\n"}
-            You can use CSS Modules, Sass, Styled JSX, or Tailwind CSS directly. Next.js allows
-            styling that’s component-scoped, preventing conflicts.
-            {"\n\n"}
-            5. Optimization{"\n"}
-            Next.js optimizes performance automatically using image optimization, code splitting,
-            and link prefetching, ensuring smooth and fast page loads.
-            {"\n\n"}
-            6. TypeScript{"\n"}
-            It has first-class TypeScript support, allowing type-safe, maintainable code with zero
-            extra configuration.
+      <section className="bg-white rounded-2xl overflow-hidden">
+        <div className="grid md:grid-cols-2 items-center">
+          {/* Left Side Image */}
+          <div className="relative h-full">
+            <img
+              src="/key-features-next-js.jpg" // 🖼️ replace this with your actual image path
+              alt="Next.js Features"
+              className="w-full h-full object-contain"
+            />
           </div>
-        </section>
+
+          {/* Right Side Content */}
+          <div className="p-8 md:p-10 space-y-4 text-gray-700 leading-relaxed">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Key Features of Next.js
+            </h2>
+
+            <div className="whitespace-pre-line">
+              1. Routing{"\n"}
+              Next.js comes with a file-based routing system. Every file you create
+              inside the pages folder automatically becomes a route, making
+              navigation effortless without needing additional routing libraries.
+              {"\n\n"}
+              2. Rendering{"\n"}
+              You can choose between:
+              {"\n"}• Static Site Generation (SSG)
+              {"\n"}• Server-Side Rendering (SSR)
+              {"\n"}• Incremental Static Regeneration (ISR)
+              {"\n"}These options give developers flexibility to render pages when
+              and how they want.
+              {"\n\n"}
+              3. Data Fetching{"\n"}
+              Next.js includes easy data-fetching methods like:
+              {"\n"}• getStaticProps
+              {"\n"}• getServerSideProps
+              {"\n"}• getStaticPaths
+              {"\n"}This makes it simple to fetch data for static or dynamic content,
+              improving both performance and SEO.
+              {"\n\n"}
+              4. Styling{"\n"}
+              You can use CSS Modules, Sass, Styled JSX, or Tailwind CSS directly.
+              Next.js allows styling that’s component-scoped, preventing conflicts.
+              {"\n\n"}
+              5. Optimization{"\n"}
+              Next.js optimizes performance automatically using image optimization,
+              code splitting, and link prefetching, ensuring smooth and fast page
+              loads.
+              {"\n\n"}
+              6. TypeScript{"\n"}
+              It has first-class TypeScript support, allowing type-safe, maintainable
+              code with zero extra configuration.
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <section className="max-w-6xl mx-auto px-6 py-8">
         <div className="prose prose-lg max-w-none text-gray-800">
@@ -337,70 +345,85 @@ Some of the Key Advantages Are:`}
       </section>
 
       {/* REACT SECTION - exact content */}
-      <section className="max-w-6xl mx-auto px-6 py-12">
-        <div className="prose prose-lg max-w-none text-gray-800">
-          <div className="whitespace-pre-line">
-            {`________________________________________
+      <section className="bg-white rounded-2x overflow-hidden">
+        <div className="grid md:grid-cols-2 items-center">
+          {/* Left Side Content */}
+          <div className="p-8 md:p-10 text-gray-800 leading-relaxed">
+            <div className="prose prose-lg max-w-none">
+              <div className="whitespace-pre-line">
+                {`________________________________________
 Let’s Explore React.js Now
 What’s in React.js?
 React.js, created by Meta (Facebook), is a JavaScript library for building user interfaces. It follows a component-based architecture, allowing reusable and modular design.`}
+              </div>
+
+              <div className="mt-6">
+                <h4 className="text-xl font-semibold text-gray-900">Key Features of React.js</h4>
+                <ul className="mt-3 space-y-2 list-disc list-inside">
+                  <li>Virtual DOM for fast rendering</li>
+                  <li>Component-based development</li>
+                  <li>JSX for cleaner syntax</li>
+                  <li>Unidirectional data flow</li>
+                  <li>Large ecosystem and community support</li>
+                </ul>
+              </div>
+
+              <div className="mt-6">
+                <h4 className="text-xl font-semibold text-gray-900">Pros of Using React.js</h4>
+                <ul className="mt-3 space-y-2 list-disc list-inside">
+                  <li>Highly flexible and reusable</li>
+                  <li>Strong community and library ecosystem</li>
+                  <li>Supported by major tech companies</li>
+                  <li>Excellent for building interactive UIs</li>
+                  <li>Lightweight and easy to integrate</li>
+                </ul>
+              </div>
+
+              <div className="mt-6">
+                <h4 className="text-xl font-semibold text-gray-900">Cons of Using React.js</h4>
+                <ul className="mt-3 space-y-2 list-disc list-inside">
+                  <li>Requires additional libraries for routing and SSR</li>
+                  <li>Frequent updates can introduce learning challenges</li>
+                  <li>Limited SEO capabilities in client-side rendering</li>
+                </ul>
+              </div>
+
+              <div className="mt-6">
+                <h4 className="text-xl font-semibold text-gray-900">Why Should You Use React.js?</h4>
+                <p>
+                  React.js is perfect for creating dynamic, interactive, and responsive web interfaces. It’s lightweight and gives developers complete freedom over structure and libraries.
+                </p>
+
+                <p className="mt-4">
+                  <strong>Real-World Uses of React.js</strong>
+                  <br />
+                  Some global platforms using React.js include:
+                  <br />
+                  • Facebook
+                  <br />
+                  • Instagram
+                  <br />
+                  • Airbnb
+                  <br />
+                  • WhatsApp Web
+                  <br />
+                  • Dropbox
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div className="mt-4">
-            <h4 className="text-xl font-semibold">Key Features of React.js</h4>
-            <ul className="mt-3 space-y-1">
-              <li>•\tVirtual DOM for fast rendering</li>
-              <li>•\tComponent-based development</li>
-              <li>•\tJSX for cleaner syntax</li>
-              <li>•\tUnidirectional data flow</li>
-              <li>•\tLarge ecosystem and community support</li>
-            </ul>
-          </div>
-
-          <div className="mt-4">
-            <h4 className="text-xl font-semibold">Pros of Using React.js</h4>
-            <ul className="mt-3 space-y-1">
-              <li>•\tHighly flexible and reusable</li>
-              <li>•\tStrong community and library ecosystem</li>
-              <li>•\tSupported by major tech companies</li>
-              <li>•\tExcellent for building interactive UIs</li>
-              <li>•\tLightweight and easy to integrate</li>
-            </ul>
-          </div>
-
-          <div className="mt-4">
-            <h4 className="text-xl font-semibold">Cons of Using React.js</h4>
-            <ul className="mt-3 space-y-1">
-              <li>•\tRequires additional libraries for routing and SSR</li>
-              <li>•\tFrequent updates can introduce learning challenges</li>
-              <li>•\tLimited SEO capabilities in client-side rendering</li>
-            </ul>
-          </div>
-
-          <div className="mt-4">
-            <h4 className="text-xl font-semibold">Why Should You Use React.js?</h4>
-            <p>
-              React.js is perfect for creating dynamic, interactive, and responsive web interfaces. It’s lightweight and gives developers complete freedom over structure and libraries.
-            </p>
-
-            <p className="mt-3">
-              <strong>Real-World Uses of React.js</strong>
-              <br />
-              Some global platforms using React.js include:
-              <br />
-              •\tFacebook
-              <br />
-              •\tInstagram
-              <br />
-              •\tAirbnb
-              <br />
-              •\tWhatsApp Web
-              <br />
-              •\tDropbox
-            </p>
+          {/* Right Side Image */}
+          <div className="relative h-full">
+            <img
+              src="/react-js.jpg" // 🖼️ Replace with your actual image path
+              alt="React.js Features"
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
       </section>
+
 
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="prose prose-lg max-w-none text-gray-800">
