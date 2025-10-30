@@ -18,6 +18,8 @@ import WebDevelopmentTrends2025 from "@/components/WebDevelopmentTrends2025";
 import WebsiteSpeedOptimization2025 from "@/components/WebsiteSpeedOptimization2025";
 import TechnicalSeoIssues from "@/components/TechnicalSeoIssues";
 import NextVsReactPage from "@/components/NextVsReactPage";
+import IntentDrivenContent from "@/components/IntentDrivenContent";
+import FreeSEOToolsPage from "@/components/FreeSEOToolsPage";
 
 // ✅ Generate static paths
 export async function generateStaticParams() {
@@ -136,6 +138,16 @@ export default async function BlogDetail({ params }) {
 
   if (slug === "next-vs-react") {
     return <NextVsReactPage blog={blog} />;
+  }
+
+
+  if (slug === "generating-qualifies-leads") {
+    return <IntentDrivenContent blog={blog} />;
+  }
+
+
+  if (slug === "free-seo-tools") {
+    return <FreeSEOToolsPage blog={blog} />;
   }
 
 

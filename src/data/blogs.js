@@ -320,4 +320,42 @@ export const blogs = [
 
 
 
+{
+  slug: "generating-qualifies-leads",
+  title: "Fuel Your Pipeline: Generating Qualified Leads with Intent-Driven Content Experiences",
+  description:
+    "Why we choose the Next.js over React in 2025",
+  date: "2025-10-30",
+  image: "/qualified-leads.jpg",
+  metaTitle:
+    "Fuel Pipeline Growth: Generate Qualified Leads with Intent-Driven Content",
+  metaDescription:
+    "Stop wasting time on bad leads. Learn how to map your content to the Buyer's Journey (TOFU, MOFU, BOFU) to attract high-intent prospects and accelerate sales.",
+  keywords:
+    "qualified leads, intent-driven content, lead generation, content strategy, buyer's journey, content experiences, B2B lead generation",
+  canonical: "https://infonavigators.com/blogs/generating-qualifies-leads",
+  category: "Lead Generation"
+},
+
+
+
+{
+  slug: "free-seo-tools",
+  title: "Best Free SEO Tools for Beginners in 2025",
+  description:
+    "Starting SEO in 2025 can feel overwhelming — algorithms evolve, ranking factors shift, and competition grows daily.",
+  date: "2025-10-30",
+  image: "/free-seo.jpg",
+  metaTitle:
+    "Best Free SEO Tools for Beginners in 2025 | Ultimate Guide",
+  metaDescription:
+    "Discover the best free SEO tools for beginners in 2025 to improve rankings, track performance, and optimize your website effortlessly with InfoNavigators’ expert picks.",
+  keywords:
+    "best free SEO tools 2025, SEO tools for beginners, keyword research tools, backlink checker free, SEO audit tools, Google SEO tools, free website optimization tools, SEO beginners 2025, free rank tracking tools",
+  canonical: "https://infonavigators.com/blogs/free-seo-tools",
+  category: "SEO"
+},
+
+
+
 ];
