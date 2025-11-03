@@ -357,5 +357,23 @@ export const blogs = [
 },
 
 
+{
+  slug: "automation-changing-b2b-prospective",
+  title: "How Automation Is Changing B2B Prospecting Forever",
+  description:
+    "In the fast-evolving world of B2B lead generation, time is everything. Traditional prospecting — once dependent on manual outreach, spreadsheets, and endless follow-ups — is now being transformed by automation tools and AI-powered systems.",
+  date: "2025-10-30",
+  image: "/b2b-blog-cover.jpg",
+  metaTitle:
+    "How Automation Is Changing B2B Prospecting Forever | InfoNav",
+  metaDescription:
+    "Discover how automation tools revolutionize B2B prospecting, improve lead quality, and save time. Learn modern strategies for 2025 and beyond.",
+  keywords:
+    "automation in B2B prospecting, automated lead generation, B2B sales automation tools, AI prospecting, InfoNav lead generation, automation benefits",
+  canonical: "https://infonavigators.com/blogs/automation-changing-b2b-prospective",
+  category: "Lead Generation"
+},
+
+
 
 ];

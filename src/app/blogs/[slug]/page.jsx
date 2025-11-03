@@ -20,6 +20,8 @@ import TechnicalSeoIssues from "@/components/TechnicalSeoIssues";
 import NextVsReactPage from "@/components/NextVsReactPage";
 import IntentDrivenContent from "@/components/IntentDrivenContent";
 import FreeSEOToolsPage from "@/components/FreeSEOToolsPage";
+import Automation from "@/components/Automation";
+
 
 // ✅ Generate static paths
 export async function generateStaticParams() {
@@ -148,6 +150,10 @@ export default async function BlogDetail({ params }) {
 
   if (slug === "free-seo-tools") {
     return <FreeSEOToolsPage blog={blog} />;
+  }
+
+  if (slug === "automation-changing-b2b-prospective") {
+    return <Automation blog={blog} />;
   }
 
 

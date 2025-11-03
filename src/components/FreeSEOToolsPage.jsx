@@ -268,9 +268,8 @@ Over time, you’ll understand what works, what doesn’t, and where to invest n
 function Section({ image, title, content, reverse = false }) {
   return (
     <section
-      className={`flex flex-col md:flex-row items-center gap-10 max-w-6xl mx-auto px-6 py-14 ${
-        reverse ? "md:flex-row-reverse" : ""
-      }`}
+      className={`flex flex-col md:flex-row items-center gap-10 max-w-6xl mx-auto px-6 py-14 ${reverse ? "md:flex-row-reverse" : ""
+        }`}
     >
       <div className="md:w-1/2 w-full">
         <Image
