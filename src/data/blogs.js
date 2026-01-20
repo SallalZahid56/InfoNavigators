@@ -1,37 +1,4 @@
 export const blogs = [
-  {
-    slug: "seo-tips",
-    title: "The Complete Guide to SEO in 2025",
-    description:
-      "A professional, modern SEO guide for 2025 covering strategies, ranking factors, and best practices.",
-    date: "2025-09-01",
-    image: "/seo.jpg",
-    metaTitle: "The Complete Guide to SEO in 2025 | Strategies to Rank Higher",
-    metaDescription: "Discover the ultimate SEO guide for 2025. Learn the latest Google ranking factors, on-page SEO, technical tips, content strategies, and link building techniques to grow your organic traffic.",
-    keywords: "SEO guide 2025, complete SEO strategies, Google ranking factors, SEO checklist 2025, technical SEO tips, SEO content strategy, mobile-first SEO, schema markup SEO, SEO tools 2025, increase organic traffic",
-    canonical: "https://infonavigators.com/blogs/seo-tips",
-    category: "SEO"
-  },
-
-
-
-
-
-  {
-    slug: "seo-boost-tips",
-    title: "10 SEO Tips to Boost Your Rankings in 2025",
-    description:
-      "Discover 10 powerful SEO tips to boost your rankings in 2025. Learn how to optimize content, improve site speed, build authority, and follow Google’s latest updates for long-term SEO success.",
-    date: "2025-09-18",
-    image: "/seo-tips.jpg",
-    metaTitle: "10 SEO Tips to Boost Your Rankings in 2025 | Proven Strategies",
-    metaDescription: "Discover 10 powerful SEO tips to boost your rankings in 2025. Learn how to optimize content, improve site speed, build authority, and follow Google’s latest updates for long-term SEO success.",
-    keywords: "SEO tips 2025, boost search rankings, SEO best practices, Google updates 2025, on-page SEO, technical SEO, content optimization, link building, organic traffic growth, mobile SEO",
-    canonical: "https://infonavigators.com/blogs/seo-boost-tips",
-    category: "SEO"
-  },
-
-
 
   {
     slug: "beginners-guide-web-scraping-python",
@@ -93,19 +60,6 @@ export const blogs = [
     category: "Digital Marketing"
   },
 
-  {
-    slug: "core-web-vitals-2025",
-    title: "Core Web Vitals in 2025: The SEO Game Changer",
-    description: "Understand Google’s latest Core Web Vitals metrics in 2025 and how they impact your SEO and user experience.",
-    date: "2025-10-05",
-    image: "/core-web-vitals.jpg",
-    metaTitle: "Core Web Vitals in 2025 | Improve SEO & UX with InfoNav",
-    metaDescription: "Master Core Web Vitals in 2025. Learn how LCP, INP, and CLS affect your rankings and site experience.",
-    keywords: "Core Web Vitals 2025, SEO metrics, website speed, INP, LCP, CLS, performance optimization, InfoNav",
-    category: "SEO",
-    canonical: "https://infonavigators.com/blogs/core-web-vitals-2025"
-  },
-
 
   {
     slug: "b2b-lead-generation-2025",
@@ -135,25 +89,6 @@ export const blogs = [
   metaDescription:
     "Discover how AI is transforming search and discovery for virtual assistants and businesses. Learn how InfoNavigators uses Internet Research, Market Research, and Data Verification to drive smarter lead generation.",
   canonical: "https://infonavigators.com/blogs/changing-nature-of-search-ai-2025",
-},
-
-
-{
-  slug: "google-helpful-content-update-eeat",
-  title: "How Google’s Helpful Content Update & E-E-A-T Affect Small Websites in 2025",
-  description:
-    "Discover how Google’s Helpful Content Update and E-E-A-T impact small websites in 2025. Learn how to build trust, recover rankings, and improve SEO performance with InfoNav’s expert strategies.",
-  date: "2025-10-14",
-  image: "/11th-blog.jpg",
-  metaTitle:
-    "How Google’s Helpful Content Update & E-E-A-T Affect Small Websites in 2025",
-  metaDescription:
-    "Discover how Google’s Helpful Content Update and E-E-A-T impact small websites in 2025. Learn how to build trust, recover rankings, and improve SEO performance with InfoNav’s expert strategies.",
-  keywords:
-    "Google Helpful Content Update 2025, E-E-A-T SEO, Small Business SEO, Content Quality Update, SEO Recovery, Website Authority, Experience Expertise Authority Trust, InfoNav",
-  canonical:
-    "https://infonavigators.com/blogs/google-helpful-content-update-eeat/",
-  category: "SEO"
 },
 
 {
@@ -210,25 +145,6 @@ export const blogs = [
 },
 
 
-
-{
-  slug: "virtual-assistent-services",
-  title: "Virtual Assistant Services: The Ultimate Guide to Boosting Productivity and Business Growth in 2025",
-  description:
-    "Discover the best automation tools for lead generation and data management in 2025. Learn how marketers and agencies use automation to boost traffic, leads, and ROI.",
-  date: "2025-10-18",
-  image: "/blog-hero.jpg",
-  metaTitle:
-    "Top Virtual Assistant Services in 2025 | Best Outsourcing Solutions for Businesses",
-  metaDescription:
-    "Discover top virtual assistant services in 2025 to boost productivity, save costs, and streamline operations with InfoNavigators’ expert outsourcing solutions.",
-  keywords:
-    "virtual assistant services, virtual assistant service, virtual assistance services, best virtual assistant services, virtual assistant services jobs, virtual administrative assistant services, virtual medical assistant services, virtual assistant customer service, customer service virtual assistant, real estate virtual assistant services, ecommerce virtual assistant services, virtual assistant seo services, outsourcing virtual assistant services, offshore virtual assistant services, virtual assistant services cost, virtual assistant services for small businesses, virtual assistant services company, virtual assistant services list, benefits of virtual assistant services, virtual assistant services for real estate, virtual assistant services for small business, virtual assistant services usa, ai virtual assistant customer service, bilingual virtual assistant services, top virtual assistant services 2025, InfoNavigators virtual assistant services",
-  canonical: "https://infonavigators.com/blogs/virtual-assistent-services",
-  category: "SEO"
-},
-
-
 {
   slug: "digital-marketing-services",
   title: "The Future of Digital Marketing Services in 2025",
@@ -248,116 +164,6 @@ export const blogs = [
 
 
 {
-  slug: "web-development-trends",
-  title: "Web Development Trends in 2025: What Businesses Need to Know",
-  description:
-    "The digital marketing landscape in 2025 is evolving faster than ever. Traditional marketing agencies that once relied on manual strategies, static campaigns, and human-only execution are now being transformed by AI-powered marketing services, automation, and data-driven personalization.",
-  date: "2025-10-22",
-  image: "/blog-cover.jpg",
-  metaTitle:
-    "Web Development Trends 2025: AI, Low-Code & Future Insights",
-  metaDescription:
-    "Stay ahead with 2025 web development trends. Explore AI-powered tools, low-code platforms, PWAs, and tech innovations driving business growth.",
-  keywords:
-    "web development trends 2025, AI-powered web development, low-code platforms, PWAs, headless CMS, serverless architecture, voice search optimization, web performance 2025, web design trends 2025, outsourcing web development, business web strategy 2025",
-  canonical: "https://infonavigators.com/blogs/web-development-trends",
-  category: "Web Development"
-},
-
-
-{
-  slug: "website-speed-optimization",
-  title: "How to Boost Website Speed and Improve User Experience in 2025",
-  description:
-    "In 2025, website speed isn’t just a technical metric — it’s a key ranking factor and user trust indicator. Google’s algorithms now prioritize Core Web Vitals, which directly measure how fast your site loads and how enjoyable it is to use.",
-  date: "2025-10-22",
-  image: "/blog-cover-image.jpg",
-  metaTitle:
-    "Boost Website Speed & Improve User Experience | 2025 SEO Guide",
-  metaDescription:
-    "Learn how to boost website speed and improve user experience in 2025 with proven SEO strategies, optimization tools, and expert tips from InfoNavigators.",
-  keywords:
-    "website speed optimization, improve website speed, user experience optimization, Core Web Vitals 2025, website loading speed, UX optimization, boost site performance, website optimization tools, site speed SEO, user-friendly website",
-  canonical: "https://infonavigators.com/blogs/website-speed-optimization",
-  category: "SEO"
-},
-
-
-{
-  slug: "technical-seo-issues",
-  title: "Top Technical SEO Issues That Hurt Rankings",
-  description:
-    "Even the best content can’t rank if your website’s technical foundation is broken.",
-  date: "2025-10-27",
-  image: "/intro-blog.jpg",
-  metaTitle:
-    "Top Technical SEO Issues That Hurt Rankings And How to Fix Them",
-  metaDescription:
-    "Learn the top technical SEO issues that hurt website rankings and how to fix them. Improve crawlability, Core Web Vitals, and indexing with InfoNavigators’ expert guide.",
-  keywords:
-    "technical SEO issues, SEO technical problems, fix website SEO issues, SEO ranking issues, site speed optimization, Core Web Vitals, crawl errors, indexing issues, duplicate content, structured data SEO",
-  canonical: "https://infonavigators.com/blogs/technical-seo-issues",
-  category: "SEO"
-},
-
-
-{
-  slug: "next-vs-react",
-  title: "Next.js vs React.js comparison",
-  description:
-    "Why we choose the Next.js over React in 2025",
-  date: "2025-10-28",
-  image: "/react-vs-next.jpg",
-  metaTitle:
-    "Next.js vs React.js: What to choose in 2025?",
-  metaDescription:
-    "Discover the difference between Next.js and React.js explore features, pros, cons, SEO benefits, and real-world use cases for modern web apps.",
-  keywords:
-    "next.js, react.js, next.js vs react.js, next.js features, react.js features, react vs next, next js pros and cons, react js pros and cons, react js framework, next js for seo, next js vs react performance, best javascript framework 2025",
-  canonical: "https://infonavigators.com/blogs/next-vs-react",
-  category: "Web Development"
-},
-
-
-
-{
-  slug: "generating-qualifies-leads",
-  title: "Fuel Your Pipeline: Generating Qualified Leads with Intent-Driven Content Experiences",
-  description:
-    "Why we choose the Next.js over React in 2025",
-  date: "2025-10-30",
-  image: "/qualified-leads.jpg",
-  metaTitle:
-    "Fuel Pipeline Growth: Generate Qualified Leads with Intent-Driven Content",
-  metaDescription:
-    "Stop wasting time on bad leads. Learn how to map your content to the Buyer's Journey (TOFU, MOFU, BOFU) to attract high-intent prospects and accelerate sales.",
-  keywords:
-    "qualified leads, intent-driven content, lead generation, content strategy, buyer's journey, content experiences, B2B lead generation",
-  canonical: "https://infonavigators.com/blogs/generating-qualifies-leads",
-  category: "Lead Generation"
-},
-
-
-
-{
-  slug: "free-seo-tools",
-  title: "Best Free SEO Tools for Beginners in 2025",
-  description:
-    "Starting SEO in 2025 can feel overwhelming — algorithms evolve, ranking factors shift, and competition grows daily.",
-  date: "2025-10-30",
-  image: "/free-seo.jpg",
-  metaTitle:
-    "Best Free SEO Tools for Beginners in 2025 | Ultimate Guide",
-  metaDescription:
-    "Discover the best free SEO tools for beginners in 2025 to improve rankings, track performance, and optimize your website effortlessly with InfoNavigators’ expert picks.",
-  keywords:
-    "best free SEO tools 2025, SEO tools for beginners, keyword research tools, backlink checker free, SEO audit tools, Google SEO tools, free website optimization tools, SEO beginners 2025, free rank tracking tools",
-  canonical: "https://infonavigators.com/blogs/free-seo-tools",
-  category: "SEO"
-},
-
-
-{
   slug: "automation-changing-b2b-prospective",
   title: "How Automation Is Changing B2B Prospecting Forever",
   description:
@@ -373,7 +179,6 @@ export const blogs = [
   canonical: "https://infonavigators.com/blogs/automation-changing-b2b-prospective",
   category: "Lead Generation"
 },
-
 
 
 ];

@@ -3,27 +3,27 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-white pt-20 md:pt-22 lg:pt-14"> 
+    <section className="w-full bg-white pt-20 md:pt-22 lg:pt-14">
       {/* ↑ increased top padding for tablets so text doesn’t touch navbar */}
-      
+
       <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 lg:px-20 flex flex-col md:flex-row items-center gap-12">
-        
+
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="font-heading text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold leading-snug text-gray-900">
-            Trusted <span className="text-brandOrange">Digital Marketing</span>{" "}
-            Agency
+            <span className="text-brandOrange">Email Marketing</span>  & Lead Generation <span className="text-brandOrange">Agency</span>
           </h1>
 
           <p className="font-sans text-gray-700 mt-4 sm:mt-6 text-base sm:text-lg md:leading-relaxed">
             <span className="font-semibold text-brandOrange">InfoNav</span> is a
-            Digital Marketing Agency that helps businesses boost online visibility,
-            generate qualified B2B leads, and scale with smart automation. We
-            specialize in{" "}
+            results-driven Email Marketing & B2B Lead Generation agency that helps B2B
+            companies generate qualified leads through targeted email outreach and
+            data-driven prospect research. We specialize in{" "}
             <span className="font-semibold text-brandOrange">
-              Lead Generation, Python Scraping, SEO, and Web Development
+              Cold Email Outreach, B2B Lead Generation, Python Scraping, and Marketing
+              Automation
             </span>{" "}
-            — delivering growth with precision.
+            — delivering consistent, scalable growth with precision.
           </p>
 
           {/* Buttons */}

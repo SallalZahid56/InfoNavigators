@@ -57,15 +57,15 @@ const Navbar = () => {
                   {/* Category 1 */}
                   <div>
                     <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/lead-generation/" className="text-brandOrange hover:text-brandOrange transition">
-                        Lead Generation
+                      <Link href="/services-page/email-marketing/" className="text-brandOrange hover:text-brandOrange transition">
+                        Email Marketing
                       </Link>
                     </h5>
                     <ul className="space-y-2 pl-2">
+                      <li><Link href="/services-page/lead-generation/" className="text-white hover:text-brandOrange transition">Lead Generation</Link></li>
                       <li><Link href="/services-page/b2b-lead-generation/" className="text-white hover:text-brandOrange transition">B2B Leads</Link></li>
                       <li><Link href="/services-page/email-list-building/" className="text-white hover:text-brandOrange transition">Contact Email List Building</Link></li>
                       <li><Link href="/services-page/linkedin-list/" className="text-white hover:text-brandOrange transition">LinkedIn List Building</Link></li>
-                      <li><Link href="/services-page/email-marketing/" className="text-white hover:text-brandOrange transition">Email Marketing</Link></li>
                     </ul>
                   </div>
 
@@ -132,34 +132,6 @@ const Navbar = () => {
                     <ul className="space-y-2 pl-2">
                       <li><Link href="/services-page/python-web-scraping/" className="text-white hover:text-brandOrange transition">Python Web Scraping</Link></li>
                       <li><Link href="/services-page/data-cleaning-export/" className="text-white hover:text-brandOrange transition">Data Cleaning</Link></li>
-                    </ul>
-                  </div>
-
-                  {/* Category 7 */}
-                  <div>
-                    <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/seo-page/" className="text-brandOrange hover:text-brandOrange transition">
-                        SEO
-                      </Link>
-                    </h5>
-                    <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/on-page-seo/" className="text-white hover:text-brandOrange transition">On-Page SEO</Link></li>
-                      <li><Link href="/services-page/off-page-seo/" className="text-white hover:text-brandOrange transition">Off-Page SEO</Link></li>
-                      <li><Link href="/services-page/technical-seo/" className="text-white hover:text-brandOrange transition">Technical SEO</Link></li>
-                      <li><Link href="/services-page/local-seo/" className="text-white hover:text-brandOrange transition">Local SEO</Link></li>
-                    </ul>
-                  </div>
-
-                  {/* Category 8 */}
-                  <div>
-                    <h5 className="font-semibold mb-2">
-                      <Link href="/services-page/web-development/" className="text-brandOrange hover:text-brandOrange transition">
-                        Web Development
-                      </Link>
-                    </h5>
-                    <ul className="space-y-2 pl-2">
-                      <li><Link href="/services-page/front-end-development/" className="text-white hover:text-brandOrange transition">Frontend Development</Link></li>
-                      <li><Link href="/services-page/back-end-development/" className="text-white hover:text-brandOrange transition">Backend Development</Link></li>
                     </ul>
                   </div>
                 </div>

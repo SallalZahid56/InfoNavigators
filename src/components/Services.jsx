@@ -8,11 +8,15 @@ import {
   FaDatabase,
   FaPython,
   FaChartLine,
-  FaCode,
 } from "react-icons/fa";
 import Link from "next/link";
 
 const services = [
+  {
+    icon: FaChartLine,
+    title: "Email Marketing",
+    desc: "At InfoNavigators, we deliver data-driven email marketing solutions that help B2B companies reach decision-makers, nurture prospects, and convert leads into customers. From cold outreach to automated campaigns, our strategic approach ensures consistent engagement and scalable revenue growth.",
+  },
   {
     icon: FaBullhorn,
     title: "Lead Generation",
@@ -42,16 +46,6 @@ const services = [
     icon: FaKeyboard,
     title: "Data Entry",
     desc: "In today’s fast-paced digital world, accurate and organized data is the backbone of every successful business operation. At InfoNav, we understand how vital reliable data entry services are to maintaining the integrity and accessibility of your information.",
-  },
-  {
-    icon: FaChartLine,
-    title: "SEO",
-    desc: "At InfoNavigators, a New York-based global agency, we provide data-driven SEO consulting that maximizes visibility, drives targeted traffic, and converts leads into loyal customers. From startups to ecommerce and service brands, our strategic SEO ensures sustainable online growth.",
-  },
-  {
-    icon: FaCode,
-    title: "Web Development",
-    desc: "Your website is more than a digital brochure — it’s your first impression, sales platform, support tool, and brand identity. At InfoNavigators, we build powerful websites that go beyond just looking good — they convert, perform, and scale.",
   },
 ];
 

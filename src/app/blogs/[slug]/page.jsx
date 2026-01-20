@@ -1,11 +1,8 @@
-import SeoTipsPage from "@/components/SeoTipsPage";
-import SeoBoostTipsPage from "@/components/SeoBoostTipsPage";
 import WebScrapingGuidePage from "@/components/WebScrapingGuidePage";
 import AiToolsPakistanPage from "@/components/AiToolsPakistanPage";
 import { blogs } from "../../../data/blogs"; // adjust path if different
 import InternetResearchPage from "@/components/InternetResearchBlog";
 import DigitalMarketingBlog from "@/components/DigitalMarketingBlog";
-import CoreWebVitals2025Page from "@/components/CoreWebVitals2025Page";
 import B2BLeadGeneration2025 from "@/components/B2BLeadGeneration2025";
 import ChangingNatureOfSearchPage from "@/components/ChangingNatureOfSearchPage";
 import HelpfulContentEEAT2025 from "@/components/HelpfulContentEEAT2025";
@@ -14,14 +11,8 @@ import InternetResearchTask from "@/components/InternetResearchTask";
 import AutomationToolsLeadGen2025 from "@/components/BestAutomationtools";
 import VirtualAssistantServicesPage from "@/components/VirtualAssistantServicesPage";
 import DigitalMarketingServices2025Page from "@/components/DigitalMarketingServices2025Page";
-import WebDevelopmentTrends2025 from "@/components/WebDevelopmentTrends2025";
-import WebsiteSpeedOptimization2025 from "@/components/WebsiteSpeedOptimization2025";
-import TechnicalSeoIssues from "@/components/TechnicalSeoIssues";
-import NextVsReactPage from "@/components/NextVsReactPage";
 import IntentDrivenContent from "@/components/IntentDrivenContent";
-import FreeSEOToolsPage from "@/components/FreeSEOToolsPage";
 import Automation from "@/components/Automation";
-
 
 // ✅ Generate static paths
 export async function generateStaticParams() {
@@ -65,13 +56,6 @@ export default async function BlogDetail({ params }) {
   if (!blog) return <p>Blog not found</p>;
 
   // ✅ Special component pages
-  if (slug === "seo-tips") {
-    return <SeoTipsPage blog={blog} />;
-  }
-
-  if (slug === "seo-boost-tips") {
-    return <SeoBoostTipsPage blog={blog} />;
-  }
 
   if (slug === "beginners-guide-web-scraping-python") {
     return <WebScrapingGuidePage blog={blog} />;
@@ -87,10 +71,6 @@ export default async function BlogDetail({ params }) {
 
   if (slug === "digital-marketing-agency") {
     return <DigitalMarketingBlog blog={blog} />;
-  }
-
-  if (slug === "core-web-vitals-2025") {
-    return <CoreWebVitals2025Page blog={blog} />;
   }
 
   if (slug === "b2b-lead-generation-2025") {
@@ -126,31 +106,11 @@ export default async function BlogDetail({ params }) {
     return <DigitalMarketingServices2025Page blog={blog} />;
   }
 
-  if (slug === "web-development-trends") {
-    return <WebDevelopmentTrends2025 blog={blog} />;
-  }
-
-  if (slug === "website-speed-optimization") {
-    return <WebsiteSpeedOptimization2025 blog={blog} />;
-  }
-
-  if (slug === "technical-seo-issues") {
-    return <TechnicalSeoIssues blog={blog} />;
-  }
-
-  if (slug === "next-vs-react") {
-    return <NextVsReactPage blog={blog} />;
-  }
-
 
   if (slug === "generating-qualifies-leads") {
     return <IntentDrivenContent blog={blog} />;
   }
 
-
-  if (slug === "free-seo-tools") {
-    return <FreeSEOToolsPage blog={blog} />;
-  }
 
   if (slug === "automation-changing-b2b-prospective") {
     return <Automation blog={blog} />;

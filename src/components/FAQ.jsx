@@ -69,16 +69,6 @@ const faqs = [
       "We work with diverse industries such as SaaS, eCommerce, Real Estate, Finance, Healthcare, and Professional Services. Our customized B2B Lead Generation and B2C Lead Generation strategies ensure industry-specific targeting.",
   },
   {
-    question: "Is SEO still effective for businesses in 2025?",
-    answer:
-      "Absolutely. SEO is the foundation of digital growth. Our SEO Services ensure your brand ranks higher in Google, builds credibility, and attracts long-term organic traffic—unlike paid ads that stop once the budget ends.",
-  },
-  {
-    question: "Do you offer Web Development along with Marketing?",
-    answer:
-      "Yes. A strong online presence starts with a powerful website. Our Web Development Services include responsive design, eCommerce sites, and custom solutions that integrate seamlessly with SEO and lead generation strategies.",
-  },
-  {
     question: "Can I get a sample of leads before committing?",
     answer:
       "Yes. We provide sample B2B Leads so you can test the accuracy and relevance before starting a larger campaign. Explore our Lead Generation Page to learn how we deliver clean, verified data.",
