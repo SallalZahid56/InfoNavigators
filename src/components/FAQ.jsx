@@ -11,8 +11,6 @@ const serviceLinks = {
   "Data Entry": "/services-page/data-entry",
   "Data Extraction": "/services-page/data-extraction",
   "Python Scraping": "/services-page/python-scraping",
-  "SEO": "/services-page/seo-page",
-  "Web Development": "/services-page/web-development",
 };
 
 // Function to replace keywords with links
@@ -46,7 +44,7 @@ const faqs = [
   {
     question: "What services does Info Navigators offer?",
     answer:
-      "Info Navigators provides a full suite of digital solutions including SEO Consulting Services, Lead Generation, Data Entry & Cleaning, Online Internet Research, Web Development, and more. Each service is tailored to help businesses grow with accurate data, online visibility, and qualified leads.",
+      "Info Navigators provides a full suite of digital solutions including Lead Generation, Data Entry & Cleaning, Online Internet Research, and more. Each service is tailored to help businesses grow with accurate data and qualified leads.",
   },
   {
     question: "How does your Lead Generation service work?",
@@ -81,7 +79,7 @@ const faqs = [
   {
     question: "How do I get started with Info Navigators?",
     answer:
-      "Getting started is easy. Simply Contact Us or Book a Call with our experts. We’ll analyze your business goals and suggest the right combination of services—whether it’s Lead Generation, SEO, or Data Research.",
+      "Getting started is easy. Simply Contact Us or Book a Call with our experts. We’ll analyze your business goals and suggest the right combination of services—such as Lead Generation or Data Research.",
   },
 ];
 

@@ -221,7 +221,7 @@ export default function WebsiteSpeedOptimization2025() {
 
         <p className="text-blue-600 font-medium mt-2">
           Internal link: Read our related guide on{" "}
-          <a href="/services-page/seo-page" className="underline hover:text-blue-600 transition">
+          <a href="/services-page/" className="underline hover:text-blue-600 transition">
             Speed Optimization
           </a>{" "}
           for plugin recommendations.

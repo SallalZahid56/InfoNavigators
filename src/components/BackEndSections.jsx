@@ -78,7 +78,7 @@ export default function BackEndSections() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-gray-300">
-            👉 Related: <Link href="/services-page/front-end-development/" className="text-white underline">Front-End Development</Link> | <Link href="/services-page/web-development/" className="text-white underline">Web Development Services</Link>
+            👉 Related: <Link href="/services-page/front-end-development/" className="text-white underline">Front-End Development</Link>
           </p>
         </div>
       </section>

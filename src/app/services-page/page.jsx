@@ -153,33 +153,7 @@ export default function ServicesPage() {
             </ul>
           </div>
 
-          {/* Category 7 */}
-          <div>
-            <h5 className="font-semibold mb-2">
-              <Link href="/services-page/seo-page/" className="text-brandOrange hover:text-brandOrange transition">
-                SEO
-              </Link>
-            </h5>
-            <ul className="space-y-2 pl-2">
-              <li><Link href="/services-page/on-page-seo/" className="text-gray-700 hover:text-brandOrange transition">On-Page SEO</Link></li>
-              <li><Link href="/services-page/off-page-seo/" className="text-gray-700 hover:text-brandOrange transition">Off-Page SEO</Link></li>
-              <li><Link href="/services-page/technical-seo/" className="text-gray-700 hover:text-brandOrange transition">Technical SEO</Link></li>
-              <li><Link href="/services-page/local-seo/" className="text-gray-700 hover:text-brandOrange transition">Local SEO</Link></li>
-            </ul>
-          </div>
-
-          {/* Category 8 */}
-          <div>
-            <h5 className="font-semibold mb-2">
-              <Link href="/services-page/web-development/" className="text-brandOrange hover:text-brandOrange transition">
-                Web Development
-              </Link>
-            </h5>
-            <ul className="space-y-2 pl-2">
-              <li><Link href="/services-page/front-end-development/" className="text-gray-700 hover:text-brandOrange transition">Frontend Development</Link></li>
-              <li><Link href="/services-page/back-end-development/" className="text-gray-700 hover:text-brandOrange transition">Backend Development</Link></li>
-            </ul>
-          </div>
+          {/* SEO & Web Development categories removed */}
         </div>
       </section>
 

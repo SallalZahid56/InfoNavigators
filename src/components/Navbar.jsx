@@ -192,8 +192,7 @@ const Navbar = () => {
                   <Link href="/services/DataEntry" className="text-black hover:text-brandOrange">Data Entry</Link>
                   <Link href="/services/DataExtraction" className="text-black hover:text-brandOrange">Data Extraction</Link>
                   <Link href="/services/PythonScraping" className="text-black hover:text-brandOrange">Python Scraping</Link>
-                  <Link href="/services/SEOPage" className="text-black hover:text-brandOrange">SEO</Link>
-                  <Link href="/services/WebDevelopment" className="text-black hover:text-brandOrange">Web Development</Link>
+                  {/* SEO and Web Development removed */}
                 </div>
               )}
             </li>

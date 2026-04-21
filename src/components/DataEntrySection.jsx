@@ -282,8 +282,8 @@ export default function DataEntryPage() {
           </div>
 
           <div className="mt-6">
-            <Link href="/services-page/seo-page/" className="text-brandOrange font-semibold">
-              👉 Related: E-commerce SEO | Web Development Services
+            <Link href="/services-page/lead-generation/" className="text-brandOrange font-semibold">
+              👉 Related: Lead Generation Services
             </Link>
           </div>
         </div>
