@@ -41,18 +41,7 @@ const portfolioItems = [
     desc: "We create advanced scraping scripts designed to handle complex and large-scale data projects with precision. Our solutions extract, clean, and structure massive datasets from multiple sources quickly and reliably. By automating data collection at scale, we help your business save time, reduce costs, and gain actionable insights.",
     link: "https://docs.google.com/spreadsheets/d/1ieVlECjF-zajQBCX3R2Sul4YqdNE484rS9MHFfUTQ-s/edit?gid=0#gid=0",
   },
-  {
-    title: "SEO",
-    image: "/Onpage.png",
-    desc: "We help businesses boost their brand visibility through a comprehensive SEO approach. From on-page and off-page optimization to technical SEO, our strategies are designed to improve search rankings and drive qualified traffic. With data-driven methods, we enhance your online presence and deliver measurable growth.",
-    link: "https://draft9-web.netlify.app/",
-  },
-  {
-    title: "Web Development",
-    image: "/web2.png",
-    desc: "We design and develop scalable, modern, and fully responsive websites that align with your business goals. Each site is tailored to your brand identity, user experience, and conversion objectives. By blending clean design with robust functionality, we help you stand out online and drive measurable results.",
-    link: "https://taskuber.netlify.app/",
-  },
+  // SEO and Web Development portfolio items removed
 ];
 
 const PortfolioShowcase = () => {
@@ -78,15 +67,10 @@ const PortfolioShowcase = () => {
             brands amplify their message and build authentic connections with
             their audiences. With advanced data extraction and Python-driven
             scraping solutions, we gather and structure information from diverse
-            online sources, supporting even the most complex projects. Our SEO
-            expertise strengthens your digital footprint with optimized content,
-            technical improvements, and off-page strategies that improve
-            visibility and attract qualified traffic. Finally, our web development
-            team creates scalable, modern, and responsive websites tailored to
-            your business objectives and customer needs. Each of these services is
-            interconnected, giving you a comprehensive, results-driven approach
-            that saves time, reduces costs, and accelerates your growth in today’s
-            competitive marketplace.
+            online sources, supporting even the most complex projects. Each of
+            these services is interconnected, giving you a comprehensive,
+            results-driven approach that saves time, reduces costs, and
+            accelerates your growth in today’s competitive marketplace.
           </p>
 
           {/* Alternating layout */}
