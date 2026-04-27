@@ -42,44 +42,44 @@ const highlightServices = (text) => {
 
 const faqs = [
   {
-    question: "What services does Info Navigators offer?",
+    question: "What email marketing and campaign services do you provide?",
     answer:
-      "Info Navigators provides a full suite of digital solutions including Lead Generation, Data Entry & Cleaning, Online Internet Research, and more. Each service is tailored to help businesses grow with accurate data and qualified leads.",
+      "We run end-to-end email marketing campaigns: strategy, copy & design, list building, segmentation, automated sequences, A/B testing, and performance reporting. We can handle one-off blasts or multi-step nurture flows tailored to your sales cycle.",
   },
   {
-    question: "How does your Lead Generation service work?",
+    question: "How do you build and validate email lists for campaigns?",
     answer:
-      "Our Lead Generation Services focus on delivering qualified B2B and B2C leads through proven methods like email list building, LinkedIn prospecting, influencer research, and cold outreach. We verify every contact, so your sales team spends less time searching and more time closing deals.",
+      "We source targeted contacts via LinkedIn and web research, enrich records, and validate addresses using verification tools to minimize bounces. Clean lists improve deliverability and campaign ROI—ask about our sample lists before you commit.",
   },
   {
-    question: "Why is accurate Data Entry important?",
+    question: "How do you ensure high deliverability and low bounce rates?",
     answer:
-      "Accurate data entry ensures that your marketing and sales campaigns target the right audience without errors. Our Data Entry Services include CRM Data Entry and Data Cleaning & Formatting, which eliminate duplicates, correct errors, and standardize your database for smooth operations.",
+      "We follow best practices: list hygiene, address verification, domain authentication (SPF/DKIM), sender warm-up, and monitoring. We also use suppression lists and adjust sending patterns to maximize inbox placement.",
   },
   {
-    question: "Do you provide Internet & Market Research services?",
+    question: "Can you integrate email campaigns with our CRM or sales tools?",
     answer:
-      "Yes. Our Online Internet Research Services help businesses gather insights on competitors, markets, and customers. From Market Research & Competitor Analysis to Data Verification & Fact-Checking, we ensure your decisions are backed by verified, actionable data.",
+      "Yes. We integrate with HubSpot, Zoho, Close.io, GHL and other CRMs to sync leads, track activity, and automate follow-ups. We can also push campaign data to your dashboards for unified reporting.",
   },
   {
-    question: "What industries do you serve with Lead Generation and Research?",
+    question: "What metrics and reporting do you provide for campaigns?",
     answer:
-      "We work with diverse industries such as SaaS, eCommerce, Real Estate, Finance, Healthcare, and Professional Services. Our customized B2B Lead Generation and B2C Lead Generation strategies ensure industry-specific targeting.",
+      "We track opens, clicks, replies, bounces, unsubscribes, conversions and revenue (when available). Reports include campaign-level KPIs, A/B test results and actionable recommendations for optimization.",
   },
   {
-    question: "Can I get a sample of leads before committing?",
+    question: "Do you handle email copywriting and creative assets?",
     answer:
-      "Yes. We provide sample B2B Leads so you can test the accuracy and relevance before starting a larger campaign. Explore our Lead Generation Page to learn how we deliver clean, verified data.",
+      "Yes — our team writes subject lines, body copy, and CTA variants, and prepares HTML or plain-text templates. We optimize messaging for deliverability and engagement across audiences.",
   },
   {
-    question: "Do you provide global services or only local clients?",
+    question: "Are your email campaigns compliant with privacy rules?",
     answer:
-      "Info Navigators works with clients across the world. Whether you need International B2B Leads or Local Market Research, our team adapts strategies for your target geography.",
+      "We follow GDPR and CAN-SPAM guidelines where applicable: we use lawful contact sources, include clear unsubscribe options, and honor data subject requests. Ask us about region-specific compliance requirements.",
   },
   {
-    question: "How do I get started with Info Navigators?",
+    question: "How do I get started with an email campaign?",
     answer:
-      "Getting started is easy. Simply Contact Us or Book a Call with our experts. We’ll analyze your business goals and suggest the right combination of services—such as Lead Generation or Data Research.",
+      "Start with a discovery call. We’ll audit your current assets, recommend a campaign plan, send a sample list or pilot campaign, and provide a quote based on scope and volume.",
   },
 ];
 
