@@ -23,16 +23,6 @@ const WhyChooseUs = () => {
         </p>
       </div>
 
-      {/* Contact Info */}
-      <div className="text-center mb-8 sm:mb-12">
-        <p className="font-sans text-base sm:text-lg">
-          📲 <span className="font-semibold">WhatsApp:</span> +923090266690
-        </p>
-        <p className="font-sans text-base sm:text-lg mt-2 sm:mt-3">
-          📧 <span className="font-semibold">Email:</span> contact@infonavigators.com
-        </p>
-      </div>
-
       {/* Subheading */}
       <div className="text-center mb-6 sm:mb-10">
         <h3 className="font-heading text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">
@@ -48,11 +38,10 @@ const WhyChooseUs = () => {
             <FaMoneyBillWave size={40} className="sm:w-[50px] sm:h-[50px]" />
           </div>
           <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-            Affordable Pricing for Every Budget
+            Specialized Lead Generation
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed">
-            We believe in providing cost-effective solutions without 
-            compromising quality.
+            We focus purely on B2B lead generation and email outreach that creates real business opportunities, not just data.
           </p>
         </div>
 
@@ -62,11 +51,10 @@ const WhyChooseUs = () => {
             <FaChartLine size={40} className="sm:w-[50px] sm:h-[50px]" />
           </div>
           <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-            Proven Experience with 2000+ Projects
+            Data-Driven Execution
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed">
-            Successfully delivered Digital Marketing, SEO, Lead Generation, 
-            and Web Development projects worldwide.
+            From targeted prospecting to campaign optimization, every step is backed by accurate data and continuous improvement.
           </p>
         </div>
 
@@ -76,11 +64,10 @@ const WhyChooseUs = () => {
             <FaUserCheck size={40} className="sm:w-[50px] sm:h-[50px]" />
           </div>
           <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-            Trusted by 500+ Satisfied Clients
+            End-to-End System
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed">
-            Our focus on quality, transparency, and timely delivery has earned 
-            us long-term client relationships.
+            We handle the complete process, from research to outreach, so you get a consistent flow of qualified leads.
           </p>
         </div>
       </div>

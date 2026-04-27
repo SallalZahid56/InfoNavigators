@@ -99,7 +99,7 @@ const MarketResearchPage = () => {
             choices.
           </p>
           <a
-            href="https://api.whatsapp.com/send?phone=923090266690&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+            href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-brandOrange text-white px-6 py-3 rounded-lg font-heading font-semibold hover:bg-black transition"

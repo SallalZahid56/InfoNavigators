@@ -12,36 +12,18 @@ const portfolioItems = [
     link: "https://docs.google.com/spreadsheets/d/18DrAIpJO0TcyMJCZpIIdBDO1c2A_JeDqC4MRnEFQsXA/edit?gid=51388062#gid=51388062",
   },
   {
-    title: "Data Entry",
+    title: "Data Prospecting",
     image: "/data-entry.png",
-    desc: "We offer accurate and efficient data entry solutions designed to keep your business information up to date. From CRM updates to data cleaning, our services ensure your records stay organized and reliable. By maintaining clean, actionable data, we help you improve decision-making and operational efficiency.",
+    desc: "Our data prospecting services provide accurate and comprehensive information to support your sales and marketing efforts. We gather and verify contact details, company information, and market insights to create targeted prospect lists that fuel your outreach campaigns. With our data-driven approach, you can connect with the right audience and drive meaningful business growth.",
     link: "https://docs.google.com/spreadsheets/d/1AJ2b2OrGgMFnW4E365lRYpT4t0OC7YUeF04TJAoJ8eM/edit?gid=0#gid=0",
   },
+
   {
-    title: "Internet Research",
-    image: "/influencer-research.png",
-    desc: "We deliver in-depth market analysis and competitor research to help you stay ahead in your industry. Our tailored insights uncover opportunities, identify trends, and reveal gaps in the market. With data-driven recommendations, we empower you to make smarter strategic decisions and drive growth.",
-    link: "https://docs.google.com/spreadsheets/d/xxxxxxx/edit?usp=sharing",
+    title: "Email Campaigns",
+    image: "/email-campaign.jpeg",
+    desc: "We design and execute personalized email campaigns that turn prospects into leads through strategic messaging and continuous optimization. Our approach focuses on crafting compelling content, targeting the right audience, and analyzing performance to maximize engagement and conversions. By leveraging data-driven insights, we help you build meaningful relationships with your prospects and drive measurable results.",
+    link: "https://docs.google.com/spreadsheets/d/18DrAIpJO0TcyMJCZpIIdBDO1c2A_JeDqC4MRnEFQsXA/edit?gid=51388062#gid=51388062",
   },
-  {
-    title: "Influencer Research",
-    image: "/influencer-research.png",
-    desc: "We help brands discover and connect with the right YouTube, Instagram, and TikTok influencers to amplify their campaigns. Our research pinpoints creators who align with your niche, audience, and goals. By partnering with authentic influencers, we drive higher engagement, reach, and measurable results.",
-    link: "https://docs.google.com/spreadsheets/d/1EMbgz-BXHmtMXWaKd1hQ0qS9N_AJFwttFA25MxM63YQ/edit?gid=0#gid=0",
-  },
-  {
-    title: "Data Extraction",
-    image: "/data-extraction.png",
-    desc: "We develop custom scraping tools to collect and organize valuable data from diverse online sources. Our structured datasets provide clean, ready-to-use information tailored to your business needs. With accurate, scalable data extraction, we empower you to gain deeper insights and drive smarter decisions.",
-    link: "https://docs.google.com/spreadsheets/d/1Nnl_6OQWmSZ1zYCTmNdsd9WWTvbO44du38zelV8mbVw/edit?gid=543811288#gid=543811288",
-  },
-  {
-    title: "Python Scraping",
-    image: "/python-scraping.png",
-    desc: "We create advanced scraping scripts designed to handle complex and large-scale data projects with precision. Our solutions extract, clean, and structure massive datasets from multiple sources quickly and reliably. By automating data collection at scale, we help your business save time, reduce costs, and gain actionable insights.",
-    link: "https://docs.google.com/spreadsheets/d/1ieVlECjF-zajQBCX3R2Sul4YqdNE484rS9MHFfUTQ-s/edit?gid=0#gid=0",
-  },
-  // SEO and Web Development portfolio items removed
 ];
 
 const PortfolioShowcase = () => {
@@ -56,21 +38,7 @@ const PortfolioShowcase = () => {
 
           {/* Intro Paragraph */}
           <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto text-center mb-16">
-            Our portfolio reflects a powerful mix of data, digital strategy, and
-            technology designed to accelerate business growth. We specialize in
-            generating highly targeted B2B leads, giving sales teams direct
-            access to decision-makers and shortening the sales cycle. Our data
-            entry and internet research services ensure that your information is
-            always accurate, organized, and up to date, laying a solid foundation
-            for smarter decisions. We go beyond basic research by finding the
-            right influencers across YouTube, Instagram, and TikTok, helping
-            brands amplify their message and build authentic connections with
-            their audiences. With advanced data extraction and Python-driven
-            scraping solutions, we gather and structure information from diverse
-            online sources, supporting even the most complex projects. Each of
-            these services is interconnected, giving you a comprehensive,
-            results-driven approach that saves time, reduces costs, and
-            accelerates your growth in today’s competitive marketplace.
+            We help businesses generate qualified leads through targeted prospecting and strategic email outreach. Below are examples of campaigns focused on delivering real conversations, sales opportunities, and measurable results.
           </p>
 
           {/* Alternating layout */}

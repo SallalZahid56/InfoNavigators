@@ -11,15 +11,14 @@ export default function ContactPage() {
         {/* Intro Section */}
         <section className="max-w-4xl mx-auto mt-20 px-6 py-12 text-center rounded-xl shadow-lg">
           <h1 className="text-4xl font-bold text-brandOrange mb-4">
-            Get in Touch with Us
+            Get in Touch
           </h1>
           <p className="text-lg text-black mb-6">
-            Looking for expert help with lead generation, web scraping, SEO, or
-            custom web development? You’ve come to the right place. We provide
-            high-quality digital solutions to help your business grow.
+            Ready to start generating qualified leads for your business?
+            Let’s build a system that connects you with the right prospects and turns outreach into real opportunities.
           </p>
           <a
-            href="https://api.whatsapp.com/send?phone=923090266690&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+            href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
             target="_blank"
             rel="noreferrer"
             className="inline-block px-6 py-3 bg-brandOrange text-white font-semibold rounded-lg hover:bg-black transition"
@@ -53,13 +52,10 @@ export default function ContactPage() {
             Our Core Services
           </h2>
           <ul className="space-y-2 text-lg text-black">
-            <li>🔹 Lead Generation (B2B, Real Estate, Social Media)</li>
-            <li>🔹 Custom List Building (Emails, LinkedIn, Phone)</li>
-            <li>🔹 Python Web Scraping (eCommerce, Profiles, Products)</li>
-            <li>🔹 Data Entry (Manual, Automated, Verified)</li>
-            <li>🔹 AI-Based Data Extraction (PDF, Image, Excel, JSON, SQL)</li>
-            <li>🔹 SEO Services (Technical, On-Page, Off-Page, Local)</li>
-            <li>🔹 Custom Web Development (React, Full Stack, SEO-Optimized)</li>
+            <li>🔹 B2B Lead Generation Focus</li>
+            <li>🔹 Targeted & Verified Prospect Data</li>
+            <li>🔹 Personalized Email Outreach</li>
+            <li>🔹 Results-Driven Approach</li>
           </ul>
         </section>
 

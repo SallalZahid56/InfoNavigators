@@ -40,14 +40,9 @@ export default function AboutUsPage() {
           {/* Left - Text */}
           <div>
             <p className="font-sans text-gray-700 text-base md:text-lg leading-relaxed">
-              At <span className="font-semibold">InfoNav</span>, we transcend
-              conventional boundaries, positioning ourselves as pioneers in
-              crafting strategic solutions tailored to propel your business to
-              new heights. Our expertise spans a range of services, from
-              mastering{" "}
-              <span className="font-semibold">
-                Lead Generation, Internet Research, Data Mining, Python Scraping, and Influencer Research
-              </span>.
+             At InfoNav, we specialize in helping B2B businesses generate qualified leads through targeted prospecting and strategic email outreach.
+
+             We’re not a general digital agency, we focus on building reliable lead generation systems that connect you with the right decision-makers and turn outreach into real business opportunities.
             </p>
           </div>
 

@@ -8,14 +8,11 @@ const Strategy = () => {
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
         <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
-          The Strategists for Your{" "}
-          <span className="text-brandOrange">Business Escalation!</span>
+          Strategic Execution{" "}
+          <span className="text-brandOrange">for Predictable Growth</span>
         </h2>
         <p className="font-sans text-sm sm:text-base md:text-lg text-gray-600 mt-3 sm:mt-4 leading-relaxed">
-          From ideation to strategy execution, our expert digital marketers have
-          aced it all. With dedicated resources for your business development and
-          growth, we are all set to strategize and execute the concept for your
-          business success!
+          From prospect research to campaign execution, we handle every step of your lead generation process with precision. Our team focuses on building reliable systems that consistently connect you with the right prospects and turn outreach into real business opportunities.
         </p>
       </div>
 
@@ -29,13 +26,10 @@ const Strategy = () => {
             </div>
           </div>
           <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4 transition group-hover:text-white">
-            Data Driven
+            Data-Driven Prospecting
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed transition group-hover:text-white">
-            At the time of strategy development, we utilize industry-specific
-            data to direct our solutions in the right direction. It's not the
-            opinion but the data that maps the blueprints of our local internet
-            marketing services near you.
+            We build highly targeted prospect lists using verified data and deep research. Every campaign starts with accuracy, so your outreach reaches the right decision-makers, not random contacts.
           </p>
         </div>
 
@@ -47,13 +41,10 @@ const Strategy = () => {
             </div>
           </div>
           <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4 transition group-hover:text-white">
-            Customer Driven
+            Personalized Outreach
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed transition group-hover:text-white">
-            To keep our efforts aligned with the client's requirements, we follow
-            a customer-centric approach. The satisfaction of our clients is our
-            foremost priority. We are the outsourced yet dedicated local internet
-            marketing agency for your business.
+            We don’t send generic emails. Each campaign is crafted with tailored messaging that speaks directly to your ideal clients, increasing response rates and building real conversations.
           </p>
         </div>
 
@@ -65,13 +56,10 @@ const Strategy = () => {
             </div>
           </div>
           <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4 transition group-hover:text-white">
-            Performance Driven
+            Performance-Focused Execution
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed transition group-hover:text-white">
-            On the mission of providing you with tailored digital marketing
-            solutions for your company, we analyze the outcomes with a keen eye
-            for each detail. To achieve surging growth, we utilize highly
-            specific data to provide feedback on our campaigns.
+            From launch to optimization, we continuously track and improve campaign performance. Our focus is simple, generate qualified leads and turn outreach into measurable business results.
           </p>
         </div>
       </div>

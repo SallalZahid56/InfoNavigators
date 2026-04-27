@@ -44,7 +44,7 @@ const Footer = () => {
             {/* CTA Buttons */}
             <div className="flex justify-center gap-4 flex-wrap">
               <a
-                href="https://api.whatsapp.com/send?phone=923090266690&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+                href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
                 className="bg-black text-white border border-white rounded-md px-6 py-3 uppercase text-xs tracking-wide font-semibold h-11 flex items-center justify-center"
               >
                 Get Started
@@ -88,7 +88,7 @@ const Footer = () => {
               {/* Social Icons */}
               <div className="flex gap-4 text-white text-lg">
                 <a
-                  href="https://api.whatsapp.com/send?phone=923090266690&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+                  href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Chat with us on WhatsApp"

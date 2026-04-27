@@ -8,13 +8,15 @@ const ExpertiseSection = () => {
       {/* Heading */}
       <div className="text-center mb-8">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-gray-900">
-          Our <span className="text-brandOrange">Core Expertise</span>
+          Our <span className="text-brandOrange">What We Do</span>
         </h2>
         <p className="text-gray-700 mt-4 text-base md:text-lg font-sans max-w-3xl mx-auto leading-relaxed">
-          At <span className="font-semibold">InfoNav</span>, we combine
-          innovation, strategy, and technology to deliver solutions that drive
-          measurable business results. Our team focuses on understanding your
-          unique needs and crafting services that build long-term success.
+          We handle the complete lead generation process:
+
+          Identifying your ideal prospects
+          Building accurate, targeted data
+          Launching personalized email campaigns
+          Continuously optimizing for better results
         </p>
       </div>
 

@@ -15,37 +15,22 @@ const services = [
   {
     icon: FaChartLine,
     title: "Email Marketing",
-    desc: "At InfoNavigators, we deliver data-driven email marketing solutions that help B2B companies reach decision-makers, nurture prospects, and convert leads into customers. From cold outreach to automated campaigns, our strategic approach ensures consistent engagement and scalable revenue growth.",
+    desc: "We create and manage targeted email campaigns designed to reach decision-makers and generate meaningful conversations. From copywriting to campaign optimization, every step is focused on results.",
   },
   {
     icon: FaBullhorn,
     title: "Lead Generation",
-    desc: "Lead generation is the heartbeat of a successful sales strategy. At InfoNav, we specialize in delivering targeted, high-quality leads that align perfectly with your ideal customer profile (ICP).",
+    desc: "We build highly targeted prospect lists aligned with your ideal customer profile, ensuring your outreach reaches the right audience and drives qualified opportunities",
   },
   {
     icon: FaUserFriends,
-    title: "Influencer Research",
-    desc: "In today’s digital landscape, influencer marketing has become one of the most effective strategies for expanding brand awareness and building authentic customer relationships.",
+    title: "Data-Driven Prospecting",
+    desc: "Using advanced research and verification methods, we gather accurate and reliable data to support high-performing outreach campaigns.",
   },
   {
     icon: FaSearch,
-    title: "Internet Research",
-    desc: "In a world flooded with information, having access to the right data at the right time is what sets successful businesses apart. At InfoNav, our Internet Research services are designed to help you uncover accurate, detailed, and relevant insights that power strategic decision-making and enhance your competitive edge.",
-  },
-  {
-    icon: FaDatabase,
-    title: "Data Extraction",
-    desc: "In today’s digital economy, data is currency — but only if it’s clean, relevant, and accessible. At InfoNav, our Data Extraction service is designed to help you pull valuable, structured information from complex sources, so you can make informed decisions faster and with greater accuracy.",
-  },
-  {
-    icon: FaPython,
-    title: "Python Scraping",
-    desc: "In a world overflowing with online information, staying competitive means having access to the right data at the right time. Our Python Scraping service is designed to help you efficiently gather structured data from multiple sources — including websites, directories, e-commerce platforms, forums, and more — using powerful, customized Python scripts.",
-  },
-  {
-    icon: FaKeyboard,
-    title: "Data Entry",
-    desc: "In today’s fast-paced digital world, accurate and organized data is the backbone of every successful business operation. At InfoNav, we understand how vital reliable data entry services are to maintaining the integrity and accessibility of your information.",
+    title: "Cold Email Outreach",
+    desc: "We design and execute personalized cold email campaigns that turn prospects into leads through strategic messaging and continuous optimization.",
   },
 ];
 
