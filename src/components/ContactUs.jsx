@@ -98,8 +98,10 @@ export default function ContactPage() {
                 🔍 What type of SEO services do you offer?
               </summary>
               <p className="mt-2 text-black">
-                We offer full SEO support — technical audits, keyword research,
-                content optimization, and backlink building.
+                We provide end-to-end email marketing services including campaign
+                strategy, list building, template design, automation (sequences
+                & drip campaigns), A/B testing, and deliverability optimization.
+                Ask us about CRM integrations and sample pilot campaigns.
               </p>
             </details>
 
