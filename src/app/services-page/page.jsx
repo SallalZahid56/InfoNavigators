@@ -58,6 +58,10 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      <Services />
+      <Tools />
+      <WhyChooseUs />
+
       {/* ✅ Services Directory Section */}
       <section className="w-full bg-gray-50 py-16 px-6 lg:px-20">
         <h2 className="text-center text-2xl font-bold mb-10">
@@ -153,9 +157,6 @@ export default function ServicesPage() {
 
       {/* Existing Components */}
       <HowWeDeliver />
-      <Services />
-      <Tools />
-      <WhyChooseUs />
       <Testimonials />
       <FinalCTA />
     </>
