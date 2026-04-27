@@ -30,12 +30,10 @@ export default function ContactPage() {
         {/* Highlights Section */}
         <section className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 px-6">
           {[
-            "✅ Experienced Python & Automation Team",
             "✅ 100% Client-Specific Customization",
             "✅ Clean, Verified Data Delivery",
             "✅ Affordable & Fast Turnaround",
             "✅ Dedicated 24/7 Support",
-            "✅ SEO & Results-Driven Execution",
           ].map((item, idx) => (
             <div
               key={idx}

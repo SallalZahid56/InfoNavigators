@@ -5,6 +5,12 @@ import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 
 const portfolioItems = [
+{
+    title: "Email Campaigns",
+    image: "/email-campaign.jpeg",
+    desc: "We design and execute personalized email campaigns that turn prospects into leads through strategic messaging and continuous optimization. Our approach focuses on crafting compelling content, targeting the right audience, and analyzing performance to maximize engagement and conversions. By leveraging data-driven insights, we help you build meaningful relationships with your prospects and drive measurable results.",
+    link: "https://docs.google.com/spreadsheets/d/18DrAIpJO0TcyMJCZpIIdBDO1c2A_JeDqC4MRnEFQsXA/edit?gid=51388062#gid=51388062",
+  },
   {
     title: "Lead Generation",
     image: "/lead-generation.png",
@@ -18,12 +24,7 @@ const portfolioItems = [
     link: "https://docs.google.com/spreadsheets/d/1AJ2b2OrGgMFnW4E365lRYpT4t0OC7YUeF04TJAoJ8eM/edit?gid=0#gid=0",
   },
 
-  {
-    title: "Email Campaigns",
-    image: "/email-campaign.jpeg",
-    desc: "We design and execute personalized email campaigns that turn prospects into leads through strategic messaging and continuous optimization. Our approach focuses on crafting compelling content, targeting the right audience, and analyzing performance to maximize engagement and conversions. By leveraging data-driven insights, we help you build meaningful relationships with your prospects and drive measurable results.",
-    link: "https://docs.google.com/spreadsheets/d/18DrAIpJO0TcyMJCZpIIdBDO1c2A_JeDqC4MRnEFQsXA/edit?gid=51388062#gid=51388062",
-  },
+  
 ];
 
 const PortfolioShowcase = () => {
