@@ -75,11 +75,12 @@ export default function ContactPage() {
 
             <details className="bg-white border border-brandOrange p-4 rounded-md cursor-pointer">
               <summary className="font-semibold text-black">
-                🤖 Do you offer custom scraping scripts?
+                📧 Do you design and run email campaigns?
               </summary>
               <p className="mt-2 text-black">
-                Yes, we build fully custom scraping solutions using Python,
-                BeautifulSoup, and Selenium.
+                Yes — we create responsive templates, write subject lines and
+                email copy, set up automation flows, and monitor open/click
+                rates to continuously improve campaign performance.
               </p>
             </details>
 
@@ -95,7 +96,7 @@ export default function ContactPage() {
 
             <details className="bg-white border border-brandOrange p-4 rounded-md cursor-pointer">
               <summary className="font-semibold text-black">
-                🔍 What type of SEO services do you offer?
+                📧 What email marketing services do you offer?
               </summary>
               <p className="mt-2 text-black">
                 We provide end-to-end email marketing services including campaign
