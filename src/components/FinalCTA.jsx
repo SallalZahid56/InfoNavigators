@@ -1,31 +1,55 @@
 "use client";
-
-import React from "react";
-import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function FinalCTA() {
   return (
-    <section className="relative max-w-4xl mx-auto mt-14 mb-8 px-6 py-12 text-center rounded-3xl shadow-xl bg-gradient-to-br from-brandOrange/90 via-brandOrange/70 to-brandOrange/60 text-white overflow-hidden">
-      {/* Decorative circles */}
-      <div className="pointer-events-none absolute -left-10 -top-10 h-40 w-40 rounded-full bg-white/10"></div>
-      <div className="pointer-events-none absolute -right-12 -bottom-12 h-48 w-48 rounded-full bg-white/10"></div>
+    <section className="w-full bg-white py-20 px-6 sm:px-8 lg:px-20">
+      <div className="max-w-4xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 32 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="relative bg-brandOrange rounded-3xl px-8 sm:px-14 py-14 text-center overflow-hidden shadow-xl"
+        >
+          {/* Decorative circles */}
+          <div className="absolute -top-10 -left-10 w-40 h-40 rounded-full bg-white/10 pointer-events-none" />
+          <div className="absolute -bottom-10 -right-10 w-56 h-56 rounded-full bg-white/10 pointer-events-none" />
+          <div className="absolute top-6 right-12 w-10 h-10 rounded-full bg-white/10 pointer-events-none" />
 
-      <h3 className="text-3xl md:text-4xl font-heading font-bold mb-4 text-black">
-        Let’s Build Something Great Together
-      </h3>
-      <p className="text-lg text-black mb-6 font-sans">
-        Your project deserves focused attention, accurate data, and measurable
-        results. That’s exactly what we deliver.
-      </p>
+          {/* Label */}
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-white/70 border border-white/30 px-4 py-1.5 rounded-full mb-6">
+            Get Started
+          </span>
 
-      <Link
-        href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block px-6 py-3 bg-brandOrange text-white font-semibold rounded-lg shadow hover:-translate-y-0.5 hover:bg-black hover:text-white transition"
-      >
-        📧 Contact Us & Start Your Success Story
-      </Link>
+          {/* Title */}
+          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white leading-tight mb-5">
+            Ready to build a predictable <br className="hidden sm:block" />
+            sales pipeline?
+          </h2>
+
+          {/* Body */}
+          <p className="font-sans text-white/85 text-base sm:text-lg max-w-xl mx-auto leading-relaxed mb-10">
+            Let&apos;s design a cold email system that brings you consistent meetings
+            with qualified buyers.
+          </p>
+
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+              className="bg-white text-brandOrange font-heading font-semibold px-7 py-2.5 rounded-full shadow hover:bg-gray-900 hover:text-white transition-colors duration-300 text-sm"
+            >
+              Book Free Strategy Call ⮕
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20want%20to%20start%20my%20outreach%20campaign."
+              className="bg-transparent border-2 border-white text-white font-heading font-semibold px-7 py-2.5 rounded-full hover:bg-white hover:text-brandOrange transition-colors duration-300 text-sm"
+            >
+              Start Your Outreach Campaign ⮕
+            </a>
+          </div>
+        </motion.div>
+      </div>
     </section>
   );
 }

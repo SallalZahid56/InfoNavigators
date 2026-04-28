@@ -1,86 +1,129 @@
-"use client"; // ✅ Only needed if you use interactivity/hooks
+"use client";
 
-import {
-  FaBullhorn,
-  FaKeyboard,
-  FaUserFriends,
-  FaSearch,
-  FaDatabase,
-  FaPython,
-  FaChartLine,
-} from "react-icons/fa";
+import { motion } from "framer-motion";
+import { FaChartLine, FaBullhorn, FaUserFriends, FaSearch } from "react-icons/fa";
 import Link from "next/link";
 
 const services = [
   {
+    number: "01",
     icon: FaChartLine,
-    title: "Email Marketing",
-    desc: "We create and manage targeted email campaigns designed to reach decision-makers and generate meaningful conversations. From copywriting to campaign optimization, every step is focused on results.",
+    title: "Cold Email Outreach & Appointment Setting",
+    desc: "We design and manage cold email campaigns that generate qualified replies and booked meetings.",
   },
   {
+    number: "02",
     icon: FaBullhorn,
-    title: "Lead Generation",
-    desc: "We build highly targeted prospect lists aligned with your ideal customer profile, ensuring your outreach reaches the right audience and drives qualified opportunities",
+    title: "B2B Lead Generation",
+    desc: "Targeted lead lists built from your ideal customer profile for outbound sales campaigns.",
   },
   {
+    number: "03",
     icon: FaUserFriends,
-    title: "Data-Driven Prospecting",
-    desc: "Using advanced research and verification methods, we gather accurate and reliable data to support high-performing outreach campaigns.",
+    title: "Prospect Research & Data Intelligence",
+    desc: "Verified and enriched B2B data to ensure your outreach reaches the right decision-makers.",
   },
   {
+    number: "04",
     icon: FaSearch,
-    title: "Cold Email Outreach",
-    desc: "We design and execute personalized cold email campaigns that turn prospects into leads through strategic messaging and continuous optimization.",
+    title: "Email Marketing Automation Setup",
+    desc: "End-to-end setup of outreach systems, tools, and workflows for scalable lead generation.",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="w-full bg-white py-16 px-6 sm:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto text-center">
+    <section className="w-full bg-white py-20 px-6 sm:px-8 lg:px-20">
+      <div className="max-w-7xl mx-auto">
+
+        {/* Top label */}
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="flex justify-center"
+        >
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-brandOrange border border-brandOrange/40 bg-brandOrange/5 px-4 py-1.5 rounded-full mb-6">
+            What We Do
+          </span>
+        </motion.div>
+
         {/* Heading */}
-        <h2 className="font-heading text-3xl sm:text-4xl font-bold text-gray-900">
+        <motion.h2
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="font-heading text-3xl sm:text-4xl font-bold text-gray-900 text-center"
+        >
           Our <span className="text-brandOrange">Services</span>
-        </h2>
-        <p className="font-sans text-gray-600 mt-4 max-w-2xl mx-auto">
+        </motion.h2>
+
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="font-sans text-gray-600 mt-4 max-w-2xl mx-auto text-center"
+        >
           At InfoNav, we offer a comprehensive range of services to meet the
           evolving sales needs of businesses:
-        </p>
+        </motion.p>
 
         {/* Services Grid */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 gap-6">
           {services.map((service, index) => (
-            <div
+            <motion.div
               key={index}
-              className="group border border-brandOrange rounded-xl p-8 shadow-sm transition bg-white hover:bg-brandOrange hover:border-white hover:shadow-lg"
+              initial={{ opacity: 0, y: 32 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.12 }}
+              className="group relative border border-gray-100 rounded-2xl p-8 shadow-sm bg-white hover:border-brandOrange hover:shadow-md transition-all duration-300 overflow-hidden"
             >
-              {/* Icon */}
-              <div className="flex justify-center">
-                <service.icon className="text-4xl text-brandOrange transition group-hover:text-white" />
+              {/* Background number watermark */}
+              <span className="absolute -right-2 -top-3 font-heading text-7xl font-black text-gray-100 group-hover:text-brandOrange/10 transition-colors duration-300 select-none leading-none">
+                {service.number}
+              </span>
+
+              {/* Icon + Number row */}
+              <div className="flex items-center gap-4 mb-5 relative z-10">
+                <div className="w-12 h-12 rounded-xl bg-brandOrange/10 flex items-center justify-center group-hover:bg-brandOrange transition-all duration-300">
+                  <service.icon className="text-xl text-brandOrange group-hover:text-white transition-colors duration-300" />
+                </div>
+                <span className="font-heading text-xs font-bold tracking-widest text-brandOrange uppercase">
+                  {service.number}
+                </span>
               </div>
 
               {/* Title */}
-              <h3 className="font-heading text-xl font-semibold mt-6 mb-3 text-gray-900 transition group-hover:text-white">
+              <h3 className="font-heading text-lg font-semibold text-gray-900 mb-3 relative z-10 group-hover:text-brandOrange transition-colors duration-300">
                 {service.title}
               </h3>
 
               {/* Description */}
-              <p className="font-sans text-gray-600 text-sm transition group-hover:text-white">
+              <p className="font-sans text-gray-500 text-sm leading-relaxed relative z-10">
                 {service.desc}
               </p>
-            </div>
+
+              {/* Bottom accent bar */}
+              <div className="absolute bottom-0 left-0 h-0.5 w-0 bg-brandOrange group-hover:w-full transition-all duration-500 rounded-b-2xl" />
+            </motion.div>
           ))}
         </div>
 
-        {/* ✅ Learn More Button */}
-        <div className="mt-12">
+        {/* Learn More Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="mt-12 flex justify-center"
+        >
           <Link
             href="/services-page"
-            className="inline-block bg-brandOrange text-white font-heading text-lg font-semibold py-3 px-8 rounded-full shadow-md hover:bg-black hover:text-white transition"
+            className="bg-brandOrange text-white font-heading text-sm font-semibold py-2.5 px-7 rounded-full shadow-md hover:bg-black transition-colors duration-300"
           >
-            Learn More
+            Learn More ⮕
           </Link>
-        </div>
+        </motion.div>
+
       </div>
     </section>
   );

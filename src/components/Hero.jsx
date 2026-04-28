@@ -3,36 +3,42 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-white pt-20 md:pt-22 lg:pt-14">
-      {/* ↑ increased top padding for tablets so text doesn’t touch navbar */}
+    <section className="w-full bg-white pt-28 md:pt-32 lg:pt-28">
 
       <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 lg:px-20 flex flex-col md:flex-row items-center gap-12">
 
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left">
+
+          {/* Headline */}
           <h1 className="font-heading text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold leading-snug text-gray-900">
-            <span className="text-brandOrange">Lead Generation</span>  & Email Marketing <span className="text-brandOrange">Agency</span>
+            <span className="text-brandOrange">B2B Lead Generation</span> &amp; Cold Email Outreach{" "}
+            <span className="text-brandOrange">That Fills Your Sales Pipeline</span>
           </h1>
 
-          <p className="font-sans text-gray-700 mt-4 sm:mt-6 text-base sm:text-lg md:leading-relaxed">
-            <span className="font-semibold text-brandOrange">InfoNav</span> is a
-            results-driven Email Marketing & B2B Lead Generation agency that helps B2B
-            companies generate qualified leads through targeted email outreach and data-driven prospect research. Our process focuses on reaching the right audience with personalized messaging and reliable data, enabling consistent pipeline growth and meaningful business opportunities.
+          {/* Subheadline */}
+          <p className="font-sans text-gray-800 mt-4 sm:mt-5 text-base sm:text-lg font-semibold md:leading-relaxed">
+            <span className="text-brandOrange">InfoNav</span> helps B2B companies book qualified sales meetings using targeted cold email outreach and verified prospect data.
           </p>
 
-          {/* Buttons */}
+          {/* Support Line */}
+          <p className="font-sans text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base md:leading-relaxed border-l-4 border-brandOrange pl-4 italic">
+            We don&apos;t just generate leads. We build outbound systems that bring consistent replies, conversations, and revenue opportunities.
+          </p>
+
+          {/* CTA Buttons */}
           <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
-              className="bg-brandOrange text-white font-heading px-6 sm:px-7 py-2.5 sm:py-3 rounded-full shadow hover:bg-black transition flex items-center justify-center text-sm sm:text-base md:text-lg"
+              className="bg-brandOrange text-white font-heading px-5 py-2 rounded-full shadow hover:bg-black transition flex items-center justify-center text-sm"
             >
-              Get Free Sample ⮕
+              Book a Strategy Call ⮕
             </a>
             <a
               href="/portfolio/"
-              className="bg-brandOrange text-white font-heading px-6 sm:px-7 py-2.5 sm:py-3 rounded-full shadow hover:bg-black transition flex items-center justify-center text-sm sm:text-base md:text-lg"
+              className="border-2 border-brandOrange text-brandOrange font-heading px-5 py-2 rounded-full shadow hover:bg-brandOrange hover:text-white transition flex items-center justify-center text-sm"
             >
-              Our Portfolio ⮕
+              Get a Free Outreach Plan ⮕
             </a>
           </div>
         </div>
@@ -40,12 +46,12 @@ const Hero = () => {
         {/* Right Image */}
         <div className="flex-1 flex justify-center">
           <Image
-            src="/heroPic.png" // ✅ put heroPic.png inside public/
+            src="/heroPic.png"
             alt="Hero"
-            width={500} // control responsiveness
+            width={500}
             height={500}
             className="w-64 sm:w-80 md:w-96 lg:w-full max-w-md md:max-w-lg h-auto"
-            priority // ✅ loads faster on homepage
+            priority
           />
         </div>
       </div>

@@ -5,17 +5,6 @@ import { FaChartBar, FaUsers, FaTachometerAlt } from "react-icons/fa";
 const Strategy = () => {
   return (
     <section className="w-full bg-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-20">
-      {/* Heading */}
-      <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
-        <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
-          Strategic Execution{" "}
-          <span className="text-brandOrange">for Predictable Growth</span>
-        </h2>
-        <p className="font-sans text-sm sm:text-base md:text-lg text-gray-600 mt-3 sm:mt-4 leading-relaxed">
-          From prospect research to campaign execution, we handle every step of your lead generation process with precision. Our team focuses on building reliable systems that consistently connect you with the right prospects and turn outreach into real business opportunities.
-        </p>
-      </div>
-
       {/* Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
         {/* Data Driven */}

@@ -1,5 +1,9 @@
 // src/app/page.js
 import Hero from "../components/Hero";
+import ProblemSection from "../components/ProblemSection";
+import Solution from "../components/Solution";
+import HowItWorks from "../components/HowItWorks";
+import Outcome from "../components/Outcome";
 import Strategy from "../components/Strategy";
 import Services from "../components/Services";
 import Tools from "../components/Tools";
@@ -27,13 +31,17 @@ export default function Home() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <meta name="google-site-verification" content="6Gu3f2j64ZidAs9HWXpsqaJy4cF-fk-10LLD8uyStxg" />
+        <meta name="google-site-verification" content="6Gu3f2j64ZidAs9HWXpsqaJy4cF-fk-10LLD8uyStxg" />
         <link rel="canonical" href="https://infonavigators.com/" />
       </Head>
       <main className="flex flex-col">
         <Hero />
-        <Strategy />
+        <ProblemSection />
+        <Solution />
         <Services />
+        <HowItWorks />
+        <Outcome />
+        <Strategy />
         <Tools />
         <WhyChooseUs />
         <Testimonials />
