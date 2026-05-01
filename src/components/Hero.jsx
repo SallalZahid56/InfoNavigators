@@ -28,12 +28,12 @@ const Hero = () => {
 
           {/* Subheadline */}
           <p className="font-sans text-gray-800 mt-4 sm:mt-5 text-base sm:text-lg font-semibold md:leading-relaxed">
-            <span className="text-brandOrange">InfoNav</span> helps B2B companies book qualified sales meetings using targeted cold email outreach and verified prospect data.
+            <span className="text-brandOrange">InfoNav</span> is a dedicated b2b lead generation agency helping companies book qualified sales meetings through targeted cold email outreach service and verified prospect data.
           </p>
 
           {/* Support Line */}
           <p className="font-sans text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base md:leading-relaxed border-l-4 border-brandOrange pl-4 italic">
-            We don&apos;t just generate leads. We build outbound systems that bring consistent replies, conversations, and revenue opportunities.
+            We don't just generate leads. We build outbound systems that bring consistent replies, conversations, and revenue opportunities, acting as your fully outsourced lead generation partner from day one.
           </p>
 
           {/* CTA Buttons */}

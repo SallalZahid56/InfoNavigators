@@ -9,25 +9,25 @@ const services = [
     number: "01",
     icon: FaChartLine,
     title: "Cold Email Outreach & Appointment Setting",
-    desc: "We design and manage cold email campaigns that generate qualified replies and booked meetings.",
+    desc: "As a trusted cold email outreach service and appointment setting service b2b teams rely on, we design and manage campaigns that generate qualified replies and booked meetings,  consistently.",
   },
   {
     number: "02",
     icon: FaBullhorn,
     title: "B2B Lead Generation",
-    desc: "Targeted lead lists built from your ideal customer profile for outbound sales campaigns.",
+    desc: "Targeted lead lists built from your ideal customer profile for outbound sales campaigns. This is core to what makes InfoNav a results-driven b2b lead generation agency for companies serious about pipeline growth.",
   },
   {
     number: "03",
     icon: FaUserFriends,
     title: "Prospect Research & Data Intelligence",
-    desc: "Verified and enriched B2B data to ensure your outreach reaches the right decision-makers.",
+    desc: "Verified and enriched B2B data to ensure your outreach reaches the right decision-makers,  the backbone of every successful outsourced lead generation program we run",
   },
   {
     number: "04",
     icon: FaSearch,
     title: "Email Marketing Automation Setup",
-    desc: "End-to-end setup of outreach systems, tools, and workflows for scalable lead generation.",
+    desc: "End-to-end setup of outreach systems, tools, and workflows for scalable lead generation. Built and managed by a specialized b2b email marketing agency usa businesses trust to deliver results at scale.",
   },
 ];
 
@@ -64,8 +64,7 @@ const Services = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-sans text-gray-600 mt-4 max-w-2xl mx-auto text-center"
         >
-          At InfoNav, we offer a comprehensive range of services to meet the
-          evolving sales needs of businesses:
+          At InfoNav, we offer a comprehensive range of services to meet the evolving sales needs of businesses, from outsourced lead generation to full-scale outbound system builds.
         </motion.p>
 
         {/* Services Grid */}

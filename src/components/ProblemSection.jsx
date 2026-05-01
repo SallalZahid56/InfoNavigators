@@ -55,8 +55,7 @@ export default function ProblemSection() {
           transition={{ delay: 0.6, duration: 0.6 }}
           className="font-sans mt-12 text-lg text-gray-600 max-w-3xl mx-auto border-l-4 border-brandOrange pl-4 text-left italic"
         >
-          Without a proper outbound system, sales pipelines stay empty and
-          growth becomes unpredictable.
+          Without a proper outbound system and a dedicated appointment setting service b2b teams can actually rely on, sales pipelines stay empty and growth becomes impossible to forecast.
         </motion.p>
       </div>
     </section>

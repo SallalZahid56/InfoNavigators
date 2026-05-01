@@ -14,11 +14,11 @@ import FinalCTA from "../components/FinalCTA";
 import Head from "next/head";
 
 export const metadata = {
-  title: "InfoNavigators – Smart Digital Solutions for Your Business",
+  title: "B2B Lead Generation Agency | Cold Email Outreach for US Companies | InfoNav",
   description:
     "Discover InfoNavigators – offering smart digital marketing, SEO, and web solutions to grow your online presence",
   keywords:
-    "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
+    "InfoNav is a dedicated b2b lead generation agency helping companies book qualified sales meetings through targeted cold email outreach service and verified prospect data.",
   alternates: {
     canonical: "https://infonavigators.com/", // ✅ canonical here
   },

@@ -5,22 +5,22 @@ const steps = [
   {
     number: "01",
     title: "Define Your Ideal Customer",
-    desc: "We identify your target companies, roles, and industries.",
+    desc: "We identify your target companies, roles, and industries, the critical first step every effective b2b lead generation agency takes before a single email goes out.",
   },
   {
     number: "02",
     title: "Build Verified Prospect Lists",
-    desc: "We collect accurate, targeted B2B data for outreach.",
+    desc: "We collect accurate, targeted B2B data for outreach, the same data intelligence that powers our outsourced lead generation programs for clients across industries.",
   },
   {
     number: "03",
     title: "Launch Cold Email Campaigns",
-    desc: "We create and send personalized email sequences to decision-makers.",
+    desc: "We create and send personalized email sequences to decision-makers, a battle-tested cold email outreach service and b2b email marketing agency usa approach designed to land in inboxes, not spam folders.",
   },
   {
     number: "04",
     title: "Generate Replies & Meetings",
-    desc: "You receive qualified conversations and booked sales calls.",
+    desc: "You receive qualified conversations and booked sales calls, exactly what a dedicated appointment setting service b2b companies trust is built to deliver.",
   },
 ];
 

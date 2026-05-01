@@ -6,22 +6,22 @@ const reasons = [
   {
     icon: FaHandshake,
     title: "Outbound Growth Partner",
-    desc: "We are not just a lead list provider — we are a full outbound growth partner committed to your pipeline.",
+    desc: "We are not just a lead list provider, as a dedicated b2b lead generation agency, we are a full outbound growth partner committed to filling your pipeline with real opportunities.",
   },
   {
     icon: FaDatabase,
     title: "Data + Outreach Combined",
-    desc: "A unified system of verified data and strategic outreach — not two separate services, but one powerful engine.",
+    desc: "A unified system of verified data and strategic cold email outreach service, not two separate services, but one powerful engine that drives consistent results for your sales team.",
   },
   {
     icon: FaChartLine,
     title: "Focus on Real Sales Outcomes",
-    desc: "We measure success by booked meetings and revenue conversations, not vanity metrics.",
+    desc: "We measure success by booked meetings and revenue conversations, not vanity metrics. Our appointment setting service b2b companies rely on is built around one thing, results you can take to the sales floor.",
   },
   {
     icon: FaCheckCircle,
     title: "Manual + Tool-Based Verified Targeting",
-    desc: "Every prospect is verified using a mix of manual research and advanced tooling for maximum accuracy.",
+    desc: "Every prospect is verified using a mix of manual research and advanced tooling for maximum accuracy, the same precision that makes our outsourced lead generation programs outperform generic list providers.",
   },
 ];
 
@@ -102,9 +102,9 @@ export default function WhyInfoNav() {
           className="mt-10 text-center font-sans text-gray-500 text-sm border-t border-gray-100 pt-8"
         >
           Backed by hands-on experience in{" "}
-          <span className="text-brandOrange font-semibold">B2B lead generation</span> and{" "}
-          <span className="text-brandOrange font-semibold">data systems</span>.
-        </motion.p>
+          <span className="text-brandOrange font-semibold">b2b email marketing </span> and{" "}
+          <span className="text-brandOrange font-semibold">agency usa businesses trust</span>.
+          combining deep data systems with outbound strategies that actually convert.        </motion.p>
       </div>
     </section>
   );

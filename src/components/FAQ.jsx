@@ -42,44 +42,39 @@ const highlightServices = (text) => {
 
 const faqs = [
   {
-    question: "What email marketing and campaign services do you provide?",
+    question: "What exactly does InfoNav do?",
     answer:
-      "We run end-to-end email marketing campaigns: strategy, copy & design, list building, segmentation, automated sequences, A/B testing, and performance reporting. We can handle one-off blasts or multi-step nurture flows tailored to your sales cycle.",
+      "InfoNav is a full-service b2b lead generation agency that helps companies book qualified sales meetings through targeted cold email outreach service, verified prospect data, and end-to-end outbound system management.",
   },
   {
-    question: "How do you build and validate email lists for campaigns?",
+    question: "How is InfoNav different from buying a lead list?",
     answer:
-      "We source targeted contacts via LinkedIn and web research, enrich records, and validate addresses using verification tools to minimize bounces. Clean lists improve deliverability and campaign ROI—ask about our sample lists before you commit.",
+      "We are not a list provider. As your fully outsourced lead generation partner, we handle everything - prospect research, email copywriting, campaign management, and ongoing optimization, so your team focuses only on closing.",
   },
   {
-    question: "How do you ensure high deliverability and low bounce rates?",
+    question: "How many meetings can we expect per month?",
     answer:
-      "We follow best practices: list hygiene, address verification, domain authentication (SPF/DKIM), sender warm-up, and monitoring. We also use suppression lists and adjust sending patterns to maximize inbox placement.",
+      "Most clients see 10–30 booked meetings per month depending on their offer, niche, and target market. Our appointment setting service b2b teams rely on is designed to deliver consistent, qualified conversations - not one-off wins.",
   },
   {
-    question: "Can you integrate email campaigns with our CRM or sales tools?",
+    question: "Do you only serve companies in the USA?",
     answer:
-      "Yes. We integrate with HubSpot, Zoho, Close.io, GHL and other CRMs to sync leads, track activity, and automate follow-ups. We can also push campaign data to your dashboards for unified reporting.",
+      "While we operate as a b2b email marketing agency usa businesses frequently work with, we serve B2B clients globally. Our outreach systems and data intelligence work across North America, Europe, and beyond.",
   },
   {
-    question: "What metrics and reporting do you provide for campaigns?",
+    question: "How long before we start seeing results?",
     answer:
-      "We track opens, clicks, replies, bounces, unsubscribes, conversions and revenue (when available). Reports include campaign-level KPIs, A/B test results and actionable recommendations for optimization.",
+      "Most campaigns begin generating replies within the first 2–3 weeks of launch. Our outsourced lead generation process is built for speed without sacrificing targeting accuracy.",
   },
   {
-    question: "Do you handle email copywriting and creative assets?",
+    question: "What does your cold email outreach process look like?",
     answer:
-      "Yes — our team writes subject lines, body copy, and CTA variants, and prepares HTML or plain-text templates. We optimize messaging for deliverability and engagement across audiences.",
+      "We start by defining your ideal customer profile, build verified prospect lists, craft personalized email sequences, and launch campaigns optimized for deliverability and replies. As a dedicated b2b lead generation agency, every step is managed by our team end to end.",
   },
   {
-    question: "Are your email campaigns compliant with privacy rules?",
+    question: "How do we get started with InfoNav?",
     answer:
-      "We follow GDPR and CAN-SPAM guidelines where applicable: we use lawful contact sources, include clear unsubscribe options, and honor data subject requests. Ask us about region-specific compliance requirements.",
-  },
-  {
-    question: "How do I get started with an email campaign?",
-    answer:
-      "Start with a discovery call. We’ll audit your current assets, recommend a campaign plan, send a sample list or pilot campaign, and provide a quote based on scope and volume.",
+      "Simple - book a discovery call with our team. We'll assess your target market, discuss your sales goals, and map out a custom appointment setting service b2b and outreach strategy built around your business.",
   },
 ];
 

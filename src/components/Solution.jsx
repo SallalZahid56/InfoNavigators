@@ -5,17 +5,17 @@ const steps = [
   {
     number: "01",
     title: "Verified B2B Data",
-    desc: "We source and verify prospect data matched to your ideal customer profile — accurate contacts, right titles, right companies.",
+    desc: "We source and verify prospect data matched to your ideal customer profile - accurate contacts, right titles, right companies. The foundation every outsourced lead generation program needs to actually perform.",
   },
   {
     number: "02",
     title: "Targeted Prospect Research",
-    desc: "Deep research into your market ensures we're reaching decision-makers who actually have the budget and authority to buy.",
+    desc: "Deep research into your market ensures we're reaching decision-makers who actually have the budget and authority to buy, a critical step in any serious appointment setting service b2b companies can depend on.",
   },
   {
     number: "03",
     title: "Cold Email Outreach",
-    desc: "Personalized, deliverable email sequences sent at scale — crafted to start real conversations, not get ignored.",
+    desc: "Personalized, deliverable email sequences sent at scale,  crafted to start real conversations, not get ignored. This is where our b2b email marketing agency usa expertise turns prospects into booked meetings.",
   },
 ];
 
@@ -54,8 +54,7 @@ export default function Solution() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-sans text-gray-600 text-base sm:text-lg mt-6 text-center max-w-2xl mx-auto leading-relaxed"
         >
-          InfoNav combines verified B2B data, targeted prospect research, and cold email
-          outreach to help you reach decision-makers directly.
+          InfoNav combines verified B2B data, targeted prospect research, and a proven cold email outreach service to help you reach decision-makers directly, the same way a top-tier b2b lead generation agency operates.
         </motion.p>
 
         {/* Steps */}
@@ -99,8 +98,10 @@ export default function Solution() {
           <p className="font-sans text-white/80 text-sm uppercase tracking-widest mb-2 font-semibold">
             Our Focus Is Simple
           </p>
-          <p className="font-heading text-white text-xl sm:text-2xl font-bold leading-snug">
-            Turning cold prospects into booked meetings for your sales team.
+          <p className="font-heading text-white text-xl sm:text-sm font-bold leading-snug">
+            Turning cold prospects into booked meetings for your sales team, that's what a results-driven b2b lead generation agency does, and it's the only thing we focus on.
+
+            As your dedicated outsourced lead generation partner, InfoNav handles everything from prospect research to cold email outreach service, so your sales team shows up to conversations, not inboxes.
           </p>
         </motion.div>
 

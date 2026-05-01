@@ -18,7 +18,7 @@ const Strategy = () => {
             Data-Driven Prospecting
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed transition group-hover:text-white">
-            We build highly targeted prospect lists using verified data and deep research. Every campaign starts with accuracy, so your outreach reaches the right decision-makers, not random contacts.
+            We build highly targeted prospect lists using verified data and deep research, the foundation of any serious b2b lead generation agency. Every campaign starts with accuracy, so your outreach reaches the right decision-makers, not random contacts.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ const Strategy = () => {
             Personalized Outreach
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed transition group-hover:text-white">
-            We don’t send generic emails. Each campaign is crafted with tailored messaging that speaks directly to your ideal clients, increasing response rates and building real conversations.
+            We don't send generic emails. As a specialized cold email outreach service and b2b email marketing agency usa, each campaign is crafted with tailored messaging that speaks directly to your ideal clients, increasing response rates and building real conversations.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ const Strategy = () => {
             Performance-Focused Execution
           </h3>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed transition group-hover:text-white">
-            From launch to optimization, we continuously track and improve campaign performance. Our focus is simple, generate qualified leads and turn outreach into measurable business results.
+            From launch to optimization, we continuously track and improve campaign performance. As your fully outsourced lead generation partner with a proven appointment setting service b2b teams depend on, our focus is simple, generate qualified leads and turn outreach into measurable business results.
           </p>
         </div>
       </div>
