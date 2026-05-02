@@ -40,9 +40,7 @@ export default function AboutUsPage() {
           {/* Left - Text */}
           <div>
             <p className="font-sans text-gray-700 text-base md:text-lg leading-relaxed">
-             At InfoNav, we specialize in helping B2B businesses generate qualified leads through targeted prospecting and strategic email outreach.
-
-             We’re not a general digital agency, we focus on building reliable lead generation systems that connect you with the right decision-makers and turn outreach into real business opportunities.
+             At InfoNav, we specialize in helping B2B businesses generate qualified leads through targeted prospecting and strategic cold email outreach service. We're not a general digital agency, as a dedicated b2b lead generation agency, we focus on building reliable outbound systems that connect you with the right decision-makers and turn outreach into real business opportunities.
             </p>
           </div>
 

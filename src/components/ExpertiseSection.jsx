@@ -11,12 +11,7 @@ const ExpertiseSection = () => {
           Our <span className="text-brandOrange">What We Do</span>
         </h2>
         <p className="text-gray-700 mt-4 text-base md:text-lg font-sans max-w-3xl mx-auto leading-relaxed">
-          We handle the complete lead generation process:
-
-          Identifying your ideal prospects
-          Building accurate, targeted data
-          Launching personalized email campaigns
-          Continuously optimizing for better results
+          As your fully outsourced lead generation partner, we handle the complete lead generation process:
         </p>
       </div>
 
@@ -32,7 +27,7 @@ const ExpertiseSection = () => {
             className="object-contain"
           />
           <p className="mt-4 text-gray-800 font-sans text-base font-medium text-center">
-            Driving client success through tailored strategies.
+            Driving client success through tailored b2b lead generation agency strategies.
           </p>
         </div>
 
@@ -46,7 +41,7 @@ const ExpertiseSection = () => {
             className="object-contain"
           />
           <p className="mt-4 text-gray-800 font-sans text-base font-medium text-center">
-            Leveraging technology for innovative solutions.
+            Leveraging technology for innovative appointment setting service b2b solutions.
           </p>
         </div>
 
@@ -60,7 +55,7 @@ const ExpertiseSection = () => {
             className="object-contain"
           />
           <p className="mt-4 text-gray-800 font-sans text-base font-medium text-center">
-            Building trust through quality and transparency.
+            Building trust through quality, transparency, and real pipeline results.
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ const reasons = [
   {
     icon: FaHandshake,
     title: "Outbound Growth Partner",
-    desc: "We are not just a lead list provider, as a dedicated b2b lead generation agency, we are a full outbound growth partner committed to filling your pipeline with real opportunities.",
+    desc: "We are not just a lead list provider. As a dedicated b2b lead generation agency, we are a full outbound growth partner committed to filling your pipeline with real opportunities.",
   },
   {
     icon: FaDatabase,
@@ -101,9 +101,9 @@ export default function WhyInfoNav() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mt-10 text-center font-sans text-gray-500 text-sm border-t border-gray-100 pt-8"
         >
-          Backed by hands-on experience in{" "}
-          <span className="text-brandOrange font-semibold">b2b email marketing </span> and{" "}
-          <span className="text-brandOrange font-semibold">agency usa businesses trust</span>.
+          Backed by hands-on experience in {" "}
+          <span className="text-brandOrange font-semibold">b2b email marketing agency </span> and{" "}
+          <span className="text-brandOrange font-semibold">usa businesses trust</span>.
           combining deep data systems with outbound strategies that actually convert.        </motion.p>
       </div>
     </section>

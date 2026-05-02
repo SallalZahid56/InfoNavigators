@@ -1,4 +1,3 @@
-import WebScrapingGuidePage from "@/components/WebScrapingGuidePage";
 import AiToolsPakistanPage from "@/components/AiToolsPakistanPage";
 import { blogs } from "../../../data/blogs"; // adjust path if different
 import InternetResearchPage from "@/components/InternetResearchBlog";
@@ -56,10 +55,6 @@ export default async function BlogDetail({ params }) {
   if (!blog) return <p>Blog not found</p>;
 
   // ✅ Special component pages
-
-  if (slug === "beginners-guide-web-scraping-python") {
-    return <WebScrapingGuidePage blog={blog} />;
-  }
 
   if (slug === "ai-tools-freelancers-pakistan-2025") {
     return <AiToolsPakistanPage blog={blog} />;

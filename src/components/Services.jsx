@@ -64,7 +64,7 @@ const Services = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-sans text-gray-600 mt-4 max-w-2xl mx-auto text-center"
         >
-          At InfoNav, we offer a comprehensive range of services to meet the evolving sales needs of businesses, from outsourced lead generation to full-scale outbound system builds.
+          At InfoNav, we offer a comprehensive range of services to meet the evolving sales needs of B2B businesses, from outsourced lead generation and appointment setting service b2b teams depend on, to full-scale outbound system builds.
         </motion.p>
 
         {/* Services Grid */}

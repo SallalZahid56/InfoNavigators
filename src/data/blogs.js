@@ -1,22 +1,9 @@
 export const blogs = [
 
   {
-    slug: "beginners-guide-web-scraping-python",
-    title: "Beginner’s Guide to Web Scraping with Python",
-    description: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
-    date: "2025-08-20",
-    image: "/python-blog.jpg",
-    metaTitle: "Beginner’s Guide to Web Scraping with Python | Infonav,",
-    metaDescription: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
-    keywords: "web scraping python, python scraping tutorial, beginners guide scraping, BeautifulSoup tutorial, Selenium Python scraping, data extraction python, web automation python, python requests scraping, learn web scraping, python scraping examples",
-    canonical: "https://infonavigators.com/blogs/beginners-guide-web-scraping-python",
-    category: "Python"
-  },
-
-  {
     slug: "ai-tools-freelancers-pakistan-2025",
     title: "What is the easiest AI tool for beginners",
-    description: "Learn web scraping with Python in this beginner-friendly guide. Discover essential libraries like BeautifulSoup, Requests, and Selenium to extract data, automate tasks, and build scraping projects responsibly.",
+    description: "As Pakistan rapidly embraces digital transformation, freelancing is no longer limited to basic writing or small design projects. In 2025, Artificial Intelligence (AI) has become the backbone of freelancing success — helping individuals deliver professional-quality results at lightning speed.",
     date: "2025-08-20",
     image: "/images.jpg",
     metaTitle: "What is the easiest AI tool for beginners | Infonav",

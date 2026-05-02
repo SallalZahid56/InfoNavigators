@@ -2,7 +2,7 @@ import BlogsList from "@/components/BlogsList"; // client component
 import { blogs } from "@/data/blogs";
 
 export const metadata = {
-  title: "InfoNav Blog | Expert insights on digital marketing",
+  title: "B2B Lead Generation Blog | Cold Email & Outreach Tips | InfoNav",
   description:
     "Explore expert tips, case studies, and guides on SEO, digital marketing, and technology trends at InfoNavigators Blog.",
   keywords:

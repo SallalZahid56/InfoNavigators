@@ -14,8 +14,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-lg text-black mb-6">
-            Ready to start generating qualified leads for your business?
-            Let’s build a system that connects you with the right prospects and turns outreach into real opportunities.
+            Ready to start generating qualified leads with a trusted b2b lead generation agency? Let's build a cold email outreach service system that connects you with the right prospects and turns outreach into real revenue opportunities.
           </p>
           <a
             href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
@@ -50,10 +49,10 @@ export default function ContactPage() {
             Our Core Services
           </h2>
           <ul className="space-y-2 text-lg text-black">
-            <li>🔹 B2B Lead Generation Focus</li>
-            <li>🔹 Targeted & Verified Prospect Data</li>
-            <li>🔹 Personalized Email Outreach</li>
-            <li>🔹 Results-Driven Approach</li>
+            <li>🔹 B2B Lead Generation - Powered by a results-driven b2b lead generation agency built for pipeline growth</li>
+            <li>🔹 Targeted & Verified Prospect Data - The backbone of every successful outsourced lead generation program we run</li>
+            <li>🔹 Personalized Email Outreach - A proven cold email outreach service and appointment setting service b2b teams rely on for consistent meetings</li>
+            <li>🔹 Results-Driven Approach - Backed by a specialized b2b email marketing agency usa businesses trust for measurable outbound results</li>
           </ul>
         </section>
 

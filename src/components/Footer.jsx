@@ -35,10 +35,7 @@ const Footer = () => {
               Start your new project with <br /> us in just a few clicks
             </h2>
             <p className="text-gray-200 text-sm md:text-base mb-6">
-              For scheduling meetings or WhatsApp inquiries, contact us anytime.
-              <br />
-              We typically respond within 1–2 hours during business hours and
-              within 8–10 hours outside these hours.
+              As a trusted b2b lead generation agency and outsourced lead generation partner, for scheduling meetings or WhatsApp inquiries, contact us anytime. We typically respond within 1–2 hours during business hours and within 8–10 hours outside these hours.
             </p>
 
             {/* CTA Buttons */}

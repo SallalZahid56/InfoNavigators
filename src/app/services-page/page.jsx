@@ -42,7 +42,7 @@ export default function ServicesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
           <div>
             <p className="font-sans text-gray-700 text-base md:text-lg leading-relaxed px-2 md:px-0">
-              We provide specialized lead generation and email outreach services designed to help B2B businesses connect with the right prospects and generate consistent sales opportunities.
+              We provide specialized b2b lead generation agency services and cold email outreach service solutions designed to help B2B businesses connect with the right prospects and generate consistent, predictable sales opportunities.
             </p>
           </div>
 

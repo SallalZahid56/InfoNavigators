@@ -27,8 +27,7 @@ const MissionVision = () => {
             Our Mission
           </h3>
           <p className="text-gray-300 font-sans text-sm sm:text-base leading-relaxed group-hover:text-black transition">
-            To empower businesses with innovative strategies that foster growth,
-            sustainability, and long-term success in the digital era.
+            To empower B2B businesses with innovative outsourced lead generation strategies that foster growth, sustainability, and long-term success, backed by a b2b email marketing agency usa businesses trust.
           </p>
         </div>
 
@@ -41,8 +40,7 @@ const MissionVision = () => {
             Our Vision
           </h3>
           <p className="text-gray-300 font-sans text-sm sm:text-base leading-relaxed group-hover:text-black transition">
-            To be a global leader in digital solutions, transforming challenges
-            into opportunities for businesses worldwide.
+            To be a globally recognized b2b lead generation agency, transforming outbound challenges into consistent pipeline opportunities for businesses worldwide.
           </p>
         </div>
 
@@ -55,8 +53,7 @@ const MissionVision = () => {
             Our Philosophy
           </h3>
           <p className="text-gray-300 font-sans text-sm sm:text-base leading-relaxed group-hover:text-black transition">
-            We believe in a client-first approach, innovation, and ethical
-            practices as the foundation for every successful collaboration.
+            We believe in a client-first approach, innovation, and ethical practices as the foundation of every successful appointment setting service b2b partnership we build.
           </p>
         </div>
       </div>

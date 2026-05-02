@@ -23,12 +23,12 @@ export default function FinalCTA() {
 
           {/* Title */}
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white leading-tight mb-5">
-            Let's design a cold email outreach service system that brings you consistent meetings with qualified buyers, powered by a b2b email marketing agency usa businesses trust.
+            Ready to build a predictable sales pipeline?
           </h2>
 
           {/* Body */}
           <p className="font-sans text-white/85 text-base sm:text-lg max-w-xl mx-auto leading-relaxed mb-10">
-            As a trusted b2b lead generation agency and outsourced lead generation partner, for scheduling meetings or WhatsApp inquiries, contact us anytime. We typically respond within 1–2 hours during business hours and within 8–10 hours outside these hours.
+            Let's design a cold email outreach service system that brings you consistent meetings with qualified buyers, powered by a b2b email marketing agency usa businesses trust.
           </p>
 
           {/* Buttons */}
