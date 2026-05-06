@@ -230,7 +230,7 @@ export default function InternetResearchPage({ blog }) {
                         time, improves accuracy, and drives measurable growth.
                     </p>
                     <a
-                        href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+                        href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNave%20website."
                         className="inline-block bg-orange-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-orange-700 transition-all"
                     >
                         Contact Us Today

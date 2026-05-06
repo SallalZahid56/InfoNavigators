@@ -63,7 +63,7 @@ export default function BackEndSections() {
           </p>
           <div className="flex items-center justify-center gap-4">
             <a
-              href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+              href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNave%20website."
               target="_blank"
               rel="noreferrer"
               className="inline-block bg-brandOrange text-white px-6 py-3 rounded-xl shadow hover:bg-black transition font-heading"

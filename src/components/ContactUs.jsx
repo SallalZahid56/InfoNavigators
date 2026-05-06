@@ -16,8 +16,8 @@ export default function ContactPage() {
           <p className="text-lg text-black mb-6">
             Ready to start generating qualified leads with a trusted b2b lead generation agency? Let's build a cold email outreach service system that connects you with the right prospects and turns outreach into real revenue opportunities.
           </p>
-          <a
-            href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+            <a
+            href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNave%20website."
             target="_blank"
             rel="noreferrer"
             className="inline-block px-6 py-3 bg-brandOrange text-white font-semibold rounded-lg hover:bg-black transition"

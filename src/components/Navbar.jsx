@@ -148,7 +148,7 @@ const Navbar = () => {
         {/* Book a Call */}
         <div className="hidden lg:block">
           <a
-            href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+            href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNave%20website."
             className="bg-brandOrange text-white px-6 py-3 rounded-full shadow hover:bg-black hover:text-white transition"
           >
             Book a Call
@@ -202,7 +202,7 @@ const Navbar = () => {
             <li><Link href="/contact-us" className="text-black hover:text-brandOrange transition">Contact Us</Link></li>
             <li>
               <a
-                href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20am%20contacting%20you%20from%20your%20Website."
+                href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNave%20website."
                 className="bg-brandOrange text-white px-4 py-2 rounded-full shadow hover:bg-black hover:text-white transition block text-center"
               >
                 Book a Call
