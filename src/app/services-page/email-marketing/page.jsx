@@ -20,7 +20,7 @@ export default function EmailMarketing() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/services-page/email-marketing/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <EmailMarketingSection />

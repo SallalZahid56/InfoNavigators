@@ -22,7 +22,7 @@ const PortfolioShowcase = () => {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/portfolio/" />
       </Head>
       {/* Call to Action */}
       <PortfolioSection />

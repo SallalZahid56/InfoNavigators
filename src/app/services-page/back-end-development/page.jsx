@@ -20,7 +20,7 @@ export default function BackEndDevelopmentPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/services-page/back-end-development/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <BackEndSections />

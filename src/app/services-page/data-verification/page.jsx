@@ -23,7 +23,7 @@ export default function DataVerificationPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/services-page/data-verification/" />
       </Head>
       <div className="min-h-screen bg-white text-black">
         <DataVerificationSection />

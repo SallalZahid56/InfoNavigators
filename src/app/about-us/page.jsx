@@ -25,7 +25,7 @@ export default function AboutUsPage() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://infonavigators.com/" />
+        <link rel="canonical" href="https://infonavigators.com/about-us/" />
       </Head>
 
       {/* About Section */}
