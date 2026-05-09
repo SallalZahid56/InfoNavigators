@@ -142,26 +142,7 @@
   <lastmod>2025-10-24T02:33:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://infonavigators.com/services-page/front-end-development/</loc>
-  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://infonavigators.com/services-page/back-end-development/</loc>
-  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://infonavigators.com/blogs/seo-tips/</loc>
-  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://infonavigators.com/blogs/seo-boost-tips/</loc>
-  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+<!-- Removed front-end and back-end development pages per request -->
 <url>
   <loc>https://infonavigators.com/blogs/beginners-guide-web-scraping-python/</loc>
   <lastmod>2025-10-24T02:33:41+00:00</lastmod>
@@ -227,11 +208,7 @@
   <lastmod>2025-10-24T02:33:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://infonavigators.com/blogs/web-development-trends/</loc>
-  <lastmod>2025-10-24T02:33:41+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+<!-- Removed blog pages related to SEO and web development per request -->
 
 
 </urlset>
