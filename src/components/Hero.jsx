@@ -39,7 +39,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
-              href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNave%20website."
+              href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNav%20website."
               className="bg-brandOrange text-white font-heading px-5 py-2 rounded-full shadow hover:bg-black transition flex items-center justify-center text-sm"
             >
               Book a Strategy Call ⮕

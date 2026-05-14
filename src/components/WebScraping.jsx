@@ -40,7 +40,7 @@ const WebScrapingPage = () => {
             Unlock structured insights from unstructured web data. Our web scraping services help businesses extract product listings, pricing, and competitor insights at scale.
           </p>
           <a
-            href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNave%20website."
+            href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNav%20website."
             className="bg-brandOrange text-white px-5 py-3 rounded-xl shadow hover:bg-black transition font-heading text-sm sm:text-base inline-block"
           >
             Get Started

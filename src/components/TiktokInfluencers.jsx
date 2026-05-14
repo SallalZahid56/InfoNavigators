@@ -81,7 +81,7 @@ export default function TikTokInfluencerResearch() {
 
         {/* Button */}
         <div className="mt-8">
-          <a href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNave%20website.">
+          <a href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20%20website.">
             <button className="bg-brandOrange text-white px-8 py-3 rounded-lg font-semibold hover:bg-black transition">
               Get Started Now
             </button>
