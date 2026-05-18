@@ -318,7 +318,7 @@ export default function ChooseB2BLeadGenAgency({ blog }) {
             We don't sell lists. We build outbound systems — and we measure our success by the meetings we book for you.
           </p>
           <a
-            href="/contact"
+            href="/contact-us"
             className="inline-block mt-6 bg-white text-blue-700 font-semibold px-8 py-3 rounded-full hover:bg-blue-50 transition-colors shadow"
           >
             Book a Free Strategy Call with InfoNav →
@@ -390,7 +390,7 @@ export default function ChooseB2BLeadGenAgency({ blog }) {
             Choosing the right B2B lead generation agency is about finding a partner who understands your market, uses verified data, and measures success by real pipeline results — not vanity metrics.
           </p>
           <a
-            href="/contact"
+            href="/contact-us"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-colors"
           >
             Book a Free Strategy Call with InfoNav →
