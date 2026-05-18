@@ -63,40 +63,40 @@ export const blogs = [
 
 
   {
-  slug: "changing-nature-of-search-ai-2025",
-  title: "Changing Nature of Search and Discovery | AI and Internet Research 2025",
-  description:
-    "Discover how AI is transforming search and discovery for virtual assistants and businesses. Learn how InfoNavigators uses Internet Research, Market Research, and Data Verification to drive smarter lead generation.",
-  keywords:
-    "AI search 2025, internet research VA, contact list building, lead generation USA, data verification, market research services, InfoNavigators",
-  category: "Lead Generation",
-  date: "2025-10-12",
-  image: "/changing-nature.jpg",
-  metaTitle: "Changing Nature of Search and Discovery | AI and Internet Research 2025",
-  metaDescription:
-    "Discover how AI is transforming search and discovery for virtual assistants and businesses. Learn how InfoNavigators uses Internet Research, Market Research, and Data Verification to drive smarter lead generation.",
-  canonical: "https://infonavigators.com/blogs/changing-nature-of-search-ai-2025",
-},
+    slug: "changing-nature-of-search-ai-2025",
+    title: "Changing Nature of Search and Discovery | AI and Internet Research 2025",
+    description:
+      "Discover how AI is transforming search and discovery for virtual assistants and businesses. Learn how InfoNavigators uses Internet Research, Market Research, and Data Verification to drive smarter lead generation.",
+    keywords:
+      "AI search 2025, internet research VA, contact list building, lead generation USA, data verification, market research services, InfoNavigators",
+    category: "Lead Generation",
+    date: "2025-10-12",
+    image: "/changing-nature.jpg",
+    metaTitle: "Changing Nature of Search and Discovery | AI and Internet Research 2025",
+    metaDescription:
+      "Discover how AI is transforming search and discovery for virtual assistants and businesses. Learn how InfoNavigators uses Internet Research, Market Research, and Data Verification to drive smarter lead generation.",
+    canonical: "https://infonavigators.com/blogs/changing-nature-of-search-ai-2025",
+  },
 
-{
-  slug: "email-vs-linkedin-lead-generation-2025",
-  title: "Email vs LinkedIn Lead Generation: Which Converts Better in 2025?",
-  description:
-    "DIn today’s fast-evolving digital world, every business is searching for smarter ways to reach qualified prospects. Among all available methods, two continue to dominate the B2B landscape — Email and LinkedIn Lead Generation.",
-  date: "2025-10-14",
-  image: "/email-vs-linkedinn.png",
-  metaTitle:
-    "Email vs LinkedIn Lead Generation in 2025: Which Converts Better?",
-  metaDescription:
-    "Discover which converts better in 2025 — Email or LinkedIn Lead Generation. Learn about B2B email list building, LinkedIn lead generation cost, and white-label lead solutions with InfoNavigators.",
-  keywords:
-    "done for you linkedin lead generation, linkedin lead generation companies, linkedin lead generation cost, white label linkedin lead generation, b2b email list building, email list building pop-up, how to build a b2b email list, how to build a pre-launch email list, how to build an email list for wellness business, amy porterfield email list building, benefits of building an email list, best email list builder, best email list building course, best free email list builder, best way to build an email list, best way to build email list",
-  canonical:
-    "https://infonavigators.com/blogs/email-vs-linkedin-lead-generation-2025/",
-  category: "Lead Generation"
-},
+  {
+    slug: "email-vs-linkedin-lead-generation-2025",
+    title: "Email vs LinkedIn Lead Generation: Which Converts Better in 2025?",
+    description:
+      "DIn today’s fast-evolving digital world, every business is searching for smarter ways to reach qualified prospects. Among all available methods, two continue to dominate the B2B landscape — Email and LinkedIn Lead Generation.",
+    date: "2025-10-14",
+    image: "/email-vs-linkedinn.png",
+    metaTitle:
+      "Email vs LinkedIn Lead Generation in 2025: Which Converts Better?",
+    metaDescription:
+      "Discover which converts better in 2025 — Email or LinkedIn Lead Generation. Learn about B2B email list building, LinkedIn lead generation cost, and white-label lead solutions with InfoNavigators.",
+    keywords:
+      "done for you linkedin lead generation, linkedin lead generation companies, linkedin lead generation cost, white label linkedin lead generation, b2b email list building, email list building pop-up, how to build a b2b email list, how to build a pre-launch email list, how to build an email list for wellness business, amy porterfield email list building, benefits of building an email list, best email list builder, best email list building course, best free email list builder, best way to build an email list, best way to build email list",
+    canonical:
+      "https://infonavigators.com/blogs/email-vs-linkedin-lead-generation-2025/",
+    category: "Lead Generation"
+  },
 
-{
+  {
     slug: "top-internet-research-tasks",
     title: "Top Internet Research Tasks You Should Outsource in 2025",
     description:
@@ -115,57 +115,74 @@ export const blogs = [
 
 
   {
-  slug: "automation-tools-lead-generation-2025",
-  title: "Best Automation Tools for Lead Generation and Data Management in 2025",
-  description:
-    "Discover the best automation tools for lead generation and data management in 2025. Learn how marketers and agencies use automation to boost traffic, leads, and ROI.",
-  date: "2025-10-18",
-  image: "/automation-tools.jpg",
-  metaTitle:
-    "Best Automation Tools for Lead Generation and Data Management in 2025 |InfoNav",
-  metaDescription:
-    "Discover the best automation tools for lead generation and data management in 2025. Learn how marketers and agencies use automation to boost traffic, leads, and ROI.",
-  keywords:
-    "automation tools for lead generation, lead generation automation software, B2B lead automation, data management tools 2025, AI tools for lead generation, marketing automation platforms, InfoNavigators",
-  canonical: "https://infonavigators.com/blogs/automation-tools-lead-generation-2025",
-  category: "Lead Generation"
-},
+    slug: "automation-tools-lead-generation-2025",
+    title: "Best Automation Tools for Lead Generation and Data Management in 2025",
+    description:
+      "Discover the best automation tools for lead generation and data management in 2025. Learn how marketers and agencies use automation to boost traffic, leads, and ROI.",
+    date: "2025-10-18",
+    image: "/automation-tools.jpg",
+    metaTitle:
+      "Best Automation Tools for Lead Generation and Data Management in 2025 |InfoNav",
+    metaDescription:
+      "Discover the best automation tools for lead generation and data management in 2025. Learn how marketers and agencies use automation to boost traffic, leads, and ROI.",
+    keywords:
+      "automation tools for lead generation, lead generation automation software, B2B lead automation, data management tools 2025, AI tools for lead generation, marketing automation platforms, InfoNavigators",
+    canonical: "https://infonavigators.com/blogs/automation-tools-lead-generation-2025",
+    category: "Lead Generation"
+  },
 
 
-{
-  slug: "digital-marketing-services",
-  title: "The Future of Digital Marketing Services in 2025",
-  description:
-    "The digital marketing landscape in 2025 is evolving faster than ever. Traditional marketing agencies that once relied on manual strategies, static campaigns, and human-only execution are now being transformed by AI-powered marketing services, automation, and data-driven personalization.",
-  date: "2025-10-22",
-  image: "/cover-img.jpg",
-  metaTitle:
-    "Digital Marketing Services Trends 2025 | AI-Powered Agency Models in Pakistan & South Asia",
-  metaDescription:
-    "Discover the top digital marketing services trends in 2025 — from AI-powered marketing to value-based pricing and freelance + AI agency models in Pakistan and South Asia.",
-  keywords:
-    "digital marketing services trends, AI in digital marketing agency, marketing services business model change, agency service business Pakistan, AI-powered marketing services, personalized marketing campaigns at scale, marketing technology investment, new agency model freelance + AI, how agencies adapt to AI, restructure cost structure digital marketing services, value-based pricing digital marketing, impact of AI on digital marketing services in Pakistan, what digital marketing agencies need to do in 2025, how freelance + AI model disrupts traditional agencies, InfoNavigators digital marketing services",
-  canonical: "https://infonavigators.com/blogs/digital-marketing-services",
-  category: "Digital Marketing"
-},
+  {
+    slug: "digital-marketing-services",
+    title: "The Future of Digital Marketing Services in 2025",
+    description:
+      "The digital marketing landscape in 2025 is evolving faster than ever. Traditional marketing agencies that once relied on manual strategies, static campaigns, and human-only execution are now being transformed by AI-powered marketing services, automation, and data-driven personalization.",
+    date: "2025-10-22",
+    image: "/cover-img.jpg",
+    metaTitle:
+      "Digital Marketing Services Trends 2025 | AI-Powered Agency Models in Pakistan & South Asia",
+    metaDescription:
+      "Discover the top digital marketing services trends in 2025 — from AI-powered marketing to value-based pricing and freelance + AI agency models in Pakistan and South Asia.",
+    keywords:
+      "digital marketing services trends, AI in digital marketing agency, marketing services business model change, agency service business Pakistan, AI-powered marketing services, personalized marketing campaigns at scale, marketing technology investment, new agency model freelance + AI, how agencies adapt to AI, restructure cost structure digital marketing services, value-based pricing digital marketing, impact of AI on digital marketing services in Pakistan, what digital marketing agencies need to do in 2025, how freelance + AI model disrupts traditional agencies, InfoNavigators digital marketing services",
+    canonical: "https://infonavigators.com/blogs/digital-marketing-services",
+    category: "Digital Marketing"
+  },
 
 
-{
-  slug: "automation-changing-b2b-prospective",
-  title: "How Automation Is Changing B2B Prospecting Forever",
-  description:
-    "In the fast-evolving world of B2B lead generation, time is everything. Traditional prospecting — once dependent on manual outreach, spreadsheets, and endless follow-ups — is now being transformed by automation tools and AI-powered systems.",
-  date: "2025-10-30",
-  image: "/b2b-blog-cover.jpg",
-  metaTitle:
-    "How Automation Is Changing B2B Prospecting Forever | InfoNav",
-  metaDescription:
-    "Discover how automation tools revolutionize B2B prospecting, improve lead quality, and save time. Learn modern strategies for 2025 and beyond.",
-  keywords:
-    "automation in B2B prospecting, automated lead generation, B2B sales automation tools, AI prospecting, InfoNav lead generation, automation benefits",
-  canonical: "https://infonavigators.com/blogs/automation-changing-b2b-prospective",
-  category: "Lead Generation"
-},
+  {
+    slug: "automation-changing-b2b-prospective",
+    title: "How Automation Is Changing B2B Prospecting Forever",
+    description:
+      "In the fast-evolving world of B2B lead generation, time is everything. Traditional prospecting — once dependent on manual outreach, spreadsheets, and endless follow-ups — is now being transformed by automation tools and AI-powered systems.",
+    date: "2025-10-30",
+    image: "/b2b-blog-cover.jpg",
+    metaTitle:
+      "How Automation Is Changing B2B Prospecting Forever | InfoNav",
+    metaDescription:
+      "Discover how automation tools revolutionize B2B prospecting, improve lead quality, and save time. Learn modern strategies for 2025 and beyond.",
+    keywords:
+      "automation in B2B prospecting, automated lead generation, B2B sales automation tools, AI prospecting, InfoNav lead generation, automation benefits",
+    canonical: "https://infonavigators.com/blogs/automation-changing-b2b-prospective",
+    category: "Lead Generation"
+  },
+
+  {
+    slug: "how-to-choose-b2b-lead-generation-agency-usa",
+    title: "How to Choose a B2B Lead Generation Agency in the USA",
+    description:
+      "Looking for a reliable B2B lead generation agency in the USA? Learn what to look for, what questions to ask, and how to find the right outsourced lead generation partner for your business.",
+    date: "2025-05-18",
+    image: "/b2b-lead-gen-agency.jpeg",          // add your image here
+    metaTitle: "How to Choose a B2B Lead Generation Agency in the USA | InfoNav",
+    metaDescription:
+      "Looking for a reliable B2B lead generation agency in the USA? Learn what to look for, what questions to ask, and how to find the right outsourced lead generation partner.",
+    keywords:
+      "b2b lead generation agency usa, outsourced lead generation, cold email outreach service, appointment setting service b2b, b2b email marketing agency usa, how to choose lead gen agency",
+    canonical:
+      "https://infonavigators.com/blogs/how-to-choose-b2b-lead-generation-agency-usa",
+    category: "B2B Growth",
+  },
 
 
 ];

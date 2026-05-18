@@ -12,6 +12,7 @@ import VirtualAssistantServicesPage from "@/components/VirtualAssistantServicesP
 import DigitalMarketingServices2025Page from "@/components/DigitalMarketingServices2025Page";
 import IntentDrivenContent from "@/components/IntentDrivenContent";
 import Automation from "@/components/Automation";
+import ChooseB2BLeadGenAgency from "@/components/Chooseb2bleadgenagency";
 
 // ✅ Generate static paths
 export async function generateStaticParams() {
@@ -109,6 +110,10 @@ export default async function BlogDetail({ params }) {
 
   if (slug === "automation-changing-b2b-prospective") {
     return <Automation blog={blog} />;
+  }
+
+  if (slug === "how-to-choose-b2b-lead-generation-agency-usa") {
+    return <ChooseB2BLeadGenAgency blog={blog} />;
   }
 
 
