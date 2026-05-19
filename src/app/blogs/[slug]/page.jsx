@@ -14,15 +14,16 @@ import IntentDrivenContent from "@/components/IntentDrivenContent";
 import Automation from "@/components/Automation";
 import ChooseB2BLeadGenAgency from "@/components/Chooseb2bleadgenagency";
 import ColdEmailOutreachBlog from "@/components/ColdEmailOutreachBlog";
+import OutsourcedLeadGenBlog from "@/components/OutsourcedLeadGenBlog";
 
-// ✅ Generate static paths
+// Generate static paths
 export async function generateStaticParams() {
   return blogs.map((blog) => ({
     slug: blog.slug,
   }));
 }
 
-// ✅ Dynamic metadata for each blog
+// Dynamic metadata for each blog
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const blog = blogs.find((b) => b.slug === slug);
@@ -56,7 +57,7 @@ export default async function BlogDetail({ params }) {
 
   if (!blog) return <p>Blog not found</p>;
 
-  // ✅ Special component pages
+  // Special component pages
 
   if (slug === "ai-tools-freelancers-pakistan-2025") {
     return <AiToolsPakistanPage blog={blog} />;
@@ -121,8 +122,12 @@ export default async function BlogDetail({ params }) {
     return <ColdEmailOutreachBlog blog={blog} />;
   }
 
+  if (slug === "out-sourced-lead-generation-service") {
+    return <OutsourcedLeadGenBlog blog={blog} />;
+  }
 
-  // ✅ Default layout
+
+  // Default layout
   return (
     <article className="max-w-4xl mx-auto px-6 py-12 mt-14">
       <h1 className="text-4xl font-bold text-center mb-4">{blog.title}</h1>
