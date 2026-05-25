@@ -24,6 +24,11 @@ export default function ContactPage() {
           >
             Call Us Now
           </a>
+          
+          {/* Address */}
+          <div className="mt-6 text-sm text-gray-600">
+            <strong>Address:</strong> 3812 Florin Rd STE 104, Sacramento, CA 95823, United States
+          </div>
         </section>
 
         {/* Highlights Section */}

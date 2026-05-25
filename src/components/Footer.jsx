@@ -136,8 +136,12 @@ const Footer = () => {
 
             <hr className="my-6 border-t border-white/20" />
 
+            <div className="text-center text-gray-200 text-sm mb-2">
+              3812 Florin Rd STE 104, Sacramento, CA 95823, United States
+            </div>
+
             <div className="text-center text-white-400 text-xs">
-              &copy; InfoNav 2025. All rights reserved.
+              &copy; InfoNav 2020. All rights reserved.
             </div>
           </div>
         </div>
