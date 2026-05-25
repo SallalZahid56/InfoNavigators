@@ -218,7 +218,7 @@ const OutsourcedLeadGenBlog = ({ blog = {} }) => {
             </p>
             <div className="flex justify-center">
               <a
-                href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNav%20website%20regarding%20outsourced%20lead%20generation%20services."
+                href="https://api.whatsapp.com/send?phone=17579369494&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNav%20website%20regarding%20outsourced%20lead%20generation%20services."
                 className="bg-slate-900 text-white font-semibold text-xs sm:text-sm px-8 py-3.5 rounded-xl shadow-lg shadow-slate-900/10 hover:bg-orange-600 transition-all duration-300 flex items-center gap-2 transform hover:-translate-y-0.5"
               >
                 Book a Free Strategy Call with InfoNav ⮕

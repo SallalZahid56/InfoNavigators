@@ -312,7 +312,7 @@ export default function DigitalMarketingAgencyPage({ blog }) {
                         qualified leads, and turn online traffic into measurable growth.
                     </p>
                     <a
-                        href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20want%20to%20grow%20my%20business%20with%20InfoNav."
+                        href="https://api.whatsapp.com/send?phone=17579369494&text=Hi!%20I%20want%20to%20grow%20my%20business%20with%20InfoNav."
                         className="inline-block bg-orange-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-orange-700 transition-all"
                     >
                         Contact Us Today

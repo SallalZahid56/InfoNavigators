@@ -34,13 +34,13 @@ export default function FinalCTA() {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNav%20website."
+              href="https://api.whatsapp.com/send?phone=17579369494&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNav%20website."
               className="bg-white text-brandOrange font-heading font-semibold px-7 py-2.5 rounded-full shadow hover:bg-gray-900 hover:text-white transition-colors duration-300 text-sm"
             >
               Book Free Strategy Call ⮕
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=923041894256&text=Hi!%20I%20want%20to%20start%20my%20outreach%20campaign."
+              href="https://api.whatsapp.com/send?phone=17579369494&text=Hi!%20I%20want%20to%20start%20my%20outreach%20campaign."
               className="bg-transparent border-2 border-white text-white font-heading font-semibold px-7 py-2.5 rounded-full hover:bg-white hover:text-brandOrange transition-colors duration-300 text-sm"
             >
               Start Your Outreach Campaign ⮕

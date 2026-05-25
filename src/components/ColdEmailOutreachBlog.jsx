@@ -382,7 +382,7 @@ const ColdEmailOutreachBlog = ({ blog }) => {
             </p>
             <div className="flex justify-center">
               <a
-                href="https://api.whatsapp.com/send?phone=923041894256&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNav%20website%20regarding%20cold%20email%20services."
+                href="https://api.whatsapp.com/send?phone=17579369494&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNav%20website%20regarding%20cold%20email%20services."
                 className="bg-brandOrange text-white font-heading font-semibold text-sm sm:text-base px-8 py-3 rounded-full shadow-lg shadow-brandOrange/20 hover:bg-black transition-all duration-300 flex items-center gap-2 transform hover:-translate-y-0.5"
               >
                 Book a Free Strategy Call with InfoNav ⮕
