@@ -1,18 +1,4 @@
-import AiToolsPakistanPage from "@/components/AiToolsPakistanPage";
-import { blogs } from "../../../data/blogs"; // adjust path if different
-import InternetResearchPage from "@/components/InternetResearchBlog";
-import DigitalMarketingBlog from "@/components/DigitalMarketingBlog";
-import B2BLeadGeneration2025 from "@/components/B2BLeadGeneration2025";
-import ChangingNatureOfSearchPage from "@/components/ChangingNatureOfSearchPage";
-import HelpfulContentEEAT2025 from "@/components/HelpfulContentEEAT2025";
-import EmailVsLinkedin2025 from "@/components/EmailVsLinkedin2025";
-import InternetResearchTask from "@/components/InternetResearchTask";
-import AutomationToolsLeadGen2025 from "@/components/BestAutomationtools";
-import VirtualAssistantServicesPage from "@/components/VirtualAssistantServicesPage";
-import DigitalMarketingServices2025Page from "@/components/DigitalMarketingServices2025Page";
-import IntentDrivenContent from "@/components/IntentDrivenContent";
-import Automation from "@/components/Automation";
-import ChooseB2BLeadGenAgency from "@/components/Chooseb2bleadgenagency";
+import { blogs } from "../../../data/blogs";
 import ColdEmailOutreachBlog from "@/components/ColdEmailOutreachBlog";
 import OutsourcedLeadGenBlog from "@/components/OutsourcedLeadGenBlog";
 
@@ -56,67 +42,6 @@ export default async function BlogDetail({ params }) {
   const blog = blogs.find((b) => b.slug === slug);
 
   if (!blog) return <p>Blog not found</p>;
-
-  // Special component pages
-
-  if (slug === "ai-tools-freelancers-pakistan-2025") {
-    return <AiToolsPakistanPage blog={blog} />;
-  }
-
-  if (slug === "internet-research-services") {
-    return <InternetResearchPage blog={blog} />;
-  }
-
-  if (slug === "digital-marketing-agency") {
-    return <DigitalMarketingBlog blog={blog} />;
-  }
-
-  if (slug === "b2b-lead-generation-2025") {
-    return <B2BLeadGeneration2025 blog={blog} />;
-  }
-
-  if (slug === "changing-nature-of-search-ai-2025") {
-    return <ChangingNatureOfSearchPage blog={blog} />;
-  }
-
-  if (slug === "google-helpful-content-update-eeat")
-    return <HelpfulContentEEAT2025 blog={blog} />;
-
-  if (slug === "email-vs-linkedin-lead-generation-2025") {
-    return <EmailVsLinkedin2025 blog={blog} />;
-  }
-
-  if (slug === "top-internet-research-tasks") {
-    return <InternetResearchTask blog={blog} />;
-  }
-
-
-  if (slug === "automation-tools-lead-generation-2025") {
-    return <AutomationToolsLeadGen2025 blog={blog} />;
-  }
-
-
-  if (slug === "virtual-assistent-services") {
-    return <VirtualAssistantServicesPage blog={blog} />;
-  }
-
-  if (slug === "digital-marketing-services") {
-    return <DigitalMarketingServices2025Page blog={blog} />;
-  }
-
-
-  if (slug === "generating-qualifies-leads") {
-    return <IntentDrivenContent blog={blog} />;
-  }
-
-
-  if (slug === "automation-changing-b2b-prospective") {
-    return <Automation blog={blog} />;
-  }
-
-  if (slug === "how-to-choose-b2b-lead-generation-agency-usa") {
-    return <ChooseB2BLeadGenAgency blog={blog} />;
-  }
 
   if (slug === "cold-email-outreach-service-b2b") {
     return <ColdEmailOutreachBlog blog={blog} />;
