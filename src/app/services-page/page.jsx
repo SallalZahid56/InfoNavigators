@@ -24,7 +24,7 @@ export default function ServicesPage() {
       <section className="w-full bg-white pt-32 pb-16 px-6 lg:px-20">
         <div className="text-center mb-12">
           <h1 className="font-heading text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-            Our <span className="text-brandOrange">Services</span>
+            B2B Lead Generation <span className="text-brandOrange">Services</span> for US Companies
           </h1>
         </div>
 

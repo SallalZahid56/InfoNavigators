@@ -14,15 +14,15 @@ const Hero = () => {
           <h1 className="font-heading font-bold leading-snug text-gray-900">
             {/* Line 1 - orange, largest */}
             <span className="block text-brandOrange text-3xl sm:text-4xl lg:text-5xl">
-              B2B Lead Generation
+              B2B Lead Generation Agency |
             </span>
             {/* Line 2 - dark, same size */}
             <span className="block text-gray-900 text-3xl sm:text-4xl lg:text-5xl">
-              &amp; Cold Email Outreach
+              &amp; Cold Email Outreach USA |
             </span>
             {/* Line 3 - orange, smaller */}
             <span className="block text-brandOrange text-xl sm:text-2xl lg:text-3xl mt-1 font-semibold leading-snug">
-              That Fills Your Sales Pipeline
+              InfoNavigators
             </span>
           </h1>
 

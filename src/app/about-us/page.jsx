@@ -21,7 +21,7 @@ export default function AboutUsPage() {
       <section className="w-full bg-white pt-32 pb-16 px-6 lg:px-20">
         <div className="text-center mb-12">
           <h1 className="font-heading text-3xl md:text-4xl font-bold text-gray-900">
-            About <span className="text-brandOrange">Us</span>
+            About InfoNavigators, <span className="text-brandOrange">A Dedicated B2B Lead Generation Agency</span>
           </h1>
         </div>
 

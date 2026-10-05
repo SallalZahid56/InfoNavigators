@@ -34,7 +34,7 @@ const PortfolioShowcase = () => {
         <div className="container mx-auto px-6">
           {/* Heading */}
           <h1 className="text-4xl font-bold text-center mb-6">
-            <span className="text-brandOrange">Portfolio</span> Highlights
+            B2B Lead Generation and Cold Email Campaign Results
           </h1>
 
           {/* Intro Paragraph */}
