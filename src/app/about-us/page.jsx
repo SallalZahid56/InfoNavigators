@@ -5,29 +5,18 @@ import MissionVision from "../../components/MissionVision";
 import TeamSection from "../../components/TeamSection";
 import FinalCTA from "../../components/FinalCTA";
 import Image from "next/image";
-import Head from "next/head";
+import { aboutMetadata, aboutSchema } from "../../lib/page-seo";
 
-export const metadata = {
-  title: "About InfoNav: Digital Marketing, Lead Gen & Data Solutions",
-  description:
-    "At InfoNav, we specialize in innovative digital marketing solutions including lead generation, internet research, Python scraping, and influencer research. Our mission is to drive business success with customized strategies that empower long-term growth and sustainability.",
-  keywords:
-    "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
-  alternates: {
-    canonical: "https://infonavigators.com/about-us", // ✅ canonical here
-  },
-};
+export const metadata = aboutMetadata;
 
 export default function AboutUsPage() {
   return (
     <>
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://infonavigators.com/about-us/" />
-      </Head>
 
+<script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+    />
       {/* About Section */}
       <section className="w-full bg-white pt-32 pb-16 px-6 lg:px-20">
         <div className="text-center mb-12">

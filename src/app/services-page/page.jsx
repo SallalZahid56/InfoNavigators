@@ -8,28 +8,17 @@ import Tools from "../../components/Tools";
 import WhyChooseUs from "../../components/WhyChooseUs";
 import HowWeDeliver from "../../components/HowWeDeliver";
 import FinalCTA from "../../components/FinalCTA";
-import Head from "next/head";
+import { servicesMetadata, servicesSchema } from "../../lib/page-seo";
 
-export const metadata = {
-  title: "Digital Marketing Services: SEO, Lead Gen & Web Scraping",
-  description:
-    "At InfoNav, we offer a wide range of digital marketing services, including lead generation, SEO, Python scraping, influencer research, and web development. Our client-focused approach ensures measurable results and sustainable business growth.",
-  keywords:
-    "digital marketing services, lead generation, Python scraping, SEO strategies, influencer research, internet research, data extraction, web development, data entry services, online marketing, B2B lead generation, business growth solutions",
-  alternates: {
-    canonical: "https://infonavigators.com/services-page/",
-  },
-};
-
+export const metadata = servicesMetadata;
 export default function ServicesPage() {
   return (
     <>
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-        <link rel="canonical" href="https://infonavigators.com/services-page/" />
-      </Head>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesSchema) }}
+      />
 
       {/* Main Services Intro Section */}
       <section className="w-full bg-white pt-32 pb-16 px-6 lg:px-20">

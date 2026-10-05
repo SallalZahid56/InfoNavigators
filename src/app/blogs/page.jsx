@@ -1,16 +1,7 @@
 import BlogsList from "@/components/BlogsList"; // client component
 import { blogs } from "@/data/blogs";
-
-export const metadata = {
-  title: "B2B Lead Generation Blog | Cold Email & Outreach Tips | InfoNav",
-  description:
-    "Explore expert tips, case studies, and guides on SEO, digital marketing, and technology trends at InfoNavigators Blog.",
-  keywords:
-    "digital marketing agency, lead generation services, Python scraping, influencer research, data mining, internet research, business growth, technology solutions, client success, digital strategies, trusted partnerships",
-  alternates: {
-    canonical: "https://infonavigators.com/blogs",
-  },
-};
+import { blogIndexMetadata } from "../../lib/page-seo";
+export const metadata = blogIndexMetadata;
 
 export default function BlogsPage() {
   return (
