@@ -1,20 +1,17 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
-import Services from "../../components/Services";
+import ServicesContent from "../../components/ServicesContent";
 import Testimonials from "../../components/Testimonials";
-import Tools from "../../components/Tools";
-import WhyChooseUs from "../../components/WhyChooseUs";
 import HowWeDeliver from "../../components/HowWeDeliver";
 import FinalCTA from "../../components/FinalCTA";
 import { servicesMetadata, servicesSchema } from "../../lib/page-seo";
 
 export const metadata = servicesMetadata;
+
 export default function ServicesPage() {
   return (
     <>
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesSchema) }}
@@ -30,15 +27,18 @@ export default function ServicesPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
           <div>
+            <p className="font-sans text-gray-700 text-base md:text-lg leading-relaxed px-2 md:px-0 mb-4">
+              InfoNavigators is a dedicated b2b lead generation agency built for one purpose: helping US-based B2B companies generate qualified leads and book consistent sales meetings through targeted outreach and verified prospect data.
+            </p>
             <p className="font-sans text-gray-700 text-base md:text-lg leading-relaxed px-2 md:px-0">
-              We provide specialized b2b lead generation agency services and cold email outreach service solutions designed to help B2B businesses connect with the right prospects and generate consistent, predictable sales opportunities.
+              We do not offer web design, data scraping, or social media management. Every service we deliver is part of one focused outbound system built to fill your sales pipeline with real conversations.
             </p>
           </div>
 
           <div className="flex justify-center">
             <Image
               src="/images.webp"
-              alt="Our Services"
+              alt="B2B lead generation services by InfoNavigators"
               width={800}
               height={600}
               className="rounded-xl object-cover mix-blend-multiply"
@@ -47,104 +47,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <Services />
-      <Tools />
-      <WhyChooseUs />
-
-      {/* ✅ Services Directory Section */}
-      <section className="w-full bg-gray-50 py-16 px-6 lg:px-20">
-        <h2 className="text-center text-2xl font-bold mb-10">
-          Explore Our Services
-        </h2>
-
-        {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto text-sm">
-          {/* Category 1 */}
-          <div>
-            <h5 className="font-semibold mb-2">
-              <Link href="/services-page/lead-generation/" className="text-brandOrange hover:text-brandOrange transition">
-                Lead Generation
-              </Link>
-            </h5>
-            <ul className="space-y-2 pl-2">
-              <li><Link href="/services-page/b2b-lead-generation/" className="text-gray-700 hover:text-brandOrange transition">B2B Leads</Link></li>
-              <li><Link href="/services-page/email-list-building/" className="text-gray-700 hover:text-brandOrange transition">Contact Email List Building</Link></li>
-              <li><Link href="/services-page/linkedin-list/" className="text-gray-700 hover:text-brandOrange transition">LinkedIn List Building</Link></li>
-              <li><Link href="/services-page/email-marketing/" className="text-gray-700 hover:text-brandOrange transition">Email Marketing</Link></li>
-            </ul>
-          </div>
-
-          {/* Category 2 */}
-          <div>
-            <h5 className="font-semibold mb-2">
-              <Link href="/services-page/internet-research/" className="text-brandOrange hover:text-brandOrange transition">
-                Internet Research
-              </Link>
-            </h5>
-            <ul className="space-y-2 pl-2">
-              <li><Link href="/services-page/market-research/" className="text-gray-700 hover:text-brandOrange transition">Market Research</Link></li>
-              <li><Link href="/services-page/data-verification/" className="text-gray-700 hover:text-brandOrange transition">Data Verification</Link></li>
-            </ul>
-          </div>
-
-          {/* Category 3 */}
-          <div>
-            <h5 className="font-semibold mb-2">
-              <Link href="/services-page/influencer-research/" className="text-brandOrange hover:text-brandOrange transition">
-                Influencer Research
-              </Link>
-            </h5>
-            <ul className="space-y-2 pl-2">
-              <li><Link href="/services-page/youtube-influencer-research/" className="text-gray-700 hover:text-brandOrange transition">YouTube Influencers</Link></li>
-              <li><Link href="/services-page/instagram-influencer-research/" className="text-gray-700 hover:text-brandOrange transition">Instagram Influencers</Link></li>
-              <li><Link href="/services-page/tiktok-influencer-research/" className="text-gray-700 hover:text-brandOrange transition">TikTok Influencers</Link></li>
-            </ul>
-          </div>
-
-          {/* Category 4 */}
-          <div>
-            <h5 className="font-semibold mb-2">
-              <Link href="/services-page/data-entry/" className="text-brandOrange hover:text-brandOrange transition">
-                Data Entry
-              </Link>
-            </h5>
-            <ul className="space-y-2 pl-2">
-              <li><Link href="/services-page/crm-data-entry/" className="text-gray-700 hover:text-brandOrange transition">CRM Data Entry</Link></li>
-              <li><Link href="/services-page/data-cleaning/" className="text-gray-700 hover:text-brandOrange transition">Data Cleaning</Link></li>
-            </ul>
-          </div>
-
-          {/* Category 5 */}
-          <div>
-            <h5 className="font-semibold mb-2">
-              <Link href="/services-page/data-extraction/" className="text-brandOrange hover:text-brandOrange transition">
-                Data Extraction
-              </Link>
-            </h5>
-            <ul className="space-y-2 pl-2">
-              <li><Link href="/services-page/web-scraping/" className="text-gray-700 hover:text-brandOrange transition">Web Scraping</Link></li>
-              <li><Link href="/services-page/data-cleaning-extraction/" className="text-gray-700 hover:text-brandOrange transition">Data Cleaning and Extraction</Link></li>
-            </ul>
-          </div>
-
-          {/* Category 6 */}
-          <div>
-            <h5 className="font-semibold mb-2">
-              <Link href="/services-page/python-scraping/" className="text-brandOrange hover:text-brandOrange transition">
-                Python Scraping
-              </Link>
-            </h5>
-            <ul className="space-y-2 pl-2">
-              <li><Link href="/services-page/python-web-scraping/" className="text-gray-700 hover:text-brandOrange transition">Python Web Scraping</Link></li>
-              <li><Link href="/services-page/data-cleaning-export/" className="text-gray-700 hover:text-brandOrange transition">Data Cleaning</Link></li>
-            </ul>
-          </div>
-
-          {/* SEO & Web Development categories removed */}
-        </div>
-      </section>
-
-      {/* Existing Components */}
+      <ServicesContent />
       <HowWeDeliver />
       <Testimonials />
       <FinalCTA />

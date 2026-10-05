@@ -1,127 +1,162 @@
-// src/app/contact/page.jsx
-"use client";
+import Link from "next/link";
 
-import React from "react";
+/* ---------- EDIT THESE THREE VALUES ---------- */
+const TALLY_FORM_ID = "Me9LPX"; // from your Tally share link: tally.so/r/XXXXXX  ->  XXXXXX
+const PHONE = "17579369494";
+const ADDRESS = "3812 Florin Rd STE 104, Sacramento, CA 95823, United States"; // keep ONLY if this is a real address you use
+/* --------------------------------------------- */
 
-export default function ContactPage() {
+const EMAIL = "contact@infonavigators.com";
+
+const Svg = ({ children }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
+       strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+    {children}
+  </svg>
+);
+
+const steps = [
+  { t: "We review your request", d: "Within 1 business day we review your request and prepare for your call." },
+  { t: "Discovery call", d: "A 20 to 30 minute call where we learn about your offer, your target market, and your current outbound situation." },
+  { t: "You get a proposal", d: "A clear plan, timeline, and pricing. No vague retainers, no surprise fees." },
+  { t: "We get to work", d: "We start building your list, setting up your infrastructure, and launching your first campaign." },
+];
+
+const coreServices = [
+  { t: "B2B Lead Generation", d: "Targeted prospect lists built from your ICP and verified for accuracy. The foundation of every campaign we run as a dedicated b2b lead generation agency." },
+  { t: "Cold Email Outreach", d: "Full campaign management from inbox setup to sequence writing and optimization. A proven cold email outreach service that lands in the inbox and generates replies." },
+  { t: "Appointment Setting", d: "We manage replies, qualify prospects, and book confirmed meetings onto your calendar. The appointment setting service b2b sales teams rely on for consistent pipeline." },
+  { t: "Prospect List Building", d: "Custom-built, verified contact lists for your exact target market. The backbone of every outsourced lead generation program we run." },
+];
+
+const card =
+  "relative overflow-hidden rounded-3xl bg-white border border-gray-200 shadow-sm p-6 md:p-8 transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-orange-200";
+
+export default function ContactUs() {
+  const formReady = TALLY_FORM_ID !== "YOUR_TALLY_FORM_ID";
+
   return (
     <>
-      <div className="bg-white text-black">
+      {/* HERO + FORM */}
+      <section className="relative w-full overflow-hidden bg-gradient-to-b from-gray-50 to-white pt-32 pb-16 px-6 lg:px-20">
+        <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-orange-100 blur-3xl opacity-60" />
 
-        {/* Intro Section */}
-        <section className="max-w-4xl mx-auto mt-20 px-6 py-12 text-center rounded-xl shadow-lg">
-          <h1 className="text-4xl font-bold text-brandOrange mb-4">
-            Let's Build Your B2B Lead Pipeline
+        <div className="relative max-w-4xl mx-auto text-center mb-12">
+          <h1 className="font-heading text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Let&apos;s Build Your <span className="text-brandOrange">B2B Lead Pipeline</span>
           </h1>
-          <p className="text-lg text-black mb-6">
-            Ready to start generating qualified leads with a trusted b2b lead generation agency? Let's build a cold email outreach service system that connects you with the right prospects and turns outreach into real revenue opportunities.
+          <p className="text-lg text-gray-700 leading-relaxed mb-3">
+            Ready to stop relying on referrals and start generating consistent, qualified leads? As a dedicated b2b lead generation agency for US companies, we build outbound systems that connect you with decision-makers who are ready to talk.
           </p>
-            <a
-            href="https://api.whatsapp.com/send?phone=17579369494&text=Hey%20I%20am%20contacting%20you%20from%20the%20infoNav%20website."
-            target="_blank"
-            rel="noreferrer"
-            className="inline-block px-6 py-3 bg-brandOrange text-white font-semibold rounded-lg hover:bg-black transition"
-          >
-            Call Us Now
-          </a>
-          
-          {/* Address */}
-          <div className="mt-6 text-sm text-gray-600">
-            <strong>Address:</strong> 3812 Florin Rd STE 104, Sacramento, CA 95823, United States
+          <p className="text-gray-600">
+            Fill in the form below and we will get back to you within 1 business day.
+          </p>
+        </div>
+
+        <div className="relative max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
+          {/* Form */}
+          <div className="lg:col-span-2 rounded-3xl bg-white border border-gray-200 shadow-lg p-4 md:p-6">
+            {formReady ? (
+              <iframe
+                src={`https://tally.so/embed/${TALLY_FORM_ID}?hideTitle=1&transparentBackground=1`}
+                title="InfoNavigators contact form"
+                loading="lazy"
+                className="w-full h-[950px] border-0"
+              />
+            ) : (
+              <div className="flex h-64 items-center justify-center rounded-2xl border-2 border-dashed border-orange-300 bg-orange-50 p-6 text-center text-sm text-gray-700">
+                Contact form will comes here
+              </div>
+            )}
           </div>
-        </section>
 
-        {/* Highlights Section */}
-        <section className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 px-6">
-          {[
-            "✅ 100% Client-Specific Customization",
-            "✅ Clean, Verified Data Delivery",
-            "✅ Affordable & Fast Turnaround",
-            "✅ Dedicated 24/7 Support",
-          ].map((item, idx) => (
-            <div
-              key={idx}
-              className="bg-white border-l-4 border-brandOrange p-4 rounded-md shadow"
-            >
-              {item}
-            </div>
-          ))}
-        </section>
+          {/* Contact details */}
+          <aside className="rounded-3xl bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 text-white p-6 md:p-8 shadow-xl flex flex-col">
+            <h2 className="font-heading text-xl font-bold mb-6">Contact Details</h2>
+            <ul className="space-y-5">
+              <li className="flex gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brandOrange">
+                  <Svg><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></Svg>
+                </span>
+                <div>
+                  <p className="text-xs uppercase tracking-widest text-orange-300">Email</p>
+                  <a href={`mailto:${EMAIL}`} className="break-all text-gray-100 hover:text-white">{EMAIL}</a>
+                </div>
+              </li>
+              {PHONE && (
+                <li className="flex gap-3">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brandOrange">
+                    <Svg><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" /></Svg>
+                  </span>
+                  <div>
+                    <p className="text-xs uppercase tracking-widest text-orange-300">Phone</p>
+                    <a href={`tel:${PHONE.replace(/[^+\d]/g, "")}`} className="text-gray-100 hover:text-white">{PHONE}</a>
+                  </div>
+                </li>
+              )}
+              {ADDRESS && (
+                <li className="flex gap-3">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brandOrange">
+                    <Svg><path d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11z" /><circle cx="12" cy="10" r="2.5" /></Svg>
+                  </span>
+                  <div>
+                    <p className="text-xs uppercase tracking-widest text-orange-300">Address</p>
+                    <p className="text-gray-100">{ADDRESS}</p>
+                  </div>
+                </li>
+              )}
+            </ul>
+            <p className="mt-auto pt-8 text-sm text-gray-400 leading-relaxed">
+              We work with B2B companies across the United States. Response time: within 1 business day.
+            </p>
+          </aside>
+        </div>
+      </section>
 
-        {/* Services Section */}
-        <section className="max-w-4xl mx-auto mt-12 px-6 py-8 bg-white rounded-xl shadow-md">
-          <h2 className="text-2xl font-bold text-center text-black mb-6">
-            Our Core Services
+      {/* WHAT HAPPENS NEXT */}
+      <section className="w-full bg-white py-14 px-6 lg:px-20">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-heading text-2xl md:text-3xl font-bold text-gray-900 text-center mb-10">
+            What Happens After <span className="text-brandOrange">You Contact Us</span>
           </h2>
-          <ul className="space-y-2 text-lg text-black">
-            <li>🔹 B2B Lead Generation - Powered by a results-driven b2b lead generation agency built for pipeline growth</li>
-            <li>🔹 Targeted & Verified Prospect Data - The backbone of every successful outsourced lead generation program we run</li>
-            <li>🔹 Personalized Email Outreach - A proven cold email outreach service and appointment setting service b2b teams rely on for consistent meetings</li>
-            <li>🔹 Results-Driven Approach - Backed by a specialized b2b email marketing agency usa businesses trust for measurable outbound results</li>
-          </ul>
-        </section>
-
-        {/* FAQ Section */}
-        <section className="max-w-4xl mx-auto mt-12 px-6 py-8 bg-white rounded-xl shadow-md">
-          <h2 className="text-2xl font-bold text-center text-black mb-8">
-            FAQs – Quick Answers
-          </h2>
-          <div className="space-y-4">
-            <details className="bg-white border border-brandOrange p-4 rounded-md cursor-pointer">
-              <summary className="font-semibold text-black">
-                📬 How quickly will I get a response?
-              </summary>
-              <p className="mt-2 text-black">
-                We usually respond within a few hours — and always within 24
-                hours.
-              </p>
-            </details>
-
-            <details className="bg-white border border-brandOrange p-4 rounded-md cursor-pointer">
-              <summary className="font-semibold text-black">
-                📧 Do you design and run email campaigns?
-              </summary>
-              <p className="mt-2 text-black">
-                Yes — we create responsive templates, write subject lines and
-                email copy, set up automation flows, and monitor open/click
-                rates to continuously improve campaign performance.
-              </p>
-            </details>
-
-            <details className="bg-white border border-brandOrange p-4 rounded-md cursor-pointer">
-              <summary className="font-semibold text-black">
-                🎁 Can I request a sample before ordering?
-              </summary>
-              <p className="mt-2 text-black">
-                Absolutely. We're happy to provide a free sample based on your
-                project scope.
-              </p>
-            </details>
-
-            <details className="bg-white border border-brandOrange p-4 rounded-md cursor-pointer">
-              <summary className="font-semibold text-black">
-                📧 What email marketing services do you offer?
-              </summary>
-              <p className="mt-2 text-black">
-                We provide end-to-end email marketing services including campaign
-                strategy, list building, template design, automation (sequences
-                & drip campaigns), A/B testing, and deliverability optimization.
-                Ask us about CRM integrations and sample pilot campaigns.
-              </p>
-            </details>
-
-            <details className="bg-white border border-brandOrange p-4 rounded-md cursor-pointer">
-              <summary className="font-semibold text-black">
-                💼 How can I hire your team?
-              </summary>
-              <p className="mt-2 text-black">
-                Just contact us via WhatsApp or Email, tell us what you need, and
-                we’ll guide you through the next steps!
-              </p>
-            </details>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {steps.map((s, i) => (
+              <div key={s.t} className={card}>
+                <span className="pointer-events-none absolute -top-3 right-4 select-none text-7xl font-black text-orange-100">
+                  {i + 1}
+                </span>
+                <span className="relative mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-brandOrange to-orange-400 text-white font-bold shadow-md">
+                  {i + 1}
+                </span>
+                <h3 className="relative font-heading text-lg font-bold text-gray-900 mb-2">{s.t}</h3>
+                <p className="relative text-[15px] text-gray-700 leading-relaxed">{s.d}</p>
+              </div>
+            ))}
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
+      {/* CORE SERVICES */}
+      <section className="w-full bg-gray-50 py-14 px-6 lg:px-20">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-heading text-2xl md:text-3xl font-bold text-gray-900 text-center mb-10">
+            Our Core <span className="text-brandOrange">Services</span>
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {coreServices.map((s) => (
+              <div key={s.t} className={`${card} border-l-4 border-l-brandOrange`}>
+                <h3 className="font-heading text-lg font-bold text-gray-900 mb-2">{s.t}</h3>
+                <p className="text-gray-700 leading-relaxed">{s.d}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Link href="/services-page/" className="font-semibold text-brandOrange hover:underline">
+              View all services &rarr;
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
