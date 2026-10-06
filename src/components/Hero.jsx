@@ -57,7 +57,7 @@ const Hero = () => {
         <div className="flex-1 flex justify-center">
           <Image
             src="/heroPic.png"
-            alt="Hero"
+            alt="B2B lead generation agency helping US companies book qualified sales meetings"
             width={500}
             height={500}
             className="w-64 sm:w-80 md:w-96 lg:w-full max-w-md md:max-w-lg h-auto"

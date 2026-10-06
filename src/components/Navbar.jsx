@@ -16,8 +16,8 @@ const Navbar = () => {
         <div>
           <Link href="/">
             <Image
-              src="/logoo.png" // ✅ make sure logoo.png is inside /public
-              alt="InfoNav Logo"
+              src="/logoo.png" //make sure logoo.png is inside /public
+              alt="InfoNavigators B2B Lead Generation Agency Logo"
               width={160}
               height={56}
               priority // loads immediately for better performance
